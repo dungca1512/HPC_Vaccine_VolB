@@ -1,0 +1,3907 @@
+[
+  {
+    "id": "lAwrM1IOx6jL4TGXjftG6A",
+    "agentEmail": "Vaccine_3ng@gmail.com",
+    "batchName": "Batch HappyCall upload 04/04 đợt 1",
+    "name": "986533866 _ 3 ng.wav",
+    "size": 575576,
+    "status": "Ready",
+    "processingStatus": "Ready",
+    "duration_ms": 36000,
+    "recordingTime": "2024-04-04T07:04:59.791601Z",
+    "keywords": [],
+    "content": [
+      {
+        "channel": 1,
+        "confidence": 98.45027923583984,
+        "end": 2,
+        "start": 1.59,
+        "text": "alo",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 89.74889483716753,
+        "end": 9.19,
+        "start": 2.13,
+        "text": "dạ em chào chị trang em là thi liên hệ từ phòng chăm sóc khách hàng của tiêm chủng long cho credit vừa trao đổi với mình ít phúc có tiền chưa chị giang không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 91.97407960891725,
+        "end": 11.84,
+        "start": 10.75,
+        "text": "ừ cứ nói đi em",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 87.69696050999211,
+        "end": 20.94,
+        "start": 11.93,
+        "text": "dạ vâng em được biết là vào ngày 23 tháng 3 chị giang có đưa người thân của mình để tìm chủ đâu mà chờ tiền phát sinh hc vay cho em hỏi thăm xoay tiền thì người thân mình có rủi ro hay có chuyện gì không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 97.01111912727356,
+        "end": 22.150000000000002,
+        "start": 21.84,
+        "text": "không",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 89.79897889826029,
+        "end": 31.060000000000002,
+        "start": 22.439999999999998,
+        "text": "dạ em cám ơn chị giang đã tin tưởng sử dụng dịch vụ của tiêm chủng làm sao mà để bên em tiếp tục cải thiện và phục vụ ngày 1 tốt hơn thì mình có góp ý gì thêm cho bên em không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 82.98883267811367,
+        "end": 33.17,
+        "start": 32,
+        "text": "không có gì em nhá thôi nhá",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 4.5499300589873055,
+        "end": 35.8,
+        "start": 33.489999999999995,
+        "text": "dạ vâng em cám ơn chị hà dạ phải hỗ trợ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      }
+    ],
+    "agentChannel": 2,
+    "createdAt": "2024-04-04T04:26:45.492Z",
+    "overlapDetails": [],
+    "silenceDetails": [],
+    "aiEval": {
+      "callEndAbnormal": false,
+      "callStartAbnormal": false,
+      "negativeKeywordIds": [],
+      "positiveKeywordIds": [],
+      "silentAbnormal": false,
+      "overlapAbnormal": false,
+      "agentSpeedAbnormal": false,
+      "sentimentNegative": false,
+      "sentimentImpolite": false,
+      "sentimentUncooperative": false,
+      "negativeKeywords": [],
+      "positiveKeywords": []
+    },
+    "sa1": [],
+    "sa2": [
+      {
+        "start": 32,
+        "end": 33.17,
+        "index": 6
+      }
+    ],
+    "autoscore": {
+      "content": {
+        "sections": [
+          {
+            "title": "Lời chào mở đầu + kết thúc",
+            "description": "",
+            "questions": [
+              {
+                "title": "Lời chào mở đầu cần chào, giới thiệu tên agent, xác nhận tên KH",
+                "description": "Lời chào mở đầu cần chào, giới thiệu tên agent, xác nhận tên KH",
+                "answer": {
+                  "result": "Yes",
+                  "note": "",
+                  "details": "nameFromMeta: undefined, nameEntities: thi"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "scaledScore": 100,
+    "absIntensityAbnormals": [],
+    "relIntensityAbnormals": [
+      1
+    ],
+    "lastestScores": [],
+    "manualScores": [],
+    "metadata": "{\"keywordIds\":[]}",
+    "parts": null
+  },
+  {
+    "id": "qM5CRlmI1GXU908cJMpE0A",
+    "agentEmail": "Vaccine_3ng@gmail.com",
+    "batchName": "Batch HappyCall upload 04/04 đợt 1",
+    "name": "0966042169 _ 3 ng.wav",
+    "size": 856216,
+    "status": "Ready",
+    "processingStatus": "Ready",
+    "duration_ms": 53500,
+    "recordingTime": "2024-04-04T07:04:59.791601Z",
+    "keywords": [],
+    "content": [
+      {
+        "channel": 2,
+        "confidence": 87.15378296375275,
+        "end": 2.83,
+        "start": 1.17,
+        "text": "dạ em chào chị phương em là",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 35.994961857795715,
+        "end": 2.11,
+        "start": 1.83,
+        "text": "ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 86.86063881715138,
+        "end": 8.16,
+        "start": 2.94,
+        "text": "liên hệ lại từ phòng chăm sóc khách hàng của tìm dũng long cho sắp xếp việc trao đổi với chị phương ít phút có tiền chưa chị",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 97.08459138870239,
+        "end": 15.99,
+        "start": 12.14,
+        "text": "dạ em xin lỗi là em không nghe được tín hiệu từ phía chị phương hiện tại mình có đang tiện trao đổi không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 69.31933164596558,
+        "end": 17.150000000000002,
+        "start": 16.72,
+        "text": "ok",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 92.39258172351921,
+        "end": 31,
+        "start": 17.76,
+        "text": "dạ em được biết là vào ngày 23 tháng 3 thì chị phương có đưa người thân là dạ em xin lỗi chị phương cùng với 2 người thân của mình để tiêm chủng lòng chờ tiền phát sinh là tương hàng và trả cho em hỏi thăm xoay tiền thì chị và người thân có phải đứng ra hay khó chịu gì không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 73.60297611781529,
+        "end": 32.660000000000004,
+        "start": 31.48,
+        "text": "à không thì đâu em",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 89.32308481799231,
+        "end": 33.56,
+        "start": 32.86,
+        "text": "dạ vâng",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 73.60297611781529,
+        "end": 33.53,
+        "start": 32.92,
+        "text": "ok em",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 89.32308481799231,
+        "end": 41.75,
+        "start": 33.94,
+        "text": "dạ em cám ơn chị vay tiền sử dụng dịch vụ của tiêm chủng làm sao mà để bên em tiếp tục cải thiện nhầm phục vụ ngày 1 tốt hơn thì mình có góp ý gì thêm cho bên em không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 91.11395478248596,
+        "end": 37.84,
+        "start": 37.56,
+        "text": "ừ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 90.0864526629448,
+        "end": 44,
+        "start": 42.55,
+        "text": "dạ không em ok em",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 96.08255407294712,
+        "end": 49.39000000000001,
+        "start": 43.38,
+        "text": "dạ dạ cám ơn chị phương ạ khi cần hỗ trợ thêm chị phương liên hệ tổng đài là 18006928",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 65.14042317867279,
+        "end": 46.46,
+        "start": 44.8,
+        "text": "rồi rồi",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 88.66998222447583,
+        "end": 53.330000000000005,
+        "start": 49.50000000000001,
+        "text": "chứ chị nhiều sức khỏe em chào chị phương ạ dạ vâng ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      }
+    ],
+    "agentChannel": 2,
+    "createdAt": "2024-04-04T04:26:45.036Z",
+    "overlapDetails": [
+      {
+        "start": 44.8,
+        "end": 46.46,
+        "index": 13
+      }
+    ],
+    "silenceDetails": [
+      {
+        "start": 8.16,
+        "end": 12.14,
+        "index": 3
+      }
+    ],
+    "aiEval": {
+      "callEndAbnormal": false,
+      "callStartAbnormal": false,
+      "negativeKeywordIds": [],
+      "positiveKeywordIds": [],
+      "silentAbnormal": false,
+      "overlapAbnormal": false,
+      "agentSpeedAbnormal": false,
+      "sentimentNegative": false,
+      "sentimentImpolite": false,
+      "sentimentUncooperative": false,
+      "negativeKeywords": [],
+      "positiveKeywords": []
+    },
+    "sa1": [
+      {
+        "start": 12.14,
+        "end": 15.99,
+        "index": 3
+      }
+    ],
+    "sa2": [],
+    "autoscore": {
+      "content": {
+        "sections": [
+          {
+            "title": "Lời chào mở đầu + kết thúc",
+            "description": "",
+            "questions": [
+              {
+                "title": "Lời chào mở đầu cần chào, giới thiệu tên agent, xác nhận tên KH",
+                "description": "Lời chào mở đầu cần chào, giới thiệu tên agent, xác nhận tên KH",
+                "answer": {
+                  "result": "Yes",
+                  "note": "",
+                  "details": "nameFromMeta: undefined, nameEntities: tìm dũng long"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "scaledScore": 100,
+    "absIntensityAbnormals": [],
+    "relIntensityAbnormals": [
+      0,
+      3,
+      7
+    ],
+    "lastestScores": [],
+    "manualScores": [],
+    "metadata": "{\"keywordIds\":[]}",
+    "parts": null
+  },
+  {
+    "id": "qFC9TkuOP8pTTtWThMlF2w",
+    "agentEmail": "Vaccine_3ng@gmail.com",
+    "batchName": "Batch HappyCall upload 04/04 đợt 1",
+    "name": "0963730551 _ 3 ng.wav",
+    "size": 735416,
+    "status": "Ready",
+    "processingStatus": "Ready",
+    "duration_ms": 46000,
+    "recordingTime": "2024-04-04T07:04:59.791601Z",
+    "keywords": [],
+    "content": [
+      {
+        "channel": 1,
+        "confidence": 69.0128743648529,
+        "end": 1.51,
+        "start": 1.17,
+        "text": "ừ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 86.33526680437295,
+        "end": 8.23,
+        "start": 1.23,
+        "text": "dạ em chào chị hoa em là chi liên hệ lại từ phòng chăm sóc khách hàng của tiêm chủng lâm sao credit vừa trao đổi với mình ít phúc có tiền chứ chị hoa không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 70.7730770111084,
+        "end": 6.92,
+        "start": 6.640000000000001,
+        "text": "dạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 93.68007183074951,
+        "end": 11,
+        "start": 10.4,
+        "text": "sao hả",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 90.8559173345566,
+        "end": 20.4,
+        "start": 11.06,
+        "text": "dạ em được biết vào ngày 23 tháng 3200000 cùng người thân để tìm chủ long chờ tiền phát sinh là tạ thị đào cho hỏi thăm sao tin thì chị và người thân có phản ứng ra có chuyện gì không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 71.17181022961935,
+        "end": 22.32,
+        "start": 21.349999999999998,
+        "text": "à không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 91.84167661317964,
+        "end": 30,
+        "start": 22.43,
+        "text": "dạ vay cám ơn chị hoa đã tin tưởng sử dụng dịch vụ vay tiêm chủng làm sao để bên em tiếp tục cải thiện và phục vụ tốt há mình có góp ý gì thêm cho bên em không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 87.56874203681946,
+        "end": 32,
+        "start": 31.18,
+        "text": "dạ em thấy",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 76.1794263124466,
+        "end": 35.410000000000004,
+        "start": 33.63,
+        "text": "thái độ phục vụ của nhân viên tốt rồi ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 96.51484373139171,
+        "end": 43.790000000000006,
+        "start": 35.410000000000004,
+        "text": "dạ vâng em cảm ơn chị hoa đã chia sẻ khi cần hỗ trợ thêm chị liên hệ tổng đài là 18006928 chứ chị nhiều sức khỏe em xin phép chào chị hoa ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 3.567130545132302,
+        "end": 45.29,
+        "start": 44.48,
+        "text": "dạ dạ em chào chị",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 16.587241573909406,
+        "end": 45.85,
+        "start": 45.4,
+        "text": "dạ vâng",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      }
+    ],
+    "agentChannel": 2,
+    "createdAt": "2024-04-04T04:26:44.424Z",
+    "overlapDetails": [],
+    "silenceDetails": [],
+    "aiEval": {
+      "callEndAbnormal": false,
+      "callStartAbnormal": false,
+      "negativeKeywordIds": [],
+      "positiveKeywordIds": [],
+      "silentAbnormal": false,
+      "overlapAbnormal": false,
+      "agentSpeedAbnormal": false,
+      "sentimentNegative": false,
+      "sentimentImpolite": false,
+      "sentimentUncooperative": false,
+      "negativeKeywords": [],
+      "positiveKeywords": []
+    },
+    "sa1": [],
+    "sa2": [
+      {
+        "start": 44.48,
+        "end": 45.29,
+        "index": 10
+      }
+    ],
+    "autoscore": {
+      "content": {
+        "sections": [
+          {
+            "title": "Lời chào mở đầu + kết thúc",
+            "description": "",
+            "questions": [
+              {
+                "title": "Lời chào mở đầu cần chào, giới thiệu tên agent, xác nhận tên KH",
+                "description": "Lời chào mở đầu cần chào, giới thiệu tên agent, xác nhận tên KH",
+                "answer": {
+                  "result": "Yes",
+                  "note": "",
+                  "details": "nameFromMeta: undefined, nameEntities: lâm,tạ"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "scaledScore": 100,
+    "absIntensityAbnormals": [],
+    "relIntensityAbnormals": [],
+    "lastestScores": [],
+    "manualScores": [],
+    "metadata": "{\"keywordIds\":[]}",
+    "parts": null
+  },
+  {
+    "id": "m634K3ZZRzyH_EXR0CJMRw",
+    "agentEmail": "Vaccine_3ng@gmail.com",
+    "batchName": "Batch HappyCall upload 04/04 đợt 1",
+    "name": "0918620361 _ 3 ng.wav",
+    "size": 1164056,
+    "status": "Ready",
+    "processingStatus": "Ready",
+    "duration_ms": 72700,
+    "recordingTime": "2024-04-04T07:04:59.791601Z",
+    "keywords": [],
+    "content": [
+      {
+        "channel": 1,
+        "confidence": 91.25756025314331,
+        "end": 1.1800000000000002,
+        "start": 0.72,
+        "text": "alo",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 89.75981649230509,
+        "end": 7.569999999999999,
+        "start": 1.05,
+        "text": "dạ em chào anh em là thi liên hệ từ phòng chăm sóc khách hàng của tiêm chủng long cho credit vừa trao đổi với mình ít phúc có tiền cho anh không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 46.103936433792114,
+        "end": 8.85,
+        "start": 8.48,
+        "text": "ai",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 86.50154247879982,
+        "end": 13.35,
+        "start": 9.47,
+        "text": "dạ em là thúy liên hệ lại từ phòng chăm sóc khách hàng của tiêm chủng đâu mới cho ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 79.47653830051422,
+        "end": 14.209999999999999,
+        "start": 13.78,
+        "text": "à",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 98.20203582445778,
+        "end": 17.23,
+        "start": 14.219999999999999,
+        "text": "dạ anh cho em hỏi thăm là số điện thoại này của chị tuyết phượng đúng không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 79.47653830051422,
+        "end": 14.87,
+        "start": 14.379999999999999,
+        "text": "rồi",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 93.81168633699417,
+        "end": 19.03,
+        "start": 18,
+        "text": "à tuyết phượng",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 96.48894183337688,
+        "end": 21.84,
+        "start": 19.25,
+        "text": "dạ vậy em có thể sinh lãi tên của mình để tiện xưng hô không anh",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 93.81168633699417,
+        "end": 20.000000000000004,
+        "start": 19.59,
+        "text": "đúng rồi",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 88.5695626338323,
+        "end": 27.37,
+        "start": 23.13,
+        "text": "à thì mình ông xã thôi chứ chẳng có gì đây",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 97.05506605761391,
+        "end": 29.1,
+        "start": 28.64,
+        "text": "dạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 71.91516160964966,
+        "end": 29.15,
+        "start": 28.81,
+        "text": "ừ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 97.0550660576139,
+        "end": 31.71,
+        "start": 29.21,
+        "text": "dạ vậy em xin lỗi cho em xin phép gặp chị phượng ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 72.93288509051004,
+        "end": 32.7,
+        "start": 32.15,
+        "text": "ừ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 91.96822856863339,
+        "end": 34.16,
+        "start": 32.89,
+        "text": "dạ em chào chị phượng ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 72.93288509051004,
+        "end": 33.87,
+        "start": 33.59,
+        "text": "ừ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 91.96822856863339,
+        "end": 41,
+        "start": 34.33,
+        "text": "dạ em được biết là vào ngày 22 tháng 3 thì chị phượng cùng với người thân mình đến tiêm chủng long chờ tiền phát sinh là tương hàng và tả",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 72.93288509051004,
+        "end": 35.04,
+        "start": 34.61,
+        "text": "ừ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 91.96822856863339,
+        "end": 44.6,
+        "start": 41.199999999999996,
+        "text": "cho em hỏi thăm sau tiêm thì chị và người thân có phải đứng ra hay có chuyện gì không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 74.66038316488266,
+        "end": 46.089999999999996,
+        "start": 45.419999999999995,
+        "text": "à không em",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 92.4865871667862,
+        "end": 46.940000000000005,
+        "start": 46.18,
+        "text": "dạ vay",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 97.05118894577026,
+        "end": 47.92,
+        "start": 46.949999999999996,
+        "text": "không có gì hết á",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 93.53472305969757,
+        "end": 56.14,
+        "start": 47.97,
+        "text": "dạ em cám ơn chị đã tin tưởng sử dụng dịch vụ của tiêm chủng làm sao mà để bên em tiếp tục cải thiện nhầm phục vụ ngày 1 tốt hơn thì mình có góp ý gì thêm cho bên em không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 81.78433366119862,
+        "end": 60.41,
+        "start": 57.15,
+        "text": "à không cô cô thấy làm vậy là tốt rồi đó",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 94.99199833980826,
+        "end": 62.3,
+        "start": 60.73,
+        "text": "dạ vâng con cảm ơn cô ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 66.34493668874106,
+        "end": 62.370000000000005,
+        "start": 61.88,
+        "text": "à",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 94.99199833980826,
+        "end": 66.94999999999999,
+        "start": 62.41,
+        "text": "dạ vậy khi cần hỗ trợ thêm thì cô vẫn liên hệ tổng đài là 18006928",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 66.34493668874106,
+        "end": 63.42,
+        "start": 62.63,
+        "text": "ừ ừ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 94.99199833980826,
+        "end": 69.71,
+        "start": 67.08999999999999,
+        "text": "rồi chứ cô phượng nhiều sức khỏe con xin phép chào cô ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 65.5738852918148,
+        "end": 71.21,
+        "start": 70.18,
+        "text": "à chào con",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 92.5295889377594,
+        "end": 71.74,
+        "start": 70.98,
+        "text": "dạ vâng ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 65.5738852918148,
+        "end": 71.89999999999999,
+        "start": 71.5,
+        "text": "cảm ơn",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 69.96788409284778,
+        "end": 72.61,
+        "start": 72.18,
+        "text": "dạ ha",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 59.739814539813366,
+        "end": 72.57,
+        "start": 72.33,
+        "text": "ừ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      }
+    ],
+    "agentChannel": 2,
+    "createdAt": "2024-04-04T04:26:43.813Z",
+    "overlapDetails": [],
+    "silenceDetails": [],
+    "aiEval": {
+      "callEndAbnormal": false,
+      "callStartAbnormal": false,
+      "negativeKeywordIds": [],
+      "positiveKeywordIds": [],
+      "silentAbnormal": false,
+      "overlapAbnormal": false,
+      "agentSpeedAbnormal": false,
+      "sentimentNegative": false,
+      "sentimentImpolite": false,
+      "sentimentUncooperative": false,
+      "negativeKeywords": [],
+      "positiveKeywords": []
+    },
+    "sa1": [
+      {
+        "start": 19.25,
+        "end": 21.84,
+        "index": 8
+      },
+      {
+        "start": 41.199999999999996,
+        "end": 44.6,
+        "index": 19
+      }
+    ],
+    "sa2": [
+      {
+        "start": 32.15,
+        "end": 32.7,
+        "index": 14
+      }
+    ],
+    "autoscore": {
+      "content": {
+        "sections": [
+          {
+            "title": "Lời chào mở đầu + kết thúc",
+            "description": "",
+            "questions": [
+              {
+                "title": "Lời chào mở đầu cần chào, giới thiệu tên agent, xác nhận tên KH",
+                "description": "Lời chào mở đầu cần chào, giới thiệu tên agent, xác nhận tên KH",
+                "answer": {
+                  "result": "Yes",
+                  "note": "",
+                  "details": "nameFromMeta: undefined, nameEntities: thi"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "scaledScore": 100,
+    "absIntensityAbnormals": [],
+    "relIntensityAbnormals": [
+      1,
+      13
+    ],
+    "lastestScores": [],
+    "manualScores": [],
+    "metadata": "{\"keywordIds\":[]}",
+    "parts": null
+  },
+  {
+    "id": "gXffnxNSEIP7wqbTVh9Fbg",
+    "agentEmail": "Vaccine_3ng@gmail.com",
+    "batchName": "Batch HappyCall upload 04/04 đợt 1",
+    "name": "0373591850 _ 3 ng.wav",
+    "size": 702136,
+    "status": "Ready",
+    "processingStatus": "Ready",
+    "duration_ms": 43900,
+    "recordingTime": "2024-04-04T07:04:59.791601Z",
+    "keywords": [],
+    "content": [
+      {
+        "channel": 2,
+        "confidence": 87.34706388070033,
+        "end": 2.17,
+        "start": 1.02,
+        "text": "dạ em chào chị hà",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 98.99671077728271,
+        "end": 2.3400000000000003,
+        "start": 1.8499999999999999,
+        "text": "alo",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 90.05422148719752,
+        "end": 8.049999999999999,
+        "start": 2.34,
+        "text": "em là thi liên hệ lại từ phòng chăm sóc khách hàng của tìm chủ long cho châu việc trao đổi mình ít phúc cải thiện cho chị không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 96.93255126476288,
+        "end": 9.84,
+        "start": 9.08,
+        "text": "làm sao em nhở",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 89.77805723746621,
+        "end": 19.01,
+        "start": 10,
+        "text": "dạ em được biết là vào ngày 23 tháng 3 chị hà cùng người thân của mình để tìm chủ lâu mình chờ phát sinh trả cho em hỏi thăm sau khi sử dụng phát sinh thì gia đình mình có phản ứng đang khó chịu gì không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 72.51402288675308,
+        "end": 20.060000000000002,
+        "start": 19.48,
+        "text": "à không",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 93.89830675066972,
+        "end": 28.14,
+        "start": 20.720000000000002,
+        "text": "dạ vâng cảm ơn chị hà đã tin tưởng sử dụng dịch vụ của tiêm chủng long cho để bên em tiếp tục cải thiện và phục vụ tốt hơn chị có góp ý gì thêm cho bên em không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 88.96570618336025,
+        "end": 33.480000000000004,
+        "start": 29.48,
+        "text": "ừ chị thấy cũng bình thường cũng không có góp ý gì",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 94.13156708081563,
+        "end": 41.86,
+        "start": 33.449999999999996,
+        "text": "dạ vâng em cám ơn chị ạ dạ vậy khi cần hỗ trợ thêm chị hà liên hệ tổng đài là 18006928 em chúc chị nhiều sức khỏe em xin phép em chào chị ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 3.3476882221661675,
+        "end": 43.33,
+        "start": 42.55,
+        "text": "rồi chị cám ơn",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 6.751573604764616,
+        "end": 43.76,
+        "start": 43.31,
+        "text": "dạ ha",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      }
+    ],
+    "agentChannel": 2,
+    "createdAt": "2024-04-04T04:26:43.154Z",
+    "overlapDetails": [],
+    "silenceDetails": [],
+    "aiEval": {
+      "callEndAbnormal": false,
+      "callStartAbnormal": false,
+      "negativeKeywordIds": [],
+      "positiveKeywordIds": [],
+      "silentAbnormal": false,
+      "overlapAbnormal": false,
+      "agentSpeedAbnormal": false,
+      "sentimentNegative": false,
+      "sentimentImpolite": false,
+      "sentimentUncooperative": false,
+      "negativeKeywords": [],
+      "positiveKeywords": []
+    },
+    "sa1": [],
+    "sa2": [],
+    "autoscore": {
+      "content": {
+        "sections": [
+          {
+            "title": "Lời chào mở đầu + kết thúc",
+            "description": "",
+            "questions": [
+              {
+                "title": "Lời chào mở đầu cần chào, giới thiệu tên agent, xác nhận tên KH",
+                "description": "Lời chào mở đầu cần chào, giới thiệu tên agent, xác nhận tên KH",
+                "answer": {
+                  "result": "Yes",
+                  "note": "",
+                  "details": "nameFromMeta: undefined, nameEntities: châu"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "scaledScore": 100,
+    "absIntensityAbnormals": [],
+    "relIntensityAbnormals": [],
+    "lastestScores": [],
+    "manualScores": [],
+    "metadata": "{\"keywordIds\":[]}",
+    "parts": null
+  },
+  {
+    "id": "j1NDRIIMX769qFUM7QVMuA",
+    "agentEmail": "Vaccine_2ng@gmail.com",
+    "batchName": "Batch HappyCall upload 04/04 đợt 1",
+    "name": "0989160246 _ 2 ng.wav",
+    "size": 760856,
+    "status": "Ready",
+    "processingStatus": "Ready",
+    "duration_ms": 47500,
+    "recordingTime": "2024-04-04T07:04:59.791601Z",
+    "keywords": [],
+    "content": [
+      {
+        "channel": 2,
+        "confidence": 92.20892442597282,
+        "end": 3.89,
+        "start": 2.05,
+        "text": "dạ alo dạ em chào chị",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 98.00690412521362,
+        "end": 4.209999999999999,
+        "start": 3.45,
+        "text": "alo tôi nghe đây",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 92.20892442597282,
+        "end": 11.69,
+        "start": 4.21,
+        "text": "à dạ xin lỗi em chào anh tâm em là thi liên hệ lại từ phòng chăm sóc khách hàng của tìm chủ long cho credit vừa trao đổi với mình ít phúc cái tiền cho anh không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 89.72343921661377,
+        "end": 13.790000000000001,
+        "start": 12.760000000000002,
+        "text": "vâng vâng cô cô nói đi",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 89.19287952509795,
+        "end": 24.37,
+        "start": 13.83,
+        "text": "dạ em được biết vào ngày 22 tháng 3 thì anh tâm cùng người tên là trần thị lễ dung để tìm dũng lâm chờ phát sinh trả cho em hỏi thăm sau khi sử dụng phát sinh thì anh và người thân có phần ứng đa hay có chuyện gì không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 93.62836321194966,
+        "end": 28.1,
+        "start": 25.45,
+        "text": "à nói chung là gần như bình thường không có vấn đề gì",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 89.10407047896159,
+        "end": 28.860000000000003,
+        "start": 28.220000000000002,
+        "text": "dạ vâng",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 93.62836321194966,
+        "end": 28.970000000000002,
+        "start": 28.27,
+        "text": "cả vâng",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 89.10407047896159,
+        "end": 31.62,
+        "start": 29.03,
+        "text": "cảm ơn anh tâm đã tin tưởng sử dụng dịch vụ cái sim chủ làm sao",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 99.39725399017334,
+        "end": 29.930000000000003,
+        "start": 29.650000000000002,
+        "text": "ừ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 89.10407047896159,
+        "end": 36.03,
+        "start": 31.73,
+        "text": "mà để bên em tiếp tục cải thiện và phục vụ thất há anh có góp ý gì thêm cho bên em không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 98.94766211509705,
+        "end": 32.5,
+        "start": 32.15,
+        "text": "vâng",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 93.93704295158386,
+        "end": 38.53,
+        "start": 36.6,
+        "text": "vâng vâng vâng nói chung là tốt sau",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 0.6354284670137764,
+        "end": 43.910000000000004,
+        "start": 38.470000000000006,
+        "text": "dạ em cám ơn anh ạ và khi cần hỗ trợ thêm anh tâm liên hệ tổng đài là 18006928",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 74.75390883341221,
+        "end": 40.78,
+        "start": 39.69,
+        "text": "ừ rồi rồi",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 0.6354284670137766,
+        "end": 46.46,
+        "start": 44.080000000000005,
+        "text": "chứ anh nhiều sức khỏe dạ xin phép chào anh tâm ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 35.94794422045887,
+        "end": 47.239999999999995,
+        "start": 44.6,
+        "text": "rồi rồi vâng vâng vâng cảm ơn cô vâng vâng",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 0.6354284670137766,
+        "end": 47.38,
+        "start": 46.9,
+        "text": "dạ vâng",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      }
+    ],
+    "agentChannel": 2,
+    "createdAt": "2024-04-04T04:26:42.561Z",
+    "overlapDetails": [
+      {
+        "start": 39.69,
+        "end": 40.78,
+        "index": 14
+      },
+      {
+        "start": 44.6,
+        "end": 46.46,
+        "index": 16
+      }
+    ],
+    "silenceDetails": [],
+    "aiEval": {
+      "callEndAbnormal": false,
+      "callStartAbnormal": false,
+      "negativeKeywordIds": [],
+      "positiveKeywordIds": [],
+      "silentAbnormal": false,
+      "overlapAbnormal": false,
+      "agentSpeedAbnormal": false,
+      "sentimentNegative": false,
+      "sentimentImpolite": false,
+      "sentimentUncooperative": false,
+      "negativeKeywords": [],
+      "positiveKeywords": []
+    },
+    "sa1": [
+      {
+        "start": 29.03,
+        "end": 31.62,
+        "index": 8
+      }
+    ],
+    "sa2": [],
+    "autoscore": {
+      "content": {
+        "sections": [
+          {
+            "title": "Lời chào mở đầu + kết thúc",
+            "description": "",
+            "questions": [
+              {
+                "title": "Lời chào mở đầu cần chào, giới thiệu tên agent, xác nhận tên KH",
+                "description": "Lời chào mở đầu cần chào, giới thiệu tên agent, xác nhận tên KH",
+                "answer": {
+                  "result": "No",
+                  "note": "Không giới thiệu tên nhân viên",
+                  "details": "nameFromMeta: undefined, nameEntities: "
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "scaledScore": 0,
+    "absIntensityAbnormals": [],
+    "relIntensityAbnormals": [
+      2,
+      6
+    ],
+    "lastestScores": [],
+    "manualScores": [],
+    "metadata": "{\"keywordIds\":[]}",
+    "parts": null
+  },
+  {
+    "id": "o3qCp_O5idcHnARkYEhI0w",
+    "agentEmail": "Vaccine_2ng@gmail.com",
+    "batchName": "Batch HappyCall upload 04/04 đợt 1",
+    "name": "0979185796 _ 2 ng.wav",
+    "size": 743416,
+    "status": "Ready",
+    "processingStatus": "Ready",
+    "duration_ms": 46500,
+    "recordingTime": "2024-04-04T07:04:59.791601Z",
+    "keywords": [],
+    "content": [
+      {
+        "channel": 2,
+        "confidence": 88.65922933969742,
+        "end": 2.65,
+        "start": 0.96,
+        "text": "dạ em chào ạ dạ em chào chị",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 70.90134024620056,
+        "end": 1.81,
+        "start": 1.26,
+        "text": "alo ừ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 88.6592293396974,
+        "end": 8.59,
+        "start": 2.76,
+        "text": "em là tiên liên hệ từ phòng chăm sóc khách hàng của tìm chủ làm sao cho đủ trao đổi với mình ít phúc cái tiền cho chị hà không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 99.48424816131592,
+        "end": 10.040000000000001,
+        "start": 9.040000000000001,
+        "text": "không em em nói đi",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 88.84035815154351,
+        "end": 18.630000000000003,
+        "start": 10.219999999999999,
+        "text": "dạ em được biết là vào ngày 22 tháng 3 chị hà cùng người thân để tìm chủ long cho dạ xin lỗi người thân của mình là nguyễn minh ngọc để tìm vui lòng chờ tiền phát sinh cấm",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 26.996132731437683,
+        "end": 16.94,
+        "start": 16.63,
+        "text": "vâng",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 88.84035815154353,
+        "end": 22.32,
+        "start": 18.8,
+        "text": "cho em hỏi thăm sao tiền thì chị và người thân có phần đứng ra có chuyện gì không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 80.53095317529346,
+        "end": 25.770000000000003,
+        "start": 22.93,
+        "text": "bạn ấy chỉ hơi phố nhẹ hơn chị",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 92.17433587033698,
+        "end": 35.03,
+        "start": 25.99,
+        "text": "dạ vâng credit để ghi nhận lại cám ơn chị đã tin tưởng sử dụng dịch vụ vay tiêm chủng long cho và để bên em tiếp tục cải thiện và phục vụ tốt hơn thì mình có góp ý gì thêm cho bên em không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 69.76184248924255,
+        "end": 31.480000000000004,
+        "start": 31.17,
+        "text": "dạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 98.42490255832674,
+        "end": 36.72,
+        "start": 35.48,
+        "text": "ừ không bạn ơi",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 97.90180018969946,
+        "end": 41.95,
+        "start": 36.81,
+        "text": "dạ vâng cảm ơn chị hà cần hỗ trợ thêm chị liên hệ tổng đài là 18006928",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 86.34342093552851,
+        "end": 40.970000000000006,
+        "start": 39.72,
+        "text": "ừ ừ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 97.90180018969946,
+        "end": 44.35,
+        "start": 42.06,
+        "text": "chứ chị nhiều sức khỏe em xin phép chào chị ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 31.523392672331443,
+        "end": 45.76,
+        "start": 44.83,
+        "text": "ừ cảm ơn bạn nhá",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 46.31743310148977,
+        "end": 46,
+        "start": 45.55,
+        "text": "dạ vâng",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      }
+    ],
+    "agentChannel": 2,
+    "createdAt": "2024-04-04T04:26:41.941Z",
+    "overlapDetails": [
+      {
+        "start": 39.72,
+        "end": 40.970000000000006,
+        "index": 12
+      }
+    ],
+    "silenceDetails": [],
+    "aiEval": {
+      "callEndAbnormal": false,
+      "callStartAbnormal": false,
+      "negativeKeywordIds": [],
+      "positiveKeywordIds": [],
+      "silentAbnormal": false,
+      "overlapAbnormal": false,
+      "agentSpeedAbnormal": false,
+      "sentimentNegative": false,
+      "sentimentImpolite": false,
+      "sentimentUncooperative": false,
+      "negativeKeywords": [],
+      "positiveKeywords": []
+    },
+    "sa1": [],
+    "sa2": [],
+    "autoscore": {
+      "content": {
+        "sections": [
+          {
+            "title": "Lời chào mở đầu + kết thúc",
+            "description": "",
+            "questions": [
+              {
+                "title": "Lời chào mở đầu cần chào, giới thiệu tên agent, xác nhận tên KH",
+                "description": "Lời chào mở đầu cần chào, giới thiệu tên agent, xác nhận tên KH",
+                "answer": {
+                  "result": "Yes",
+                  "note": "",
+                  "details": "nameFromMeta: undefined, nameEntities: tiên"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "scaledScore": 100,
+    "absIntensityAbnormals": [],
+    "relIntensityAbnormals": [
+      4
+    ],
+    "lastestScores": [],
+    "manualScores": [],
+    "metadata": "{\"keywordIds\":[]}",
+    "parts": null
+  },
+  {
+    "id": "l9kpZRORrlIa38sk6aVDPg",
+    "agentEmail": "Vaccine_2ng@gmail.com",
+    "batchName": "Batch HappyCall upload 04/04 đợt 1",
+    "name": "0914702239 _ 2 ng.wav",
+    "size": 1615256,
+    "status": "Ready",
+    "processingStatus": "Ready",
+    "duration_ms": 100900,
+    "recordingTime": "2024-04-04T07:04:59.791601Z",
+    "keywords": [],
+    "content": [
+      {
+        "channel": 2,
+        "confidence": 97.52363711595535,
+        "end": 2.98,
+        "start": 2.04,
+        "text": "dạ có chào cô",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 83.85292887687683,
+        "end": 3.07,
+        "start": 2.58,
+        "text": "alo",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 80.83624622386459,
+        "end": 11.059999999999999,
+        "start": 3.75,
+        "text": "con chào cô liễu online thi liên hệ lại từ phòng chăm sóc khách hàng của tiêm chủng long cho xin phép được trao đổi phiếu quà liền ít phúc có tiền cho cô không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 85.72770953178406,
+        "end": 9.24,
+        "start": 8.9,
+        "text": "ừ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 73.26347827911377,
+        "end": 12.239999999999998,
+        "start": 11.629999999999999,
+        "text": "rồi nói đi",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 88.2275650247199,
+        "end": 24.770000000000003,
+        "start": 12.55,
+        "text": "dạ vâng có được biết là vào ngày 28 tháng 2 cô liễu cùng người thân của mình là khách hàng nguyễn thái quang đang tìm dũng đang chờ tiền phát sinh cấm các bệnh do tháng sau cho con hỏi thăm sao tiêm thì cô và người thân có phần ứng đa hay khó chịu gì không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 81.19606750626713,
+        "end": 30.990000000000002,
+        "start": 25.88,
+        "text": "nó không có chịu nhưng mà cánh tay nó muốn 3 quá tay nó",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 84.7671304013994,
+        "end": 40.13,
+        "start": 30.96,
+        "text": "ạ dạ là mình đang ở vay tiền và cánh tay của mình thì bị nặng do là nhờ xuống thì",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 81.19606750626727,
+        "end": 35.37,
+        "start": 31.400000000000002,
+        "text": "nặng nè giờ lên xuống không được mà ở đâu ví dụ mùng 9 tháng 9",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 86.73833465576172,
+        "end": 41.54,
+        "start": 40.33,
+        "text": "nặng đào đúng không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 98.88087722052515,
+        "end": 42.269999999999996,
+        "start": 40.9,
+        "text": "ừ ừ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 82.42170736193657,
+        "end": 45.62,
+        "start": 42.58,
+        "text": "dạ và vào ứng này của mình thì đã hiện tại đã khỏi chứ tối thiểu",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 92.3855741818746,
+        "end": 48.8,
+        "start": 46.48,
+        "text": "giờ nó vẫn còn giảm được 50%",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 98.70981276035309,
+        "end": 49.910000000000004,
+        "start": 49.18,
+        "text": "dạ vâng",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 80.82569260150197,
+        "end": 50.910000000000004,
+        "start": 49.35999999999999,
+        "text": "bây giờ ừ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 88.2027057033998,
+        "end": 60.64000000000001,
+        "start": 50.7,
+        "text": "dạ do đây là 1 trong những phản ứng thường gặp sau tiêm và cũng sẽ hết nhanh trong vòng 1 đến 2 ngày với phần ứng này của mình thì cũng đã giảm hưng rồi thì cô liễu cũng có thể yên tâm và theo dõi thêm sức khỏe cho mình luôn ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 98.42000603675842,
+        "end": 56.82,
+        "start": 56.33,
+        "text": "ừ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 58.36374759674072,
+        "end": 61.650000000000006,
+        "start": 61.13,
+        "text": "rồi",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 96.30201514377143,
+        "end": 70.28999999999999,
+        "start": 61.940000000000005,
+        "text": "dạ con cảm ơn cô đã tin tưởng sử dụng dịch vụ của tiêm chủng làm sao để mình còn tiếp tục cải thiện nhầm phục vụ ngày 1 tốt hơn có liệu có góp ý gì thêm cho bên con không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 59.71836124857267,
+        "end": 72.78,
+        "start": 71.30000000000001,
+        "text": "tốt không à không sao hết",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 92.06409548840871,
+        "end": 78.83,
+        "start": 72.82000000000001,
+        "text": "dạ vâng con cám ơn cô ạ và khi cần hỗ trợ thêm thì cô liễu liên hệ tổng đài là 18006928",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 90.88701605796814,
+        "end": 75.34,
+        "start": 74.88000000000001,
+        "text": "rồi",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 92.06409548840871,
+        "end": 81.74,
+        "start": 79,
+        "text": "chúc cô nhiều sức khỏe con xin phép chào chị liễu ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 99.19105172157288,
+        "end": 79.86,
+        "start": 79.4,
+        "text": "ừ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 82.38976334249693,
+        "end": 85.55,
+        "start": 82.19,
+        "text": "rồi rồi nhưng mà qua mấy ngày là như vậy thôi đâu có ấy nữa phải không",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 87.83706823984782,
+        "end": 88.78999999999999,
+        "start": 82.61,
+        "text": "ạ dạ vâng ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 88.42224362103836,
+        "end": 87.71,
+        "start": 85.72,
+        "text": "đâu có thẳng ứng gì nữa đâu",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 79.97668236494064,
+        "end": 90.9,
+        "start": 89.38000000000001,
+        "text": "ừ vậy thôi cám ơn con ừ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 92.43725297912474,
+        "end": 94.66,
+        "start": 89.39999999999999,
+        "text": "dạ mình có thể theo dõi thêm trong vòng vài ngày tới nếu cần hỗ trợ hạn hoàng đứng chi khác cô cứ báo lại cho bên con là được ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 80.00810593366623,
+        "end": 96.29999999999998,
+        "start": 95.03,
+        "text": "rồi rồi cám ơn nha",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 80.65981924533844,
+        "end": 98.57,
+        "start": 95.86999999999999,
+        "text": "dạ vâng con cám ơn cơ chức công sức khỏe con chào cô liễu ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 94.0710167090098,
+        "end": 100.05,
+        "start": 99.15,
+        "text": "rồi rồi rồi rồi",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      }
+    ],
+    "agentChannel": 2,
+    "createdAt": "2024-04-04T04:26:41.354Z",
+    "overlapDetails": [
+      {
+        "start": 31.400000000000002,
+        "end": 35.37,
+        "index": 8
+      },
+      {
+        "start": 82.61,
+        "end": 85.55,
+        "index": 25
+      },
+      {
+        "start": 85.72,
+        "end": 87.71,
+        "index": 26
+      },
+      {
+        "start": 89.39999999999999,
+        "end": 90.9,
+        "index": 28
+      }
+    ],
+    "silenceDetails": [],
+    "aiEval": {
+      "callEndAbnormal": false,
+      "callStartAbnormal": false,
+      "negativeKeywordIds": [],
+      "positiveKeywordIds": [],
+      "silentAbnormal": false,
+      "overlapAbnormal": false,
+      "agentSpeedAbnormal": false,
+      "sentimentNegative": false,
+      "sentimentImpolite": false,
+      "sentimentUncooperative": false,
+      "negativeKeywords": [],
+      "positiveKeywords": []
+    },
+    "sa1": [
+      {
+        "start": 82.61,
+        "end": 88.78999999999999,
+        "index": 25
+      }
+    ],
+    "sa2": [
+      {
+        "start": 40.9,
+        "end": 42.269999999999996,
+        "index": 10
+      },
+      {
+        "start": 61.13,
+        "end": 61.650000000000006,
+        "index": 17
+      }
+    ],
+    "autoscore": {
+      "content": {
+        "sections": [
+          {
+            "title": "Lời chào mở đầu + kết thúc",
+            "description": "",
+            "questions": [
+              {
+                "title": "Lời chào mở đầu cần chào, giới thiệu tên agent, xác nhận tên KH",
+                "description": "Lời chào mở đầu cần chào, giới thiệu tên agent, xác nhận tên KH",
+                "answer": {
+                  "result": "Yes",
+                  "note": "",
+                  "details": "nameFromMeta: undefined, nameEntities: online"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "scaledScore": 100,
+    "absIntensityAbnormals": [],
+    "relIntensityAbnormals": [
+      13
+    ],
+    "lastestScores": [],
+    "manualScores": [],
+    "metadata": "{\"keywordIds\":[]}",
+    "parts": null
+  },
+  {
+    "id": "h2durUIqpBhIwqUlyUxLFw",
+    "agentEmail": "Vaccine_2ng@gmail.com",
+    "batchName": "Batch HappyCall upload 04/04 đợt 1",
+    "name": "0903149643 _ 2 ng.wav",
+    "size": 804056,
+    "status": "Ready",
+    "processingStatus": "Ready",
+    "duration_ms": 50200,
+    "recordingTime": "2024-04-04T07:04:59.791601Z",
+    "keywords": [],
+    "content": [
+      {
+        "channel": 2,
+        "confidence": 84.2842126363202,
+        "end": 2.05,
+        "start": 1.17,
+        "text": "dạ alo",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 99.49040412902832,
+        "end": 2.05,
+        "start": 1.56,
+        "text": "alo",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 84.28421263632022,
+        "end": 9.43,
+        "start": 2.28,
+        "text": "dạ con chào chú cự lãi thi liên hệ từ phòng chăm sóc khách hàng của tìm chủ long cho xin phép được trao đổi với trước kỳ ít phúc phát tiền cho chú không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 80.08161431009118,
+        "end": 13.27,
+        "start": 10.71,
+        "text": "ừ à không được rồi rồi trao đổi cháu ơi",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 85.59508574943916,
+        "end": 23.47,
+        "start": 13.41,
+        "text": "dạ con được biết là vào ngày 21 tháng 3 trước cửa cùng người thân là hoàng thị phúc để tiêm chủng lâm treo tiền phát sinh cấm cho con hỏi thăm sao tin thì chú và người thân có phần đứng ra hay có chuyện gì không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 96.01507037878036,
+        "end": 25.44,
+        "start": 24.470000000000002,
+        "text": "bình thường anh ơi",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 88.9522753110746,
+        "end": 29.12,
+        "start": 25.66,
+        "text": "dạ rồi cám ơn trước đã tin tưởng sử dụng dịch vụ của tiêm chủng làm sao",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 99.71446990966797,
+        "end": 27.270000000000003,
+        "start": 26.93,
+        "text": "ừ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 88.9522753110746,
+        "end": 31.52,
+        "start": 29.23,
+        "text": "mà để bên con tiếp được cải thiện và phục vụ thất hứa",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 50.62897801399231,
+        "end": 30.090000000000003,
+        "start": 29.78,
+        "text": "à",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 88.9522753110746,
+        "end": 33.65,
+        "start": 31.659999999999997,
+        "text": "trước có góp ý gì thêm cho bên con không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 85.38793150116416,
+        "end": 39.75,
+        "start": 34.43,
+        "text": "ừ không thì nói chung thì tốt rồi không có gì đâu bạn ừ ok nhá ừ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 92.66473018541569,
+        "end": 45.01,
+        "start": 38.58,
+        "text": "dạ dạ vâng con cám ơn ạ dạ vậy khi cần hỗ trợ thêm thì chú liên hệ tổng đài là 18006928",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 100,
+        "end": 41.82,
+        "start": 41.33,
+        "text": "ừ ừ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 92.66473018541569,
+        "end": 47.440000000000005,
+        "start": 45.15,
+        "text": "trước thất hứa giữ sức khỏe con xin phép chào chú ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 13.934509274345164,
+        "end": 49.86,
+        "start": 48.18,
+        "text": "ừ rồi rồi cám ơn con ừ ừ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 10,
+        "end": 50.04,
+        "start": 49.5,
+        "text": "dạ vâng ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      }
+    ],
+    "agentChannel": 2,
+    "createdAt": "2024-04-04T04:26:40.280Z",
+    "overlapDetails": [
+      {
+        "start": 38.58,
+        "end": 39.75,
+        "index": 12
+      }
+    ],
+    "silenceDetails": [],
+    "aiEval": {
+      "callEndAbnormal": false,
+      "callStartAbnormal": false,
+      "negativeKeywordIds": [],
+      "positiveKeywordIds": [],
+      "silentAbnormal": false,
+      "overlapAbnormal": false,
+      "agentSpeedAbnormal": false,
+      "sentimentNegative": false,
+      "sentimentImpolite": false,
+      "sentimentUncooperative": false,
+      "negativeKeywords": [],
+      "positiveKeywords": []
+    },
+    "sa1": [],
+    "sa2": [],
+    "autoscore": {
+      "content": {
+        "sections": [
+          {
+            "title": "Lời chào mở đầu + kết thúc",
+            "description": "",
+            "questions": [
+              {
+                "title": "Lời chào mở đầu cần chào, giới thiệu tên agent, xác nhận tên KH",
+                "description": "Lời chào mở đầu cần chào, giới thiệu tên agent, xác nhận tên KH",
+                "answer": {
+                  "result": "Yes",
+                  "note": "",
+                  "details": "nameFromMeta: undefined, nameEntities: thi,phúc,hoàng,thị"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "scaledScore": 100,
+    "absIntensityAbnormals": [],
+    "relIntensityAbnormals": [
+      2
+    ],
+    "lastestScores": [],
+    "manualScores": [],
+    "metadata": "{\"keywordIds\":[]}",
+    "parts": null
+  },
+  {
+    "id": "lf5mXJcGXIXiZsAObPNJLQ",
+    "agentEmail": "Vaccine_2ng@gmail.com",
+    "batchName": "Batch HappyCall upload 04/04 đợt 1",
+    "name": "0822325888 _ 2 ng.wav",
+    "size": 1095736,
+    "status": "Ready",
+    "processingStatus": "Ready",
+    "duration_ms": 68500,
+    "recordingTime": "2024-04-04T07:04:59.791601Z",
+    "keywords": [],
+    "content": [
+      {
+        "channel": 2,
+        "confidence": 90.93782450589869,
+        "end": 2.23,
+        "start": 1.23,
+        "text": "dạ dạ alo",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 69.78789488474528,
+        "end": 2.23,
+        "start": 1.35,
+        "text": "dạ dạ alo",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 83.58448437518544,
+        "end": 9.639999999999999,
+        "start": 2.4,
+        "text": "dạ con chào chú ít là thi liên hệ từ phòng chăm sóc khách hàng của tìm chủ long cho credit vừa trao đổi với chú ít ít phút cải thiện cho chú không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 95.66426873207092,
+        "end": 7.53,
+        "start": 7.1000000000000005,
+        "text": "ừ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 83.22118471066156,
+        "end": 11.709999999999999,
+        "start": 10.41,
+        "text": "có có cứ nói đi",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 87.48678170026295,
+        "end": 23.650000000000002,
+        "start": 11.73,
+        "text": "dạ còn chưa biết là vào ngày 22 tháng 3 thì chú cùng với người thân của mình là khách hàng trần thị mãi để tìm chủ làm chờ tiền vay tiền cấm các bệnh cho vay cầu và trả cho con hỏi thăm sao im thì chú phải người thân có phản ứng do hay khó chịu gì không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 68.96210032350876,
+        "end": 28.46,
+        "start": 24.22,
+        "text": "dạ hôm nay không có khó chịu có tối đa nhất lại uống",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 86.86909526586533,
+        "end": 31.740000000000002,
+        "start": 30.919999999999998,
+        "text": "tốt không có gì",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 93.20628487815459,
+        "end": 36.43,
+        "start": 32.1,
+        "text": "dạ vâng dạ con cám ơn chú ạ dạ hiện tại tình trạng phản ứng của mình thì đã khỏi rồi đúng không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 48.73727858066559,
+        "end": 34.03,
+        "start": 33.72,
+        "text": "ừ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 87.03401446342468,
+        "end": 38.61,
+        "start": 37.94,
+        "text": "tui nghe không kịp",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 86.0782440751791,
+        "end": 41.85,
+        "start": 38.84,
+        "text": "dạ hiện tại là phản ứng của mình sao tiêm đã khỏi rồi đúng không chú",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 86.12043424086136,
+        "end": 43.71,
+        "start": 42.019999999999996,
+        "text": "ừ khỏi rồi khỏi khỏi phản",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 71.69538736343384,
+        "end": 43.61,
+        "start": 43.33,
+        "text": "dạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 86.12043424086137,
+        "end": 44.85,
+        "start": 43.91,
+        "text": "rồi khỏi rồi đó",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 90.59416740028948,
+        "end": 49.910000000000004,
+        "start": 44.38,
+        "text": "dạ dạ vâng con cám ơn chú ạ đã tin tưởng sử dụng dịch vụ của tiêm chủng làm sao mà để bên con tiếp tục",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 65.47958106582702,
+        "end": 50.220000000000006,
+        "start": 46.85,
+        "text": "à à rồi chứ tin tưởng lắm",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 88.37588062345408,
+        "end": 56.13,
+        "start": 50.32,
+        "text": "dạ căn để mình còn tiếp tục cải thiện nhầm phục vụ ngày 1 tốt hơn thì chưa có góp ý gì thêm cho bên con không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 63.931435346603394,
+        "end": 52.650000000000006,
+        "start": 52.34,
+        "text": "ừ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 79.33549135923386,
+        "end": 57.77,
+        "start": 56.59,
+        "text": "ừ không có cháu ơi",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 94.487947852988,
+        "end": 63.260000000000005,
+        "start": 57.910000000000004,
+        "text": "dạ vâng ạ dạ vậy khi cần hỗ trợ thêm thì anh liên hệ tổng đài là 18006928",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 96.40913605690002,
+        "end": 59.55,
+        "start": 59.3,
+        "text": "không",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 94.487947852988,
+        "end": 65.75,
+        "start": 63.400000000000006,
+        "text": "chứ chưa có nhiều sức khỏe con xin phép chào chú ít ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 93.2171881198883,
+        "end": 64.19,
+        "start": 63.88,
+        "text": "ừ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 5.501649003965027,
+        "end": 67.75,
+        "start": 66.19,
+        "text": "ờ rồi chú cám ơn cháu",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 7.928561013684876,
+        "end": 68.44,
+        "start": 67.99,
+        "text": "dạ vâng ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      }
+    ],
+    "agentChannel": 2,
+    "createdAt": "2024-04-04T04:26:39.641Z",
+    "overlapDetails": [
+      {
+        "start": 46.85,
+        "end": 49.910000000000004,
+        "index": 16
+      }
+    ],
+    "silenceDetails": [],
+    "aiEval": {
+      "callEndAbnormal": false,
+      "callStartAbnormal": false,
+      "negativeKeywordIds": [],
+      "positiveKeywordIds": [],
+      "silentAbnormal": false,
+      "overlapAbnormal": false,
+      "agentSpeedAbnormal": false,
+      "sentimentNegative": false,
+      "sentimentImpolite": false,
+      "sentimentUncooperative": false,
+      "negativeKeywords": [],
+      "positiveKeywords": []
+    },
+    "sa1": [
+      {
+        "start": 67.99,
+        "end": 68.44,
+        "index": 25
+      }
+    ],
+    "sa2": [],
+    "autoscore": {
+      "content": {
+        "sections": [
+          {
+            "title": "Lời chào mở đầu + kết thúc",
+            "description": "",
+            "questions": [
+              {
+                "title": "Lời chào mở đầu cần chào, giới thiệu tên agent, xác nhận tên KH",
+                "description": "Lời chào mở đầu cần chào, giới thiệu tên agent, xác nhận tên KH",
+                "answer": {
+                  "result": "No",
+                  "note": "Không giới thiệu tên nhân viên",
+                  "details": "nameFromMeta: undefined, nameEntities: "
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "scaledScore": 0,
+    "absIntensityAbnormals": [],
+    "relIntensityAbnormals": [],
+    "lastestScores": [],
+    "manualScores": [],
+    "metadata": "{\"keywordIds\":[]}",
+    "parts": null
+  },
+  {
+    "id": "jVWCIlhke_4I0ZVDb1BKfg",
+    "agentEmail": "Vaccine_1ng@gmail.com",
+    "batchName": "Batch HappyCall upload 04/04 đợt 1",
+    "name": "0935787129_ 1 ng.wav",
+    "size": 851256,
+    "status": "Ready",
+    "processingStatus": "Ready",
+    "duration_ms": 53200,
+    "recordingTime": "2024-04-04T07:04:59.791601Z",
+    "keywords": [],
+    "content": [
+      {
+        "channel": 2,
+        "confidence": 86.5857550076076,
+        "end": 2.71,
+        "start": 1.17,
+        "text": "dạ con chào cô hằng hotline",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 88.46871256828308,
+        "end": 3.0000000000000004,
+        "start": 2.39,
+        "text": "alo",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 86.92457410426164,
+        "end": 10.54,
+        "start": 3.21,
+        "text": "dạ chào cô hoàng sau này thi liên hệ lại từ phòng chăm sóc khách hàng của tìm chủ long cho credit được trao đổi với cô hằng ít phúc có tiền cho cô không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 58.41323286294937,
+        "end": 12.809999999999999,
+        "start": 12.2,
+        "text": "nói gì",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 81.95748206066051,
+        "end": 22.520000000000003,
+        "start": 13.09,
+        "text": "dạ có chưa biết là vào ngày 28 tháng 2 cửa hàng để tìm chủ đâu mà chờ chị phát sinh cấm tạ cáp định về phía sau cho tôi hỏi thăm sao tìm cô có phản ứng ra hay có chuyện gì không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 68.98870263248682,
+        "end": 27.47,
+        "start": 23.38,
+        "text": "à vậy không có gì con không có sương không gì không có bị số gì hết trơn á",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 83.52421312169606,
+        "end": 34.47,
+        "start": 27.77,
+        "text": "dạ vâng con cảm ơn cô hoàng đã tin tưởng sử dụng dịch vụ của tiêm chủng làm sao để bên coi tiếp tục cải thiện nhầm phục vụ ngày hợp tác ha",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 46.96647524833679,
+        "end": 33,
+        "start": 32.58,
+        "text": "ừ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 83.52421312169595,
+        "end": 36.57,
+        "start": 34.58,
+        "text": "cô có góp ý gì thêm cho bên con không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 86.96317908010982,
+        "end": 42.48,
+        "start": 37.73,
+        "text": "à có gì thấy cũng nhân viên thì cũng nói nãy cũng lịch sự không có gì đâu cô",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 89.12366001229539,
+        "end": 48.09,
+        "start": 42.62,
+        "text": "dạ vâng con cảm ơn cô khi cần hỗ trợ thêm cửa hàng liên hệ tổng đài là 18006928",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 54.49424982070923,
+        "end": 45.370000000000005,
+        "start": 45,
+        "text": "rồi",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 89.12366001229537,
+        "end": 50.97,
+        "start": 48.230000000000004,
+        "text": "chút hơi nhiều sức khỏe và xin phép chào cô hằng ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 9.471026158959205,
+        "end": 52.7,
+        "start": 51.5,
+        "text": "rồi cám ơn con rồi",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 62.38246685334398,
+        "end": 52.989999999999995,
+        "start": 52.449999999999996,
+        "text": "dạ vâng ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      }
+    ],
+    "agentChannel": 2,
+    "createdAt": "2024-04-04T04:26:39.054Z",
+    "overlapDetails": [],
+    "silenceDetails": [],
+    "aiEval": {
+      "callEndAbnormal": false,
+      "callStartAbnormal": false,
+      "negativeKeywordIds": [],
+      "positiveKeywordIds": [],
+      "silentAbnormal": false,
+      "overlapAbnormal": false,
+      "agentSpeedAbnormal": false,
+      "sentimentNegative": false,
+      "sentimentImpolite": false,
+      "sentimentUncooperative": false,
+      "negativeKeywords": [],
+      "positiveKeywords": []
+    },
+    "sa1": [],
+    "sa2": [
+      {
+        "start": 2.39,
+        "end": 3.0000000000000004,
+        "index": 1
+      }
+    ],
+    "autoscore": {
+      "content": {
+        "sections": [
+          {
+            "title": "Lời chào mở đầu + kết thúc",
+            "description": "",
+            "questions": [
+              {
+                "title": "Lời chào mở đầu cần chào, giới thiệu tên agent, xác nhận tên KH",
+                "description": "Lời chào mở đầu cần chào, giới thiệu tên agent, xác nhận tên KH",
+                "answer": {
+                  "result": "No",
+                  "note": "Không giới thiệu tên nhân viên",
+                  "details": "nameFromMeta: undefined, nameEntities: "
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "scaledScore": 0,
+    "absIntensityAbnormals": [
+      2
+    ],
+    "relIntensityAbnormals": [
+      2
+    ],
+    "lastestScores": [],
+    "manualScores": [],
+    "metadata": "{\"keywordIds\":[]}",
+    "parts": null
+  },
+  {
+    "id": "j4Y9kG0hXbs4443q_q1Lqw",
+    "agentEmail": "Vaccine_1ng@gmail.com",
+    "batchName": "Batch HappyCall upload 04/04 đợt 1",
+    "name": "0933367385_ 1 ng.wav",
+    "size": 1126296,
+    "status": "Ready",
+    "processingStatus": "Ready",
+    "duration_ms": 70400,
+    "recordingTime": "2024-04-04T07:04:59.791601Z",
+    "keywords": [],
+    "content": [
+      {
+        "channel": 2,
+        "confidence": 87.99371816860925,
+        "end": 8.61,
+        "start": 1.2,
+        "text": "dạ alo em chào chị ngọc em là thi liên hệ lại từ phòng chăm sóc khách hàng của tiêm chủng hồng cho xin phép được trao đổi tới mình ít phúc có tiền cho chị ngọc không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 27.43496298789978,
+        "end": 9.790000000000001,
+        "start": 9.39,
+        "text": "dạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 86.01552198330556,
+        "end": 19.330000000000002,
+        "start": 10.05,
+        "text": "dạ em chưa biết là vào ngày 28 tháng 2 thì chị ngọc đến tìm chủ long chào tiền phát sinh cấm chấp bệnh về phía sau cho em hỏi thăm là sao tin thì chỉ có phản ứng đa hay có chuyện gì không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 57.875018988459345,
+        "end": 22.080000000000002,
+        "start": 20.34,
+        "text": "ừ có số với lại nằm",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 82.24313959299272,
+        "end": 31.6,
+        "start": 22.669999999999998,
+        "text": "dạ vâng và tình trạng shop khả năng vay của mình thì đã khẩu chứ chị ạ dạ phan",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 80.92530532316728,
+        "end": 30.650000000000002,
+        "start": 27.849999999999998,
+        "text": "ừ nó đỡ thôi chứ vẫn còn hơi số hết rồi",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 85.04292845726013,
+        "end": 35.77,
+        "start": 31.71,
+        "text": "do đây là 1 trong những phạt ứng thường gặp sao tiên và cụ ch nhe anh trong vòng 1 đến 2 ngày",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 65.76881408691406,
+        "end": 33.17,
+        "start": 32.8,
+        "text": "ừ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 85.04292845726013,
+        "end": 40.18,
+        "start": 35.940000000000005,
+        "text": "các khoản này của chị ngọc tiền mình có muốn được gặp bác sĩ chuyên môn để được hỗ trợ tư vấn thêm không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 63.308677077293396,
+        "end": 42.5,
+        "start": 41.71,
+        "text": "được rồi bạn",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 97.61235637049522,
+        "end": 48.96,
+        "start": 43.55,
+        "text": "dạ vậy chị có thể theo dõi thêm nếu trong vòng ngày vay tới vẫn còn số hay cần hỗ trợ chị cứ báo lại cho bên em là được ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 68.33596229553223,
+        "end": 51.150000000000006,
+        "start": 50,
+        "text": "à dạ cám ơn ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 87.89779585461282,
+        "end": 58.89000000000001,
+        "start": 50.660000000000004,
+        "text": "dạ cám ơn chị gặp phải tin tưởng sử dụng dịch vụ của tiêm chủng làm sao để bên em tiếp tục cải thiện nhận phục vụ ngày càng tốt ha thì mình có góp ý gì thêm cho bên em không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 82.65361953526735,
+        "end": 61,
+        "start": 59.699999999999996,
+        "text": "ừ dạ không ạ cám ơn",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 98.2037864826819,
+        "end": 68.45,
+        "start": 60.68,
+        "text": "dạ vâng dạ vậy khi cần hỗ trợ thêm chị ngọc liên hệ tổng đài là 18006928 chứ chị nhiều sức khỏe em xin phép em chào chị ngọc ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      }
+    ],
+    "agentChannel": 2,
+    "createdAt": "2024-04-04T04:26:38.375Z",
+    "overlapDetails": [
+      {
+        "start": 27.849999999999998,
+        "end": 30.650000000000002,
+        "index": 5
+      }
+    ],
+    "silenceDetails": [],
+    "aiEval": {
+      "callEndAbnormal": false,
+      "callStartAbnormal": false,
+      "negativeKeywordIds": [],
+      "positiveKeywordIds": [],
+      "silentAbnormal": false,
+      "overlapAbnormal": false,
+      "agentSpeedAbnormal": false,
+      "sentimentNegative": false,
+      "sentimentImpolite": false,
+      "sentimentUncooperative": false,
+      "negativeKeywords": [],
+      "positiveKeywords": []
+    },
+    "sa1": [],
+    "sa2": [],
+    "autoscore": {
+      "content": {
+        "sections": [
+          {
+            "title": "Lời chào mở đầu + kết thúc",
+            "description": "",
+            "questions": [
+              {
+                "title": "Lời chào mở đầu cần chào, giới thiệu tên agent, xác nhận tên KH",
+                "description": "Lời chào mở đầu cần chào, giới thiệu tên agent, xác nhận tên KH",
+                "answer": {
+                  "result": "No",
+                  "note": "Không giới thiệu tên nhân viên",
+                  "details": "nameFromMeta: undefined, nameEntities: "
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "scaledScore": 0,
+    "absIntensityAbnormals": [],
+    "relIntensityAbnormals": [],
+    "lastestScores": [],
+    "manualScores": [],
+    "metadata": "{\"keywordIds\":[]}",
+    "parts": null
+  },
+  {
+    "id": "hi3lNsoUV8hNy7_PtYNMLA",
+    "agentEmail": "Vaccine_1ng@gmail.com",
+    "batchName": "Batch HappyCall upload 04/04 đợt 1",
+    "name": "0796909119_ 1 ng.wav",
+    "size": 705496,
+    "status": "Ready",
+    "processingStatus": "Ready",
+    "duration_ms": 44100,
+    "recordingTime": "2024-04-04T07:04:59.791601Z",
+    "keywords": [],
+    "content": [
+      {
+        "channel": 1,
+        "confidence": 99.81362223625183,
+        "end": 1.03,
+        "start": 0.6,
+        "text": "ừ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 88.52121759402122,
+        "end": 8.77,
+        "start": 1.56,
+        "text": "dạ em chào anh nghiêm em là thi liên hệ lại từ phòng chăm sóc khách hàng của tìm chủ làm sao em xin phép được trao đổi với mình ít phúc cải thiện cho nghiêm không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 98.10536503791809,
+        "end": 11.06,
+        "start": 10.450000000000001,
+        "text": "ừ ừ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 85.36116764312838,
+        "end": 20.14,
+        "start": 12.27,
+        "text": "dạ em được biết vào ngày 28 tháng 2 thì anh nghiêm có đến tiêm chủng long chào tiền phát sinh khống cho em hỏi thăm là sau tết thì mình vẫn ra hay có chuyện gì không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 76.14965587854385,
+        "end": 23.46,
+        "start": 22.099999999999998,
+        "text": "ừ không bình thường",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 89.56360986286948,
+        "end": 32.220000000000006,
+        "start": 23.6,
+        "text": "dạ vâng cảm ơn anh duy đã tin tưởng sử dụng dịch vụ của tiêm chủng long cho để bên em tiếp tục cải thiện nhầm phục vụ ngày hợp tác há anh nghiêm có góp ý gì thêm cho bên em không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 85.58494746685028,
+        "end": 33.58,
+        "start": 33.21,
+        "text": "nghe",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 96.12231036511865,
+        "end": 39.980000000000004,
+        "start": 34.09,
+        "text": "dạ vâng em cám ơn anh nghiêm ạ và khi cần hỗ trợ thêm thì anh liên hệ tổng đài là 18006928",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 85.58494746685028,
+        "end": 34.690000000000005,
+        "start": 34.349999999999994,
+        "text": "rồi",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 96.12231036511865,
+        "end": 42.49,
+        "start": 40.150000000000006,
+        "text": "trước anh nhiều sức khỏe em xin phép chào anh nghiêm ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 73.72779846191406,
+        "end": 43.59,
+        "start": 43.35,
+        "text": "ừ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      }
+    ],
+    "agentChannel": 2,
+    "createdAt": "2024-04-04T04:26:37.629Z",
+    "overlapDetails": [],
+    "silenceDetails": [],
+    "aiEval": {
+      "callEndAbnormal": false,
+      "callStartAbnormal": false,
+      "negativeKeywordIds": [],
+      "positiveKeywordIds": [],
+      "silentAbnormal": false,
+      "overlapAbnormal": false,
+      "agentSpeedAbnormal": false,
+      "sentimentNegative": false,
+      "sentimentImpolite": false,
+      "sentimentUncooperative": false,
+      "negativeKeywords": [],
+      "positiveKeywords": []
+    },
+    "sa1": [],
+    "sa2": [],
+    "autoscore": {
+      "content": {
+        "sections": [
+          {
+            "title": "Lời chào mở đầu + kết thúc",
+            "description": "",
+            "questions": [
+              {
+                "title": "Lời chào mở đầu cần chào, giới thiệu tên agent, xác nhận tên KH",
+                "description": "Lời chào mở đầu cần chào, giới thiệu tên agent, xác nhận tên KH",
+                "answer": {
+                  "result": "No",
+                  "note": "Không giới thiệu tên nhân viên",
+                  "details": "nameFromMeta: undefined, nameEntities: "
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "scaledScore": 0,
+    "absIntensityAbnormals": [],
+    "relIntensityAbnormals": [
+      1
+    ],
+    "lastestScores": [],
+    "manualScores": [],
+    "metadata": "{\"keywordIds\":[]}",
+    "parts": null
+  },
+  {
+    "id": "n1op62m5ucBm6cAYdZxPhA",
+    "agentEmail": "Vaccine_1ng@gmail.com",
+    "batchName": "Batch HappyCall upload 04/04 đợt 1",
+    "name": "0377772177 _ 1ng.wav",
+    "size": 885496,
+    "status": "Ready",
+    "processingStatus": "Ready",
+    "duration_ms": 55300,
+    "recordingTime": "2024-04-04T07:04:59.791601Z",
+    "keywords": [],
+    "content": [
+      {
+        "channel": 2,
+        "confidence": 83.75237499448386,
+        "end": 2.44,
+        "start": 1.17,
+        "text": "dạ có chào trước kỳ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 98.39264750480652,
+        "end": 3.25,
+        "start": 2.64,
+        "text": "alo",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 83.75237499448384,
+        "end": 10.75,
+        "start": 2.82,
+        "text": "thi dạ thôi chào trước kỳ còn lại thi liên hệ lại từ phòng chăm sóc khách hàng của tìm chủ làm sao chị biết được trao đổi với chu kỳ anh phúc cải thiện nha chú không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 63.4926974773407,
+        "end": 8.49,
+        "start": 8.059999999999999,
+        "text": "ừ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 86.37805581092834,
+        "end": 12.11,
+        "start": 11.53,
+        "text": "à",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 86.09621245414019,
+        "end": 22.540000000000003,
+        "start": 12.96,
+        "text": "dạ con được biết là vào ngày 28 tháng 2 thì chưa có để tìm chủ làm chào tiền vay trình cấm bạch hậu buôn bán gà cho con hỏi thăm là sao tiền thì trước có phản ứng đa hay có chuyện gì không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 77.79638653709775,
+        "end": 29.900000000000002,
+        "start": 23.62,
+        "text": "à chú kiếm khỏe hết nhưng mà cái thai trần đức đá cũng đỡ rồi hết rồi gần hết rồi",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 89.70926162206901,
+        "end": 40.39,
+        "start": 30.18,
+        "text": "dạ vâng vậy con xin phép được ghi nhận thông tin này ạ đóng trước kỳ để tranh thủ sử dụng dịch vụ của tiêm chủng long cho để bên con tiếp tục cải thiện nhầm phục vụ ngày 1 tốt ha chứ có góp ý gì thêm cho bên con không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 88.4456773598989,
+        "end": 44.38,
+        "start": 41.25,
+        "text": "à vậy là phục vụ tốt rồi không có chi",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 87.55941029638052,
+        "end": 50.07,
+        "start": 44.57,
+        "text": "dạ vâng con cám ơn chú khi cần hỏi cải thiện trước kỳ liên hệ qua tổng đài là 18006928",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 75.01221299171448,
+        "end": 46.66,
+        "start": 46.269999999999996,
+        "text": "nhắc nhở",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 87.55941029638052,
+        "end": 52.89000000000001,
+        "start": 50.24,
+        "text": "trước trước hẹn nhiều sức khỏe coi trên web phải chào chú ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 25.05000540033531,
+        "end": 54.980000000000004,
+        "start": 54.47,
+        "text": "dạ 3",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      }
+    ],
+    "agentChannel": 2,
+    "createdAt": "2024-04-04T04:26:37.078Z",
+    "overlapDetails": [],
+    "silenceDetails": [],
+    "aiEval": {
+      "callEndAbnormal": false,
+      "callStartAbnormal": false,
+      "negativeKeywordIds": [],
+      "positiveKeywordIds": [],
+      "silentAbnormal": false,
+      "overlapAbnormal": false,
+      "agentSpeedAbnormal": false,
+      "sentimentNegative": false,
+      "sentimentImpolite": false,
+      "sentimentUncooperative": false,
+      "negativeKeywords": [],
+      "positiveKeywords": []
+    },
+    "sa1": [],
+    "sa2": [
+      {
+        "start": 2.64,
+        "end": 3.25,
+        "index": 1
+      },
+      {
+        "start": 11.53,
+        "end": 12.11,
+        "index": 4
+      }
+    ],
+    "autoscore": {
+      "content": {
+        "sections": [
+          {
+            "title": "Lời chào mở đầu + kết thúc",
+            "description": "",
+            "questions": [
+              {
+                "title": "Lời chào mở đầu cần chào, giới thiệu tên agent, xác nhận tên KH",
+                "description": "Lời chào mở đầu cần chào, giới thiệu tên agent, xác nhận tên KH",
+                "answer": {
+                  "result": "Yes",
+                  "note": "",
+                  "details": "nameFromMeta: undefined, nameEntities: bạch"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "scaledScore": 100,
+    "absIntensityAbnormals": [],
+    "relIntensityAbnormals": [],
+    "lastestScores": [],
+    "manualScores": [],
+    "metadata": "{\"keywordIds\":[]}",
+    "parts": null
+  },
+  {
+    "id": "v934ngh_LFsgYVWmH_9IHA",
+    "agentEmail": "Vaccine_1ng@gmail.com",
+    "batchName": "Batch HappyCall upload 04/04 đợt 1",
+    "name": "0354362483_ 1 ng.wav",
+    "size": 681016,
+    "status": "Ready",
+    "processingStatus": "Ready",
+    "duration_ms": 42600,
+    "recordingTime": "2024-04-04T07:04:59.791601Z",
+    "keywords": [],
+    "content": [
+      {
+        "channel": 1,
+        "confidence": 99.02577102184296,
+        "end": 1.57,
+        "start": 0.96,
+        "text": "dạ alo",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 89.91505172517566,
+        "end": 8.92,
+        "start": 1.8,
+        "text": "dạ em chào chị thảo em là liên hệ lại từ phòng chăm sóc khách hàng của tiêm chủng long cho xin phép được trao đổi với mình ít phúc có tiền cho chị thảo không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 93.22757840156555,
+        "end": 10.319999999999999,
+        "start": 9.35,
+        "text": "dạ mình nói đi ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 87.1378902425157,
+        "end": 19.37,
+        "start": 10.33,
+        "text": "dạ vâng em được biết là vào ngày 1 tháng 3 thì chị thảo có để anh tìm chủ đâu mà sao mình có tiền phát sinh lãi hc cho em hỏi thăm là sao tin thì chị có phản ứng đa có chuyện gì không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 86.32160872220993,
+        "end": 23.160000000000004,
+        "start": 20,
+        "text": "dạ không ạ em chỉ có thể nhất có tim thôi nhưng mà giờ thì ok rồi",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 93.9336506525675,
+        "end": 31.76,
+        "start": 23.23,
+        "text": "dạ vâng ạ cám ơn chị đã tin tưởng sử dụng dịch vụ vay tiền chủ làm sao mà để bên em tiếp tục cải thiện nhầm phục vụ ngày 1 tốt hơn thì mình có góp ý gì thêm cho bên em không ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 99.13724362850189,
+        "end": 33.19,
+        "start": 32.19,
+        "text": "ừ dạ không chị ơi",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 93.25862381909343,
+        "end": 40.949999999999996,
+        "start": 33.23,
+        "text": "dạ vâng cám ơn chị chỉ cần hỗ trợ thêm chị hảo liên hệ tổng đài là 18006928 chúc chị nhiều sức khỏe em xin phép chào chị thảo ạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 1,
+        "confidence": 44.50277295936914,
+        "end": 41.64,
+        "start": 41.4,
+        "text": "dạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      },
+      {
+        "channel": 2,
+        "confidence": 45.808222792730355,
+        "end": 42.029999999999994,
+        "start": 41.76,
+        "text": "dạ",
+        "negative": false,
+        "origText": null,
+        "updatedAt": null,
+        "updatedBy": null
+      }
+    ],
+    "agentChannel": 2,
+    "createdAt": "2024-04-04T04:26:36.443Z",
+    "overlapDetails": [],
+    "silenceDetails": [],
+    "aiEval": {
+      "callEndAbnormal": false,
+      "callStartAbnormal": false,
+      "negativeKeywordIds": [],
+      "positiveKeywordIds": [],
+      "silentAbnormal": false,
+      "overlapAbnormal": false,
+      "agentSpeedAbnormal": false,
+      "sentimentNegative": false,
+      "sentimentImpolite": false,
+      "sentimentUncooperative": false,
+      "negativeKeywords": [],
+      "positiveKeywords": []
+    },
+    "sa1": [],
+    "sa2": [
+      {
+        "start": 20,
+        "end": 23.160000000000004,
+        "index": 4
+      }
+    ],
+    "autoscore": {
+      "content": {
+        "sections": [
+          {
+            "title": "Lời chào mở đầu + kết thúc",
+            "description": "",
+            "questions": [
+              {
+                "title": "Lời chào mở đầu cần chào, giới thiệu tên agent, xác nhận tên KH",
+                "description": "Lời chào mở đầu cần chào, giới thiệu tên agent, xác nhận tên KH",
+                "answer": {
+                  "result": "No",
+                  "note": "Không giới thiệu tên nhân viên",
+                  "details": "nameFromMeta: undefined, nameEntities: "
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "scaledScore": 0,
+    "absIntensityAbnormals": [],
+    "relIntensityAbnormals": [
+      1
+    ],
+    "lastestScores": [],
+    "manualScores": [],
+    "metadata": "{\"keywordIds\":[]}",
+    "parts": null
+  }
+]

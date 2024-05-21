@@ -1,0 +1,825 @@
+{
+    "features": [
+        {
+            "feature_idx": 0,
+            "name": "document",
+            "type": {
+                "dtype": "string",
+                "_type": "Value"
+            }
+        },
+        {
+            "feature_idx": 1,
+            "name": "summary",
+            "type": {
+                "dtype": "string",
+                "_type": "Value"
+            }
+        }
+    ],
+    "rows": [
+        {
+            "row_idx": 0,
+            "row": {
+                "document": "australia 's current account deficit shrunk by a record #.## billion dollars -lrb- #.## billion us -rrb- in the june quarter due to soaring commodity prices , figures released monday showed .",
+                "summary": "australian current account deficit narrows sharply"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 1,
+            "row": {
+                "document": "at least two people were killed in a suspected bomb attack on a passenger bus in the strife-torn southern philippines on monday , the military said .",
+                "summary": "at least two dead in southern philippines blast"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 2,
+            "row": {
+                "document": "australian shares closed down #.# percent monday following a weak lead from the united states and lower commodity prices , dealers said .",
+                "summary": "australian stocks close down #.# percent"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 3,
+            "row": {
+                "document": "south korea 's nuclear envoy kim sook urged north korea monday to restart work to disable its nuclear plants and stop its `` typical '' brinkmanship in negotiations .",
+                "summary": "envoy urges north korea to restart nuclear disablement"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 4,
+            "row": {
+                "document": "south korea on monday announced sweeping tax reforms , including income and corporate tax cuts to boost growth by stimulating sluggish private consumption and business investment .",
+                "summary": "skorea announces tax cuts to stimulate economy"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 5,
+            "row": {
+                "document": "taiwan share prices closed down #.## percent monday on wall street weakness and lacklustre interim earnings from electronics manufacturing giant hon hai , dealers said .",
+                "summary": "taiwan shares close down #.## percent"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 6,
+            "row": {
+                "document": "australian shares closed down #.# percent monday following a weak lead from the united states and lower commodity prices , dealers said .",
+                "summary": "australian stocks close down #.# percent"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 7,
+            "row": {
+                "document": "spanish property group colonial , struggling under huge debts , announced losses of #.## billion euros for the first half of #### which it blamed on asset depreciation .",
+                "summary": "spain 's colonial posts #.## billion euro loss"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 8,
+            "row": {
+                "document": "libyan leader moamer kadhafi monday promised wide political and economic reforms that he said would see ministries dismantled and oil revenues going directly into the pockets of the people .",
+                "summary": "kadhafi promises wide political economic reforms"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 9,
+            "row": {
+                "document": "the united nations ' humanitarian chief john holmes arrived in ethiopia monday to tour regions affected by drought , which has left some eight million people in need of urgent food aid .",
+                "summary": "un 's top aid official arrives in drought-hit ethiopia"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 10,
+            "row": {
+                "document": "new zealand share prices closed #.## percent higher monday in subdued trading ahead of a us holiday , dealers said .",
+                "summary": "new zealand stocks close #.## percent higher"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 11,
+            "row": {
+                "document": "beijing is enjoying its best air quality in a decade thanks to steps taken for the olympics , authorities said monday , amid a push by some locals for the anti- pollution measures to be made permanent .",
+                "summary": "beijing 's best air in a decade due to olympic measures"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 12,
+            "row": {
+                "document": "south korean shares closed #.# percent lower monday following steep losses on wall street and the won 's continued decline against the dollar , analysts said .",
+                "summary": "skorean stocks close #.# percent lower"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 13,
+            "row": {
+                "document": "south korea 's state-run korea development bank refused comment monday on a british newspaper report that it is still seeking a stake in troubled us investment bank lehman brothers .",
+                "summary": "skorea bank refuses to confirm reported talks with lehman"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 14,
+            "row": {
+                "document": "taiwan shares closed down #.## percent monday on wall street weakness and lacklustre interim earnings from electronics manufacturing giant hon hai , dealers said .",
+                "summary": "taiwan shares close down #.## percent"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 15,
+            "row": {
+                "document": "south korea 's inflation rate slowed slightly in august as oil and commodity prices showed signs of stabilising , the national statistical office said monday .",
+                "summary": "skorea 's inflation rate slows slightly in august"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 16,
+            "row": {
+                "document": "south korea 's new parliament began its first regular session monday after months of delays , with the conservative party eager to push through a pro-business agenda after a decade of rule by liberal presidents .",
+                "summary": "south korea 's new parliament finally opens"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 17,
+            "row": {
+                "document": "an american man has been arrested and charged in cambodia with committing indecent acts against a ##-year-old child prostitute on a dark street , police and court officials said monday .",
+                "summary": "us man charged with child sex in cambodia"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 18,
+            "row": {
+                "document": "philippine share prices closed little changed monday as investors awaited the impact on oil prices from hurricane gustav as it slammed into the us gulf coast , dealers said .",
+                "summary": "philippine shares close little changed"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 19,
+            "row": {
+                "document": "hong kong share prices ended monday morning #.# percent down , tracking wall street weakness friday , dealers said .",
+                "summary": "hong kong shares end morning #.# pct down"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 20,
+            "row": {
+                "document": "the algerian cabinet chaired by president abdelaziz bouteflika on sunday adopted the #### finance bill predicated on an oil price of ## dollars a barrel and a growth rate of #.# percent , it was announced here .",
+                "summary": "algeria adopts #### finance bill with oil put at ## dollars a barrel"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 21,
+            "row": {
+                "document": "philippine share prices closed little changed monday as investors awaited the impact on oil prices from hurricane gustav as it slammed into the us gulf coast , dealers said .",
+                "summary": "philippine shares close little changed"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 22,
+            "row": {
+                "document": "two policemen were killed and one was wounded in an attack on a police station early monday in russia 's caucasian republic of ingushetia bordering on chechnya , interfax news agency reported .",
+                "summary": "two police em killed in ingushetia attack"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 23,
+            "row": {
+                "document": "south korean shares fell sharply late monday morning following wall street 's steep friday losses and the won 's continued decline against the dollar , analysts said .",
+                "summary": "skorean stocks sharply lower in morning session"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 24,
+            "row": {
+                "document": "philippine troops on monday pursued limited operations against muslim rebel leaders accused of murder but said they were not hunting all the insurgents as the large islamic minority observed the holy month of ramadan .",
+                "summary": "philippines limits operations against muslim rebels as ramadan starts"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 25,
+            "row": {
+                "document": "hong kong share prices were down #.# percent on monday , tracking wall street 's fall on friday , dealers said .",
+                "summary": "hong kong shares open #.# pct lower"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 26,
+            "row": {
+                "document": "chinese share prices opened down #.## percent monday , as investors took profit after last week 's gains on the market , dealers said .",
+                "summary": "chinese shares lower in morning trade"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 27,
+            "row": {
+                "document": "a moderate earthquake measuring #.# on the richter scale rattled the central north island of new zealand monday but there were no early reports of casualties or significant damage , scientists said .",
+                "summary": "moderate quake rocks new zealand"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 28,
+            "row": {
+                "document": "world oil prices rose by less than one dollar in asian trade on monday after hurricane gustav forced the shutdown of almost all oil production in the gulf of mexico , analysts said .",
+                "summary": "oil prices rise as gustav shuts gulf installations"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 29,
+            "row": {
+                "document": "hundreds of australian holidaymakers stranded on the thai resort island of phuket are expected to head home monday after budget airline jetstar said it would send a chartered plane to collect them .",
+                "summary": "charter flight to bring home australians stranded in phuket"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 30,
+            "row": {
+                "document": "south korea 's trade deficit swelled to #.## billion dollars in august due mainly due to high oil and raw material prices , the government said monday .",
+                "summary": "skorea trade shortfall swells on oil price rise"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 31,
+            "row": {
+                "document": "hong kong gold prices opened lower on monday at ###.##-### .## us dollars an ounce , down from friday 's close of ###.##-### .## dollars .",
+                "summary": "hong kong gold opens lower"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 32,
+            "row": {
+                "document": "european union leaders will put the bloc 's relations with moscow under scrutiny at an emergency summit on monday , although sanctions against russia are not in the cards .",
+                "summary": "eu to question relations with russia at emergency summit"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 33,
+            "row": {
+                "document": "mauritania 's junta in power since an august # coup d'etat announced early monday the `` formation of a government , '' state television reported .",
+                "summary": "mauritanian junta announces formation of a government"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 34,
+            "row": {
+                "document": "malaysia 's financial markets are closed on monday for a public holiday .",
+                "summary": "malaysia markets closed for holiday"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 35,
+            "row": {
+                "document": "pakistan army chief general ashfaq kayani late wednesday strongly criticised cross-border raids by us-led coalition forces and said the country would defend its sovereignty `` at all cost '' .",
+                "summary": "pakistan army chief criticises us raids"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 36,
+            "row": {
+                "document": "energy firm eon uk , which is owned by german power giant eon , apologised on wednesday after one of its senior executives joked that a harsh winter would mean `` more money for us '' .",
+                "summary": "eon says sorry for joke over profitability of cold winter"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 37,
+            "row": {
+                "document": "us roman catholic bishops on wednesday charged that immigration raids on us workplaces break up families and disrupt communities , without addressing the country 's flawed immigration system .",
+                "summary": "us catholic bishops condemn us immigration raids"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 38,
+            "row": {
+                "document": "western countries will turn a blind eye to fraud in next month 's legislative election and recognize a win for the outgoing authoritarian regime , a major opposition party leader said wednesday .",
+                "summary": "belarus opposition accuses west over upcoming election"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 39,
+            "row": {
+                "document": "a pollster whose mathematical model has correctly predicted every winner of the white house popular vote since #### is banking on a decisive victory for democrat barack obama in november .",
+                "summary": "UNK pollster sees decisive obama win"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 40,
+            "row": {
+                "document": "the white house race plumbed new depths wednesday as barack obama accused john mccain of stooping to `` lies and phony outrage '' in response to the democrat 's mocking talk of `` lipstick on a pig .",
+                "summary": "obama accuses mccain of lying over lipstick smear"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 41,
+            "row": {
+                "document": "the united states and china hold high-level trade talks in california next week amid tensions over the asian power 's massive export surplus and concerns about a slowing global economy .",
+                "summary": "us-china trade talks set for next week in california"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 42,
+            "row": {
+                "document": "president evo morales of bolivia on wednesday ordered the us ambassador expelled , accusing him of contributing to divisions in the country which the government warned was headed towards `` civil war .",
+                "summary": "bolivia orders us ambassador out warns of civil war"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 43,
+            "row": {
+                "document": "the euro fell below #.## dollars for the first time in almost a year wednesday as investors sought a safer haven from recession fears in the eurozone and oil prices fell on demand worries .",
+                "summary": "euro falls below #.## dlrs on recession fears"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 44,
+            "row": {
+                "document": "britain 's prince charles called on the world wednesday to act with a `` sense of wartime urgency '' to protect the rainforests , warning they were `` UNK connected '' to the phenomenon of climate change .",
+                "summary": "prince charles calls for wartime effort against deforestation"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 45,
+            "row": {
+                "document": "facebook 's new look became mandatory wednesday in a shift to what the popular social networking website says is a faster , streamlined and more UNK format that has some devotees in a state of rebellion .",
+                "summary": "facebook makeover nettles some devotees"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 46,
+            "row": {
+                "document": "the us state department said wednesday it had received no formal word from bolivia that it was expelling the us ambassador there but rejected the charges against him as `` baseless .",
+                "summary": "us rejects charges against its ambassador in bolivia"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 47,
+            "row": {
+                "document": "the us state department said wednesday it had received no formal word from bolivia that it was expelling the us ambassador there but said the charges made against him are `` baseless .",
+                "summary": "us rejects charges against its ambassador in bolivia"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 48,
+            "row": {
+                "document": "bolivian president evo morales on wednesday declared the us ambassador to la paz `` persona non grata , '' accusing the envoy of encouraging the breakup of the country by promoting separatism .",
+                "summary": "bolivia president orders us envoy expelled"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 49,
+            "row": {
+                "document": "texas authorities ordered coastal evacuations wednesday as deadly hurricane ike strengthened to a category two storm in the gulf of mexico and headed toward the southern us coast after ravaging cuba and the caribbean .",
+                "summary": "texas girds for the worst as deadly ike closes in"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 50,
+            "row": {
+                "document": "faced with a rapidly slowing economy , new zealand 's central bank cut the official interest rate by half a percentage point on thursday , double the reduction forecast by analysts .",
+                "summary": "new zealand rates cut deeper than expected"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 51,
+            "row": {
+                "document": "tuareg rebel chief ibrahim ag bahanga has released the last ## hostages held by his renegade group in the north of mali , the government has said , in an important step forward towards peace .",
+                "summary": "tuareg rebels in mali free last hostages"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 52,
+            "row": {
+                "document": "bolivian president evo morales on wednesday declared the us ambassador to la paz `` persona non grata , '' accusing the envoy of encouraging the breakup of the country by promoting separatism .",
+                "summary": "bolivia president orders us envoy expelled"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 53,
+            "row": {
+                "document": "pakistan army chief general ashfaq kayani wednesday strongly criticised cross - border raids by us-led coalition forces and said the country would defend its sovereignty `` at all cost '' .",
+                "summary": "pakistan army chief criticises us raids"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 54,
+            "row": {
+                "document": "the white house race plumbed new depths wednesday as barack obama accused john mccain of stooping to `` lies and phony outrage '' in response to the democrat 's mocking talk of `` lipstick on a pig .",
+                "summary": "obama accuses mccain of lying over lipstick smear"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 55,
+            "row": {
+                "document": "the organization for security and cooperation in europe -lrb- osce -rrb- , a european security body , urged wednesday its ## member states to intensify efforts to crack down on human trafficking .",
+                "summary": "osce calls for cooperation in fight against human trafficking"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 56,
+            "row": {
+                "document": "russian foreign minister sergei lavrov arrived wednesday in the polish capital warsaw for his first visit to an eu member state since the georgia conflict erupted just over a month ago .",
+                "summary": "russia 's lavrov in poland to discuss us missile shield georgia"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 57,
+            "row": {
+                "document": "pakistan army chief general ashfaq kayani wednesday strongly criticised cross - border raids by us-led coalition forces and said the country would defend its sovereignty `` at all cost '' .",
+                "summary": "pakistan army chief criticises us raids"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 58,
+            "row": {
+                "document": "the euro , weakened by prospects of recession in the eurozone , fell below #.## dollars for the first time in a year wednesday .",
+                "summary": "euro falls below #.## dlrs on eurozone recession fears"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 59,
+            "row": {
+                "document": "negotiations on power-sharing in zimbabwe ended wednesday without a deal , but both president robert mugabe and opposition leader morgan tsvangirai hinted that agreement is very close .",
+                "summary": "both mugabe and tsvangirai hint zimbabwe deal is close"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 60,
+            "row": {
+                "document": "new york mayor michael bloomberg on wednesday lambasted delays in rebuilding at the site of the #\\/## terrorist attacks against the world trade center .",
+                "summary": "ny mayor lambastes ground zero delays"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 61,
+            "row": {
+                "document": "ailing investment bank lehman brothers announced plans wednesday to sell off key assets to shore up its finances as it posted more hefty losses linked to the us subprime real estate crisis .",
+                "summary": "lehman bros to sell off assets amid fresh losses"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 62,
+            "row": {
+                "document": "a powerful earthquake jolted southern iran on wednesday , killing six people , and damaging scores of homes on a resort island in strategic gulf waters .",
+                "summary": "six dead as powerful quake hits southern iran"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 63,
+            "row": {
+                "document": "us stocks wobbled higher wednesday as investors mulled troubled investment giant lehman brothers 's news of hefty losses and plans to sell assets to shore up its finances .",
+                "summary": "wall street struggles higher lehman in focus"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 64,
+            "row": {
+                "document": "seven men suspected of plotting to blow up airliners over the atlantic ocean in #### face a retrial , prosecutors said wednesday , after a jury in london failed to reach verdicts .",
+                "summary": "retrial ordered in britain over alleged transatlantic bomb plot"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 65,
+            "row": {
+                "document": "georgia said one of its policemen was shot dead from a russian position wednesday in violation of a fragile truce , as a major crack appeared in the eu - brokered ceasefire over the remit of eu observers .",
+                "summary": "georgia accuses russia of breaking truce"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 66,
+            "row": {
+                "document": "british prime minister gordon brown denied wednesday favoring either barack obama or john mccain in the us presidential race , despite writing an article in which he appeared to back the democrats .",
+                "summary": "british pm denies backing obama in magazine article"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 67,
+            "row": {
+                "document": "kenyan police have a mounted a ##-hour patrol in a village where us presidential candidate barack obama 's grandmother lives after robbers made a botched attempt to rob her solar panel , an official said .",
+                "summary": "kenyan police offer obama 's grandmother security after robbery"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 68,
+            "row": {
+                "document": "france , which holds the european union presidency , called wednesday for a joint european approach to resolving the challenges in the arctic , a region on the front lines of global warming .",
+                "summary": "france seeks european shared vision for arctic issues"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 69,
+            "row": {
+                "document": "us stocks wobbled higher wednesday as investors mulled troubled investment giant lehman brothers 's news of hefty losses and plans to sell assets to shore up its finances .",
+                "summary": "wall street struggles higher lehman in focus"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 70,
+            "row": {
+                "document": "negotiations on power-sharing in zimbabwe ended wednesday without a deal , but both president robert mugabe and opposition leader morgan tsvangirai hinted that agreement is very close .",
+                "summary": "both mugabe and tsvangirai hint zimbabwe deal is close"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 71,
+            "row": {
+                "document": "in villages in western georgia , russian soldiers are packing up to leave , rolling up barbed wire and removing equipment , but the process is anything but fast , residents said wednesday .",
+                "summary": "russian soldiers pack bags in western georgia"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 72,
+            "row": {
+                "document": "faith is no foil against market forces -- not even if you 're flogging the word of god , as the biggest printer of bibles in the world is finding out .",
+                "summary": "world 's biggest bible printer weathers decline in demand"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 73,
+            "row": {
+                "document": "a dispute between rival english and domestic mining giants over rights to lucrative iron-ore deposits has forced armed police to intervene in sierra leone , officials said wednesday .",
+                "summary": "armed police drafted in amid sierra leone mining dispute"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 74,
+            "row": {
+                "document": "the second day of negotiations on power-sharing in zimbabwe ended wednesday without a deal , but president robert mugabe said participants will `` hopefully '' reach an accord thursday .",
+                "summary": "no deal yet but mugabe hopes for zimbabwe deal thursday"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 75,
+            "row": {
+                "document": "jean sarkozy , youngest son of french president nicolas sarkozy , exchanged wedding vows wednesday with an heir to a french retailing fortune in his father 's political fiefdom , west of paris .",
+                "summary": "youngest sarkozy marries in dad 's fiefdom"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 76,
+            "row": {
+                "document": "turkish president abdullah gul and his azerbaijani counterpart ilham aliyev on wednesday stressed `` friendly relations '' following gul 's visit to azerbaijan 's arch-enemy armenia last week .",
+                "summary": "turkey azerbaijan talk up ties after armenia visit"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 77,
+            "row": {
+                "document": "an israeli military helicopter with a two-man crew crashed near the northern town of afula and burst into flames on wednesday , army radio said .",
+                "summary": "military helicopter crashes in israel"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 78,
+            "row": {
+                "document": "russia 's envoy to nato urged nations in the military alliance on wednesday to cancel a visit to georgia by their ambassadors planned for next week .",
+                "summary": "russia urges nato ambassadors to cancel georgia visit"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 79,
+            "row": {
+                "document": "president george w. bush declared an emergency in texas and state authorities began ordering evacuations as deadly hurricane ike , which strengthened wednesday to a powerful category two storm , churned in the gulf of mexico toward the us state .",
+                "summary": "texas girds for the worst as deadly ike closes in"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 80,
+            "row": {
+                "document": "the machinists union strike against boeing entered a fifth day wednesday with no sign of a resumption of contract talks on the horizon , both sides said .",
+                "summary": "boeing strike in fifth day ; no talks scheduled"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 81,
+            "row": {
+                "document": "hurricane ike strengthened to a powerful category two storm wednesday as it churned through the gulf of mexico toward the us state of texas , officials at the miami-based national hurricane center said .",
+                "summary": "ike strengthens to category two hurricane"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 82,
+            "row": {
+                "document": "drug trafficking on the web has soared as internet use has become commonplace , presenting far more challenges and dangers than traditional trafficking , experts warned at a conference in stockholm that wrapped up wednesday .",
+                "summary": "internet drug trafficking skyrockets experts warn"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 83,
+            "row": {
+                "document": "israeli troops opened fire and killed a palestinian during a raid in the northern west bank city of nablus on wednesday , security officials said .",
+                "summary": "israel troops kill palestinian in west bank raid"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 84,
+            "row": {
+                "document": "a powerful earthquake jolted southern iran on wednesday , killing five people , and damaging scores of homes on a resort island in strategic gulf waters .",
+                "summary": "five dead as powerful quake hits southern iran"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 85,
+            "row": {
+                "document": "the pentagon canceled a ## billion-dollar competition for a new aerial refueling tanker wednesday , leaving the politically charged decision for one of its biggest military contracts to a new administration .",
+                "summary": "pentagon cancels tanker contest amid charged politics"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 86,
+            "row": {
+                "document": "a spanish judicial watchdog on wednesday fined a judge #,### euros -lrb- #,### dollars -rrb- for allowing a convicted paedophile to remain free before he killed a young girl .",
+                "summary": "spanish judge in legal storm over paedophile ruling"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 87,
+            "row": {
+                "document": "israel has recently foiled at least two attacks against its citizens abroad with the help of foreign security services , defense minister ehud barak said on wednesday .",
+                "summary": "israel says it foiled attacks abroad"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 88,
+            "row": {
+                "document": "a court sentenced an egyptian newspaper editor to one year in jail on wednesday for having published his paper without a permit from the press council , the state-run mena news agency reported .",
+                "summary": "egypt editor gets jail sentence for not having permit"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 89,
+            "row": {
+                "document": "mozambique 's ruling frelimo party will begin five-day talks to choose its candidate for #### presidential elections on thursday , a party official said .",
+                "summary": "mozambique ruling party readies to pick presidential candidate"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 90,
+            "row": {
+                "document": "a planned texas execution was put on hold wednesday but not because the judge and prosecutor in the convicted killer 's trial were in a sexual relationship at the time , authorities said .",
+                "summary": "us execution on hold but not due to judge-prosecutor affair"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 91,
+            "row": {
+                "document": "south africa has won its bid to host the miss world beauty pageant after the contest was moved from ukraine over safety concerns in neighbouring georgia , an official said wednesday .",
+                "summary": "south africa to host miss world pageant"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 92,
+            "row": {
+                "document": "the euro , weakened by prospects of recession in the eurozone , fell to an ##-month low of #.#### dollars in volatile trade wednesday , its lowest reading since october # , #### .",
+                "summary": "euro falls to ##-month low of #.#### dollars"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 93,
+            "row": {
+                "document": "a powerful earthquake jolted southern iran on wednesday , killing five people , and damaging scores of homes on a resort island in strategic gulf waters .",
+                "summary": "five dead as powerful quake hits southern iran"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 94,
+            "row": {
+                "document": "a planned texas execution was put on hold wednesday but not because the judge and prosecutor in the convicted killer 's trial were in a sexual relationship at the time , authorities said .",
+                "summary": "us execution on hold but not due to judge-prosecutor affair"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 95,
+            "row": {
+                "document": "yemen has stepped up measures to combat piracy off its coast , deploying troops in the gulf of aden and planning three centres to fight somali pirates , official sources said on wednesday .",
+                "summary": "yemen steps up measures to fight maritime piracy"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 96,
+            "row": {
+                "document": "russia on wednesday denied claims before the un 's highest court that it exercised effective control over the georgian rebel regions of south ossetia and abkhazia .",
+                "summary": "russia denies it controls s ossetia abkhazia in un court hearing"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 97,
+            "row": {
+                "document": "a southern african security summit due to begin wednesday was deferred by a day amid speculation that zimbabwe 's political rivals could finally ink a long awaited power-sharing deal .",
+                "summary": "southern african summit deferred amid hopes of zimbabwe pact"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 98,
+            "row": {
+                "document": "un prosecutor serge brammertz expressed `` careful optimism '' here wednesday about belgrade 's efforts to arrest bosnian serb war crimes fugitive ratko mladic on a visit crucial for serbia 's eu aspirations .",
+                "summary": "un prosecutor carefully optimistic on mladic arrest"
+            },
+            "truncated_cells": []
+        },
+        {
+            "row_idx": 99,
+            "row": {
+                "document": "the bulk of canada 's troops in afghanistan will not remain there past a #### pullout date set earlier this year , prime minister stephen harper said wednesday .",
+                "summary": "canada 's pm affirms #### afghanistan pullout"
+            },
+            "truncated_cells": []
+        }
+    ],
+    "num_rows_total": 3803957,
+    "num_rows_per_page": 100,
+    "partial": false
+}
