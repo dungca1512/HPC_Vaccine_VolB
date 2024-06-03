@@ -1,0 +1,4593 @@
+[
+    {
+        "error": {
+            "code": 500,
+            "message": "[predict_dialogue_test] Error: [sentences_predict] RESPONSE JSON: {\"error\":{\"code\":500,\"message\":\"[predict] Error: HTTPConnectionPool(host='0.0.0.0', port=8000): Max retries exceeded with url: /FLC-GreetByeThank-24-02-29_14-10-54 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8c4420bf40>: Failed to establish a new connection: [Errno 111] Connection refused')) (E312083c4-147b-407a-aa20-5d068f6ba065)\\n {'content': ['', 'alo dạ em chào chị hồng em là thảo em gọi đến từ trung tâm lắng nghe khách hàng của nhà thuốc fpt lâm cho ạ em có thể trao đổi nhanh với chuyển khoản có thiện không chị ạ', '', 'dạ vâng bên em có nhận được đánh giá 3 sau của chị khi mua hàng tại nhà thuốc long cho nên bên em trực tiếp tục cải thiện lại chất lượng dịch vụ không biết là chị cảm nhận như thế nào vậy trải nghiệm mua sắm bên em vậy ạ ừ chị', '', 'mua bên đó thì cũng được ok như hồi giờ chị mua bên em với bên đâu chị đâu có mua bên nào nữa đâu', '', 'đây là chị vẫn hài lòng với dịch vụ của nhà thuốc lâm cho vay thanh toán từ 1 cho đến 5 sau', '', 'trong đó 5 sau là date 25 chị đánh giá trải nghiệm mua sắm bên em được máy sao vậy', '', 'bên công ty làm sao nhá dạ vâng', '', 'cảm ơn', '', 'thông tin chị đã chia sẻ thì chị còn dạ chị cứ liên hệ trực tiếp lên tổng đài miễn phí bên em qua số', '', '', '18006928 để được hỗ trợ rồi rồi em cảm ơn và em chúc chị hồng', '', 'nhiều sức khỏe vâng xin phép chào chị ạ', ''], 'language': 'vi', 'app_code': 'FLC-GreetByeThank', 'model_file': 'latest__nlu'}\"}} (FLC-GreetByeThank, E26b83345-5c9c-4383-be51-15647fed2368) (E26b83345-5c9c-4383-be51-15647fed2368)"
+        }
+    },
+    {
+        "fileName": "CS-b6ee23a7-c350-4754-8fe8-d449bd6fc13e.wav",
+        "agentChannel": 2,
+        "time_load_info": 0.0029251575469970703,
+        "agentIntroduce": {
+            "evaluate": "no",
+            "evaluate_channel": {
+                "2": "no",
+                "1": "no"
+            },
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
+            "confidence_channel": {
+                "2": 0.0,
+                "1": 0.0
+            },
+            "position": [],
+            "slots": {},
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "askSupport": {
+            "evaluate": "no",
+            "evaluate_channel": {
+                "2": "no",
+                "1": "no"
+            },
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
+            "confidence_channel": {
+                "2": 0.0,
+                "1": 0.0
+            },
+            "position": [],
+            "slots": {},
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "companyName": {
+            "evaluate": "yes",
+            "evaluate_channel": {
+                "2": "yes",
+                "1": "no"
+            },
+            "decision_position": [
+                {
+                    "index": 0,
+                    "channel": 2,
+                    "text": "dạ có chào chưa hiển thị liên hệ từ trung tâm lắng nghe khách hàng của nhà thuốc long cho xin phép trao đổi mình ít phúc cái tiền cho chú không ạ",
+                    "intents": [],
+                    "entities": {
+                        "company_name": [
+                            {
+                                "start": 81,
+                                "end": 85,
+                                "value": "long",
+                                "real_value": "long",
+                                "entity": "company_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "decision": "yes",
+            "confidence": 1.0,
+            "confidence_channel": {
+                "2": 1.0,
+                "1": 0.0
+            },
+            "position": [
+                {
+                    "index": 0,
+                    "channel": 2,
+                    "text": "dạ có chào chưa hiển thị liên hệ từ trung tâm lắng nghe khách hàng của nhà thuốc long cho xin phép trao đổi mình ít phúc cái tiền cho chú không ạ",
+                    "intents": [],
+                    "entities": {
+                        "company_name": [
+                            {
+                                "start": 81,
+                                "end": 85,
+                                "value": "long",
+                                "real_value": "long",
+                                "entity": "company_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "slots": {
+                "company_name": [
+                    {
+                        "index": 0,
+                        "value": "long"
+                    }
+                ]
+            },
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "confirmCustomer": {
+            "evaluate": "yes",
+            "evaluate_channel": {
+                "2": "yes",
+                "1": "no"
+            },
+            "decision_position": [
+                {
+                    "index": 4,
+                    "channel": 2,
+                    "text": "dạ vậy có bạn đã liên hệ với chú thôi ạ dạ vậy con xin lỗi làm phiền chú hiến ạ dạ vậy con xin phép chào chú ạ",
+                    "intents": [],
+                    "entities": {
+                        "customer_name": [
+                            {
+                                "start": 73,
+                                "end": 77,
+                                "value": "hiến",
+                                "real_value": "hiến",
+                                "entity": "customer_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "decision": "yes",
+            "confidence": 1.0,
+            "confidence_channel": {
+                "2": 1.0,
+                "1": 0.0
+            },
+            "position": [
+                {
+                    "index": 4,
+                    "channel": 2,
+                    "text": "dạ vậy có bạn đã liên hệ với chú thôi ạ dạ vậy con xin lỗi làm phiền chú hiến ạ dạ vậy con xin phép chào chú ạ",
+                    "intents": [],
+                    "entities": {
+                        "customer_name": [
+                            {
+                                "start": 73,
+                                "end": 77,
+                                "value": "hiến",
+                                "real_value": "hiến",
+                                "entity": "customer_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "slots": {
+                "customer_name": [
+                    {
+                        "index": 4,
+                        "value": "hiến"
+                    }
+                ]
+            },
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "contactHotline": {
+            "evaluate": "no",
+            "evaluate_channel": {
+                "2": "no",
+                "1": "no"
+            },
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
+            "confidence_channel": {
+                "2": 0.0,
+                "1": 0.0
+            },
+            "position": [],
+            "slots": {},
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "goodbye": {
+            "evaluate": "yes",
+            "evaluate_channel": {
+                "2": "yes",
+                "1": "no"
+            },
+            "decision_position": [
+                {
+                    "index": 9,
+                    "channel": 2,
+                    "text": "dạ dạ vậy con xin lỗi làm phiền chú cho con xin phép chào chị ạ",
+                    "intents": [],
+                    "entities": {
+                        "ciao": [
+                            {
+                                "start": 53,
+                                "end": 57,
+                                "value": "chào",
+                                "real_value": "chào",
+                                "entity": "ciao",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 0.5,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 0.5
+                },
+                {
+                    "index": 11,
+                    "channel": 2,
+                    "text": "dạ vâng con chào chú",
+                    "intents": [],
+                    "entities": {
+                        "ciao": [
+                            {
+                                "start": 12,
+                                "end": 16,
+                                "value": "chào",
+                                "real_value": "chào",
+                                "entity": "ciao",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 0.5,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 0.5
+                }
+            ],
+            "decision": "yes",
+            "confidence": 0.5,
+            "confidence_channel": {
+                "2": 0.5,
+                "1": 0.0
+            },
+            "position": [
+                {
+                    "index": 9,
+                    "channel": 2,
+                    "text": "dạ dạ vậy con xin lỗi làm phiền chú cho con xin phép chào chị ạ",
+                    "intents": [],
+                    "entities": {
+                        "ciao": [
+                            {
+                                "start": 53,
+                                "end": 57,
+                                "value": "chào",
+                                "real_value": "chào",
+                                "entity": "ciao",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 0.5,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 0.5
+                },
+                {
+                    "index": 11,
+                    "channel": 2,
+                    "text": "dạ vâng con chào chú",
+                    "intents": [],
+                    "entities": {
+                        "ciao": [
+                            {
+                                "start": 12,
+                                "end": 16,
+                                "value": "chào",
+                                "real_value": "chào",
+                                "entity": "ciao",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 0.5,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 0.5
+                }
+            ],
+            "slots": {
+                "ciao": [
+                    {
+                        "index": 9,
+                        "value": "chào"
+                    },
+                    {
+                        "index": 11,
+                        "value": "chào"
+                    }
+                ]
+            },
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "greet": {
+            "evaluate": "yes",
+            "evaluate_channel": {
+                "2": "yes",
+                "1": "no"
+            },
+            "decision_position": [
+                {
+                    "index": 4,
+                    "channel": 2,
+                    "text": "dạ vậy có bạn đã liên hệ với chú thôi ạ dạ vậy con xin lỗi làm phiền chú hiến ạ dạ vậy con xin phép chào chú ạ",
+                    "intents": [],
+                    "entities": {
+                        "ciao": [
+                            {
+                                "start": 100,
+                                "end": 104,
+                                "value": "chào",
+                                "real_value": "chào",
+                                "entity": "ciao",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 0.5,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 0.5
+                },
+                {
+                    "index": 9,
+                    "channel": 2,
+                    "text": "dạ dạ vậy con xin lỗi làm phiền chú cho con xin phép chào chị ạ",
+                    "intents": [],
+                    "entities": {
+                        "ciao": [
+                            {
+                                "start": 53,
+                                "end": 57,
+                                "value": "chào",
+                                "real_value": "chào",
+                                "entity": "ciao",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 0.5,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 0.5
+                }
+            ],
+            "decision": "yes",
+            "confidence": 0.5,
+            "confidence_channel": {
+                "2": 0.5,
+                "1": 0.0
+            },
+            "position": [
+                {
+                    "index": 4,
+                    "channel": 2,
+                    "text": "dạ vậy có bạn đã liên hệ với chú thôi ạ dạ vậy con xin lỗi làm phiền chú hiến ạ dạ vậy con xin phép chào chú ạ",
+                    "intents": [],
+                    "entities": {
+                        "ciao": [
+                            {
+                                "start": 100,
+                                "end": 104,
+                                "value": "chào",
+                                "real_value": "chào",
+                                "entity": "ciao",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 0.5,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 0.5
+                },
+                {
+                    "index": 9,
+                    "channel": 2,
+                    "text": "dạ dạ vậy con xin lỗi làm phiền chú cho con xin phép chào chị ạ",
+                    "intents": [],
+                    "entities": {
+                        "ciao": [
+                            {
+                                "start": 53,
+                                "end": 57,
+                                "value": "chào",
+                                "real_value": "chào",
+                                "entity": "ciao",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 0.5,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 0.5
+                }
+            ],
+            "slots": {
+                "ciao": [
+                    {
+                        "index": 4,
+                        "value": "chào"
+                    },
+                    {
+                        "index": 9,
+                        "value": "chào"
+                    }
+                ]
+            },
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "thank": {
+            "evaluate": "no",
+            "evaluate_channel": {
+                "2": "no",
+                "1": "no"
+            },
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
+            "confidence_channel": {
+                "2": 0.0,
+                "1": 0.0
+            },
+            "position": [],
+            "slots": {},
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "criterias_order": null
+    },
+    {
+        "fileName": "CS-9594582a-a040-4230-ab92-32425fda379a.wav",
+        "agentChannel": 2,
+        "time_load_info": 0.0029251575469970703,
+        "agentIntroduce": {
+            "evaluate": "no",
+            "evaluate_channel": {
+                "2": "no",
+                "1": "no"
+            },
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
+            "confidence_channel": {
+                "2": 0.0,
+                "1": 0.0
+            },
+            "position": [],
+            "slots": {},
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "askSupport": {
+            "evaluate": "no",
+            "evaluate_channel": {
+                "2": "no",
+                "1": "no"
+            },
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
+            "confidence_channel": {
+                "2": 0.0,
+                "1": 0.0
+            },
+            "position": [],
+            "slots": {},
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "companyName": {
+            "evaluate": "yes",
+            "evaluate_channel": {
+                "2": "yes",
+                "1": "no"
+            },
+            "decision_position": [
+                {
+                    "index": 2,
+                    "channel": 2,
+                    "text": "con là chi liên hệ lại từ trung tâm lắng nghe khách hàng của nhà thuốc long cho",
+                    "intents": [],
+                    "entities": {
+                        "company_name": [
+                            {
+                                "start": 71,
+                                "end": 75,
+                                "value": "long",
+                                "real_value": "long",
+                                "entity": "company_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "decision": "yes",
+            "confidence": 1.0,
+            "confidence_channel": {
+                "2": 1.0,
+                "1": 0.0
+            },
+            "position": [
+                {
+                    "index": 2,
+                    "channel": 2,
+                    "text": "con là chi liên hệ lại từ trung tâm lắng nghe khách hàng của nhà thuốc long cho",
+                    "intents": [],
+                    "entities": {
+                        "company_name": [
+                            {
+                                "start": 71,
+                                "end": 75,
+                                "value": "long",
+                                "real_value": "long",
+                                "entity": "company_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "slots": {
+                "company_name": [
+                    {
+                        "index": 2,
+                        "value": "long"
+                    }
+                ]
+            },
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "confirmCustomer": {
+            "evaluate": "yes",
+            "evaluate_channel": {
+                "2": "yes",
+                "1": "no"
+            },
+            "decision_position": [
+                {
+                    "index": 5,
+                    "channel": 2,
+                    "text": "dạ xin lỗi là con trao đổi với chú ngọc ít phúc có tiền cho chú không ạ",
+                    "intents": [],
+                    "entities": {
+                        "customer_name": [
+                            {
+                                "start": 35,
+                                "end": 39,
+                                "value": "ngọc",
+                                "real_value": "ngọc",
+                                "entity": "customer_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
+                    "index": 10,
+                    "channel": 2,
+                    "text": "à dạ xin lỗi không nghe rõ được tín hiệu từ phía chú ngọc là hiện tại mình đang có tiện trao đổi không chú",
+                    "intents": [],
+                    "entities": {
+                        "customer_name": [
+                            {
+                                "start": 53,
+                                "end": 57,
+                                "value": "ngọc",
+                                "real_value": "ngọc",
+                                "entity": "customer_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
+                    "index": 53,
+                    "channel": 2,
+                    "text": "dạ vâng ạ con cảm ơn chị hợp đã tin tưởng sử dụng dịch vụ của nhà thuốc long cho ạ mình còn sắp xếp được ghi nhận thông tin để cải thiện và hỗ trợ được tốt hơn trong thời gian tới ạ",
+                    "intents": [],
+                    "entities": {
+                        "customer_name": [
+                            {
+                                "start": 25,
+                                "end": 28,
+                                "value": "hợp",
+                                "real_value": "hợp",
+                                "entity": "customer_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
+                    "index": 57,
+                    "channel": 2,
+                    "text": "dạ vâng ạ dạ xin phép được ghi nhận thông tin góp ý này của trương ngọc ạ",
+                    "intents": [],
+                    "entities": {
+                        "customer_name": [
+                            {
+                                "start": 60,
+                                "end": 66,
+                                "value": "trương",
+                                "real_value": "trương",
+                                "entity": "customer_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            },
+                            {
+                                "start": 67,
+                                "end": 71,
+                                "value": "ngọc",
+                                "real_value": "ngọc",
+                                "entity": "customer_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 2.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 2.0
+                },
+                {
+                    "index": 60,
+                    "channel": 2,
+                    "text": "dạ rồi cám ơn trước hợp đã chia sẻ góp ý cho long cho",
+                    "intents": [],
+                    "entities": {
+                        "customer_name": [
+                            {
+                                "start": 45,
+                                "end": 49,
+                                "value": "long",
+                                "real_value": "long",
+                                "entity": "customer_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "decision": "yes",
+            "confidence": 2.0,
+            "confidence_channel": {
+                "2": 2.0,
+                "1": 0.0
+            },
+            "position": [
+                {
+                    "index": 5,
+                    "channel": 2,
+                    "text": "dạ xin lỗi là con trao đổi với chú ngọc ít phúc có tiền cho chú không ạ",
+                    "intents": [],
+                    "entities": {
+                        "customer_name": [
+                            {
+                                "start": 35,
+                                "end": 39,
+                                "value": "ngọc",
+                                "real_value": "ngọc",
+                                "entity": "customer_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
+                    "index": 10,
+                    "channel": 2,
+                    "text": "à dạ xin lỗi không nghe rõ được tín hiệu từ phía chú ngọc là hiện tại mình đang có tiện trao đổi không chú",
+                    "intents": [],
+                    "entities": {
+                        "customer_name": [
+                            {
+                                "start": 53,
+                                "end": 57,
+                                "value": "ngọc",
+                                "real_value": "ngọc",
+                                "entity": "customer_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
+                    "index": 53,
+                    "channel": 2,
+                    "text": "dạ vâng ạ con cảm ơn chị hợp đã tin tưởng sử dụng dịch vụ của nhà thuốc long cho ạ mình còn sắp xếp được ghi nhận thông tin để cải thiện và hỗ trợ được tốt hơn trong thời gian tới ạ",
+                    "intents": [],
+                    "entities": {
+                        "customer_name": [
+                            {
+                                "start": 25,
+                                "end": 28,
+                                "value": "hợp",
+                                "real_value": "hợp",
+                                "entity": "customer_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
+                    "index": 57,
+                    "channel": 2,
+                    "text": "dạ vâng ạ dạ xin phép được ghi nhận thông tin góp ý này của trương ngọc ạ",
+                    "intents": [],
+                    "entities": {
+                        "customer_name": [
+                            {
+                                "start": 60,
+                                "end": 66,
+                                "value": "trương",
+                                "real_value": "trương",
+                                "entity": "customer_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            },
+                            {
+                                "start": 67,
+                                "end": 71,
+                                "value": "ngọc",
+                                "real_value": "ngọc",
+                                "entity": "customer_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 2.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 2.0
+                },
+                {
+                    "index": 60,
+                    "channel": 2,
+                    "text": "dạ rồi cám ơn trước hợp đã chia sẻ góp ý cho long cho",
+                    "intents": [],
+                    "entities": {
+                        "customer_name": [
+                            {
+                                "start": 45,
+                                "end": 49,
+                                "value": "long",
+                                "real_value": "long",
+                                "entity": "customer_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "slots": {
+                "customer_name": [
+                    {
+                        "index": 5,
+                        "value": "ngọc"
+                    },
+                    {
+                        "index": 10,
+                        "value": "ngọc"
+                    },
+                    {
+                        "index": 53,
+                        "value": "hợp"
+                    },
+                    {
+                        "index": 57,
+                        "value": "trương"
+                    },
+                    {
+                        "index": 57,
+                        "value": "ngọc"
+                    },
+                    {
+                        "index": 60,
+                        "value": "long"
+                    }
+                ]
+            },
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "contactHotline": {
+            "evaluate": "yes",
+            "evaluate_channel": {
+                "2": "yes",
+                "1": "no"
+            },
+            "decision_position": [
+                {
+                    "index": 62,
+                    "channel": 2,
+                    "text": "nếu cần hỗ trợ thêm chứ liên hệ qua tổng đài là 18006928",
+                    "intents": [
+                        "contact_hotline"
+                    ],
+                    "entities": {},
+                    "evaluate": "yes",
+                    "entities_score": 0,
+                    "intent_score": 0.9952,
+                    "confidence_criteria": 0.9952
+                }
+            ],
+            "decision": "yes",
+            "confidence": 0.9952,
+            "confidence_channel": {
+                "2": 0.9952,
+                "1": 0.0
+            },
+            "position": [
+                {
+                    "index": 62,
+                    "channel": 2,
+                    "text": "nếu cần hỗ trợ thêm chứ liên hệ qua tổng đài là 18006928",
+                    "intents": [
+                        "contact_hotline"
+                    ],
+                    "entities": {},
+                    "evaluate": "yes",
+                    "entities_score": 0,
+                    "intent_score": 0.9952,
+                    "confidence_criteria": 0.9952
+                }
+            ],
+            "slots": {},
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "goodbye": {
+            "evaluate": "yes",
+            "evaluate_channel": {
+                "2": "yes",
+                "1": "no"
+            },
+            "decision_position": [
+                {
+                    "index": 64,
+                    "channel": 2,
+                    "text": "chứ trường hợp nhiều sức khỏe con xin phép chào chú ạ",
+                    "intents": [],
+                    "entities": {
+                        "ciao": [
+                            {
+                                "start": 43,
+                                "end": 47,
+                                "value": "chào",
+                                "real_value": "chào",
+                                "entity": "ciao",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 0.5,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 0.5
+                }
+            ],
+            "decision": "yes",
+            "confidence": 0.5,
+            "confidence_channel": {
+                "2": 0.5,
+                "1": 0.0
+            },
+            "position": [
+                {
+                    "index": 64,
+                    "channel": 2,
+                    "text": "chứ trường hợp nhiều sức khỏe con xin phép chào chú ạ",
+                    "intents": [],
+                    "entities": {
+                        "ciao": [
+                            {
+                                "start": 43,
+                                "end": 47,
+                                "value": "chào",
+                                "real_value": "chào",
+                                "entity": "ciao",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 0.5,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 0.5
+                }
+            ],
+            "slots": {
+                "ciao": [
+                    {
+                        "index": 64,
+                        "value": "chào"
+                    }
+                ]
+            },
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "greet": {
+            "evaluate": "no",
+            "evaluate_channel": {
+                "2": "no",
+                "1": "no"
+            },
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
+            "confidence_channel": {
+                "2": 0.0,
+                "1": 0.0
+            },
+            "position": [],
+            "slots": {},
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "thank": {
+            "evaluate": "yes",
+            "evaluate_channel": {
+                "2": "yes",
+                "1": "no"
+            },
+            "decision_position": [
+                {
+                    "index": 60,
+                    "channel": 2,
+                    "text": "dạ rồi cám ơn trước hợp đã chia sẻ góp ý cho long cho",
+                    "intents": [],
+                    "entities": {
+                        "thank": [
+                            {
+                                "start": 7,
+                                "end": 13,
+                                "value": "cám ơn",
+                                "real_value": "cám ơn",
+                                "entity": "thank",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "decision": "yes",
+            "confidence": 1.0,
+            "confidence_channel": {
+                "2": 1.0,
+                "1": 0.0
+            },
+            "position": [
+                {
+                    "index": 60,
+                    "channel": 2,
+                    "text": "dạ rồi cám ơn trước hợp đã chia sẻ góp ý cho long cho",
+                    "intents": [],
+                    "entities": {
+                        "thank": [
+                            {
+                                "start": 7,
+                                "end": 13,
+                                "value": "cám ơn",
+                                "real_value": "cám ơn",
+                                "entity": "thank",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "slots": {
+                "thank": [
+                    {
+                        "index": 60,
+                        "value": "cám ơn"
+                    }
+                ]
+            },
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "criterias_order": null
+    },
+    {
+        "fileName": "CS-2e4a0a2c-c749-416e-b3ed-d9826acb93f8.wav",
+        "agentChannel": 2,
+        "time_load_info": 0.0029489994049072266,
+        "agentIntroduce": {
+            "evaluate": "no",
+            "evaluate_channel": {
+                "2": "no",
+                "1": "no"
+            },
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
+            "confidence_channel": {
+                "2": 0.0,
+                "1": 0.0
+            },
+            "position": [],
+            "slots": {},
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "askSupport": {
+            "evaluate": "no",
+            "evaluate_channel": {
+                "2": "no",
+                "1": "no"
+            },
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
+            "confidence_channel": {
+                "2": 0.0,
+                "1": 0.0
+            },
+            "position": [],
+            "slots": {},
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "companyName": {
+            "evaluate": "yes",
+            "evaluate_channel": {
+                "2": "yes",
+                "1": "no"
+            },
+            "decision_position": [
+                {
+                    "index": 1,
+                    "channel": 2,
+                    "text": "dạ con chào cô lý do là mỹ gọi đến từ trung tâm lắng nghe khách hàng của nhà thuốc long cho xin phép trao đổi với mình khoảng 1 phút trách nhiệm không cô ạ",
+                    "intents": [],
+                    "entities": {
+                        "company_name": [
+                            {
+                                "start": 83,
+                                "end": 87,
+                                "value": "long",
+                                "real_value": "long",
+                                "entity": "company_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
+                    "index": 3,
+                    "channel": 2,
+                    "text": "ừ dạ bên em có nhận được đánh giá 3 sau khi mình mua hàng ở nhà thuốc 5 cho để nâng cao hơn về chất lượng dịch vụ của chia sẻ cảm nhận của mình về quá trình mua hiện tại đang được không cô ạ hả",
+                    "intents": [],
+                    "entities": {
+                        "company_name": [
+                            {
+                                "start": 70,
+                                "end": 75,
+                                "value": "5 cho",
+                                "real_value": "5 cho",
+                                "entity": "company_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
+                    "index": 5,
+                    "channel": 2,
+                    "text": "dạ cô có thể cho con hỏi thăm quá trình mua hàng vượt qua tại nhà thuốc long cho cô hài lòng không cô ạ được hài lòng không có gì",
+                    "intents": [],
+                    "entities": {
+                        "company_name": [
+                            {
+                                "start": 72,
+                                "end": 76,
+                                "value": "long",
+                                "real_value": "long",
+                                "entity": "company_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "decision": "yes",
+            "confidence": 1.0,
+            "confidence_channel": {
+                "2": 1.0,
+                "1": 0.0
+            },
+            "position": [
+                {
+                    "index": 1,
+                    "channel": 2,
+                    "text": "dạ con chào cô lý do là mỹ gọi đến từ trung tâm lắng nghe khách hàng của nhà thuốc long cho xin phép trao đổi với mình khoảng 1 phút trách nhiệm không cô ạ",
+                    "intents": [],
+                    "entities": {
+                        "company_name": [
+                            {
+                                "start": 83,
+                                "end": 87,
+                                "value": "long",
+                                "real_value": "long",
+                                "entity": "company_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
+                    "index": 3,
+                    "channel": 2,
+                    "text": "ừ dạ bên em có nhận được đánh giá 3 sau khi mình mua hàng ở nhà thuốc 5 cho để nâng cao hơn về chất lượng dịch vụ của chia sẻ cảm nhận của mình về quá trình mua hiện tại đang được không cô ạ hả",
+                    "intents": [],
+                    "entities": {
+                        "company_name": [
+                            {
+                                "start": 70,
+                                "end": 75,
+                                "value": "5 cho",
+                                "real_value": "5 cho",
+                                "entity": "company_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
+                    "index": 5,
+                    "channel": 2,
+                    "text": "dạ cô có thể cho con hỏi thăm quá trình mua hàng vượt qua tại nhà thuốc long cho cô hài lòng không cô ạ được hài lòng không có gì",
+                    "intents": [],
+                    "entities": {
+                        "company_name": [
+                            {
+                                "start": 72,
+                                "end": 76,
+                                "value": "long",
+                                "real_value": "long",
+                                "entity": "company_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "slots": {
+                "company_name": [
+                    {
+                        "index": 1,
+                        "value": "long"
+                    },
+                    {
+                        "index": 3,
+                        "value": "5 cho"
+                    },
+                    {
+                        "index": 5,
+                        "value": "long"
+                    }
+                ]
+            },
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "confirmCustomer": {
+            "evaluate": "no",
+            "evaluate_channel": {
+                "2": "no",
+                "1": "no"
+            },
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
+            "confidence_channel": {
+                "2": 0.0,
+                "1": 0.0
+            },
+            "position": [],
+            "slots": {},
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "contactHotline": {
+            "evaluate": "no",
+            "evaluate_channel": {
+                "2": "no",
+                "1": "no"
+            },
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
+            "confidence_channel": {
+                "2": 0.0,
+                "1": 0.0
+            },
+            "position": [],
+            "slots": {},
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "goodbye": {
+            "evaluate": "no",
+            "evaluate_channel": {
+                "2": "no",
+                "1": "no"
+            },
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
+            "confidence_channel": {
+                "2": 0.0,
+                "1": 0.0
+            },
+            "position": [],
+            "slots": {},
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "greet": {
+            "evaluate": "no",
+            "evaluate_channel": {
+                "2": "no",
+                "1": "no"
+            },
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
+            "confidence_channel": {
+                "2": 0.0,
+                "1": 0.0
+            },
+            "position": [],
+            "slots": {},
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "thank": {
+            "evaluate": "no",
+            "evaluate_channel": {
+                "2": "no",
+                "1": "no"
+            },
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
+            "confidence_channel": {
+                "2": 0.0,
+                "1": 0.0
+            },
+            "position": [],
+            "slots": {},
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "criterias_order": null
+    },
+    {
+        "fileName": "CS-0effcc81-e0ce-4b45-8b5c-9ac0644b9896.wav",
+        "agentChannel": 2,
+        "time_load_info": 0.0024230480194091797,
+        "agentIntroduce": {
+            "evaluate": "no",
+            "evaluate_channel": {
+                "2": "no",
+                "1": "no"
+            },
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
+            "confidence_channel": {
+                "2": 0.0,
+                "1": 0.0
+            },
+            "position": [],
+            "slots": {},
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "askSupport": {
+            "evaluate": "no",
+            "evaluate_channel": {
+                "2": "no",
+                "1": "no"
+            },
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
+            "confidence_channel": {
+                "2": 0.0,
+                "1": 0.0
+            },
+            "position": [],
+            "slots": {},
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "companyName": {
+            "evaluate": "yes",
+            "evaluate_channel": {
+                "2": "yes",
+                "1": "no"
+            },
+            "decision_position": [
+                {
+                    "index": 2,
+                    "channel": 2,
+                    "text": "em là thúy liên hệ lại từ trung tâm lắng nghe khách hàng của nhà thuốc long cho xin phép được trao đổi với mình ít phúc có tiền cho anh hùng không ạ",
+                    "intents": [],
+                    "entities": {
+                        "company_name": [
+                            {
+                                "start": 71,
+                                "end": 75,
+                                "value": "long",
+                                "real_value": "long",
+                                "entity": "company_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "decision": "yes",
+            "confidence": 1.0,
+            "confidence_channel": {
+                "2": 1.0,
+                "1": 0.0
+            },
+            "position": [
+                {
+                    "index": 2,
+                    "channel": 2,
+                    "text": "em là thúy liên hệ lại từ trung tâm lắng nghe khách hàng của nhà thuốc long cho xin phép được trao đổi với mình ít phúc có tiền cho anh hùng không ạ",
+                    "intents": [],
+                    "entities": {
+                        "company_name": [
+                            {
+                                "start": 71,
+                                "end": 75,
+                                "value": "long",
+                                "real_value": "long",
+                                "entity": "company_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "slots": {
+                "company_name": [
+                    {
+                        "index": 2,
+                        "value": "long"
+                    }
+                ]
+            },
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "confirmCustomer": {
+            "evaluate": "yes",
+            "evaluate_channel": {
+                "2": "yes",
+                "1": "no"
+            },
+            "decision_position": [
+                {
+                    "index": 0,
+                    "channel": 2,
+                    "text": "dạ em chào anh hùng",
+                    "intents": [],
+                    "entities": {
+                        "customer_name": [
+                            {
+                                "start": 15,
+                                "end": 19,
+                                "value": "hùng",
+                                "real_value": "hùng",
+                                "entity": "customer_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
+                    "index": 2,
+                    "channel": 2,
+                    "text": "em là thúy liên hệ lại từ trung tâm lắng nghe khách hàng của nhà thuốc long cho xin phép được trao đổi với mình ít phúc có tiền cho anh hùng không ạ",
+                    "intents": [],
+                    "entities": {
+                        "customer_name": [
+                            {
+                                "start": 136,
+                                "end": 140,
+                                "value": "hùng",
+                                "real_value": "hùng",
+                                "entity": "customer_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "decision": "yes",
+            "confidence": 1.0,
+            "confidence_channel": {
+                "2": 1.0,
+                "1": 0.0
+            },
+            "position": [
+                {
+                    "index": 0,
+                    "channel": 2,
+                    "text": "dạ em chào anh hùng",
+                    "intents": [],
+                    "entities": {
+                        "customer_name": [
+                            {
+                                "start": 15,
+                                "end": 19,
+                                "value": "hùng",
+                                "real_value": "hùng",
+                                "entity": "customer_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
+                    "index": 2,
+                    "channel": 2,
+                    "text": "em là thúy liên hệ lại từ trung tâm lắng nghe khách hàng của nhà thuốc long cho xin phép được trao đổi với mình ít phúc có tiền cho anh hùng không ạ",
+                    "intents": [],
+                    "entities": {
+                        "customer_name": [
+                            {
+                                "start": 136,
+                                "end": 140,
+                                "value": "hùng",
+                                "real_value": "hùng",
+                                "entity": "customer_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "slots": {
+                "customer_name": [
+                    {
+                        "index": 0,
+                        "value": "hùng"
+                    },
+                    {
+                        "index": 2,
+                        "value": "hùng"
+                    }
+                ]
+            },
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "contactHotline": {
+            "evaluate": "no",
+            "evaluate_channel": {
+                "2": "no",
+                "1": "no"
+            },
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
+            "confidence_channel": {
+                "2": 0.0,
+                "1": 0.0
+            },
+            "position": [],
+            "slots": {},
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "goodbye": {
+            "evaluate": "yes",
+            "evaluate_channel": {
+                "2": "yes",
+                "1": "no"
+            },
+            "decision_position": [
+                {
+                    "index": 4,
+                    "channel": 2,
+                    "text": "dạ dạ vâng em chào anh ạ",
+                    "intents": [],
+                    "entities": {
+                        "ciao": [
+                            {
+                                "start": 14,
+                                "end": 18,
+                                "value": "chào",
+                                "real_value": "chào",
+                                "entity": "ciao",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 0.5,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 0.5
+                }
+            ],
+            "decision": "yes",
+            "confidence": 0.5,
+            "confidence_channel": {
+                "2": 0.5,
+                "1": 0.0
+            },
+            "position": [
+                {
+                    "index": 4,
+                    "channel": 2,
+                    "text": "dạ dạ vâng em chào anh ạ",
+                    "intents": [],
+                    "entities": {
+                        "ciao": [
+                            {
+                                "start": 14,
+                                "end": 18,
+                                "value": "chào",
+                                "real_value": "chào",
+                                "entity": "ciao",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 0.5,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 0.5
+                }
+            ],
+            "slots": {
+                "ciao": [
+                    {
+                        "index": 4,
+                        "value": "chào"
+                    }
+                ]
+            },
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "greet": {
+            "evaluate": "yes",
+            "evaluate_channel": {
+                "2": "yes",
+                "1": "no"
+            },
+            "decision_position": [
+                {
+                    "index": 0,
+                    "channel": 2,
+                    "text": "dạ em chào anh hùng",
+                    "intents": [],
+                    "entities": {
+                        "ciao": [
+                            {
+                                "start": 6,
+                                "end": 10,
+                                "value": "chào",
+                                "real_value": "chào",
+                                "entity": "ciao",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 0.5,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 0.5
+                },
+                {
+                    "index": 4,
+                    "channel": 2,
+                    "text": "dạ dạ vâng em chào anh ạ",
+                    "intents": [],
+                    "entities": {
+                        "ciao": [
+                            {
+                                "start": 14,
+                                "end": 18,
+                                "value": "chào",
+                                "real_value": "chào",
+                                "entity": "ciao",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 0.5,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 0.5
+                }
+            ],
+            "decision": "yes",
+            "confidence": 0.5,
+            "confidence_channel": {
+                "2": 0.5,
+                "1": 0.0
+            },
+            "position": [
+                {
+                    "index": 0,
+                    "channel": 2,
+                    "text": "dạ em chào anh hùng",
+                    "intents": [],
+                    "entities": {
+                        "ciao": [
+                            {
+                                "start": 6,
+                                "end": 10,
+                                "value": "chào",
+                                "real_value": "chào",
+                                "entity": "ciao",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 0.5,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 0.5
+                },
+                {
+                    "index": 4,
+                    "channel": 2,
+                    "text": "dạ dạ vâng em chào anh ạ",
+                    "intents": [],
+                    "entities": {
+                        "ciao": [
+                            {
+                                "start": 14,
+                                "end": 18,
+                                "value": "chào",
+                                "real_value": "chào",
+                                "entity": "ciao",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 0.5,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 0.5
+                }
+            ],
+            "slots": {
+                "ciao": [
+                    {
+                        "index": 0,
+                        "value": "chào"
+                    },
+                    {
+                        "index": 4,
+                        "value": "chào"
+                    }
+                ]
+            },
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "thank": {
+            "evaluate": "no",
+            "evaluate_channel": {
+                "2": "no",
+                "1": "no"
+            },
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
+            "confidence_channel": {
+                "2": 0.0,
+                "1": 0.0
+            },
+            "position": [],
+            "slots": {},
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "criterias_order": null
+    },
+    {
+        "fileName": "CS-fbd6c052-ddfe-474a-bdc8-3f744061e2f3.wav",
+        "agentChannel": 2,
+        "time_load_info": 0.0033597946166992188,
+        "agentIntroduce": {
+            "evaluate": "no",
+            "evaluate_channel": {
+                "2": "no",
+                "1": "no"
+            },
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
+            "confidence_channel": {
+                "2": 0.0,
+                "1": 0.0
+            },
+            "position": [],
+            "slots": {},
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "askSupport": {
+            "evaluate": "no",
+            "evaluate_channel": {
+                "2": "no",
+                "1": "no"
+            },
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
+            "confidence_channel": {
+                "2": 0.0,
+                "1": 0.0
+            },
+            "position": [],
+            "slots": {},
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "companyName": {
+            "evaluate": "yes",
+            "evaluate_channel": {
+                "2": "yes",
+                "1": "no"
+            },
+            "decision_position": [
+                {
+                    "index": 1,
+                    "channel": 2,
+                    "text": "alo dạ con chào cô yến coi là mỹ gọi đến từ trung tâm lắng nghe khách hàng của nhà thuốc long cho xin phép được trao đổi với mình khoảng 1 phút bất tiện không cô ạ có gì không cô",
+                    "intents": [],
+                    "entities": {
+                        "company_name": [
+                            {
+                                "start": 89,
+                                "end": 93,
+                                "value": "long",
+                                "real_value": "long",
+                                "entity": "company_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
+                    "index": 3,
+                    "channel": 2,
+                    "text": "dạ bên công nhận đủ đánh giá 3 sau khi mình mua hàng ở nhà thuốc long cho khả năng cao hơn nửa về chất lượng dịch vụ của chia sẻ cảm nhận của mình về quá trình mua hàng tại đây được không cô ạ",
+                    "intents": [],
+                    "entities": {
+                        "company_name": [
+                            {
+                                "start": 65,
+                                "end": 69,
+                                "value": "long",
+                                "real_value": "long",
+                                "entity": "company_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "decision": "yes",
+            "confidence": 1.0,
+            "confidence_channel": {
+                "2": 1.0,
+                "1": 0.0
+            },
+            "position": [
+                {
+                    "index": 1,
+                    "channel": 2,
+                    "text": "alo dạ con chào cô yến coi là mỹ gọi đến từ trung tâm lắng nghe khách hàng của nhà thuốc long cho xin phép được trao đổi với mình khoảng 1 phút bất tiện không cô ạ có gì không cô",
+                    "intents": [],
+                    "entities": {
+                        "company_name": [
+                            {
+                                "start": 89,
+                                "end": 93,
+                                "value": "long",
+                                "real_value": "long",
+                                "entity": "company_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
+                    "index": 3,
+                    "channel": 2,
+                    "text": "dạ bên công nhận đủ đánh giá 3 sau khi mình mua hàng ở nhà thuốc long cho khả năng cao hơn nửa về chất lượng dịch vụ của chia sẻ cảm nhận của mình về quá trình mua hàng tại đây được không cô ạ",
+                    "intents": [],
+                    "entities": {
+                        "company_name": [
+                            {
+                                "start": 65,
+                                "end": 69,
+                                "value": "long",
+                                "real_value": "long",
+                                "entity": "company_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "slots": {
+                "company_name": [
+                    {
+                        "index": 1,
+                        "value": "long"
+                    },
+                    {
+                        "index": 3,
+                        "value": "long"
+                    }
+                ]
+            },
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "confirmCustomer": {
+            "evaluate": "yes",
+            "evaluate_channel": {
+                "2": "yes",
+                "1": "no"
+            },
+            "decision_position": [
+                {
+                    "index": 1,
+                    "channel": 2,
+                    "text": "alo dạ con chào cô yến coi là mỹ gọi đến từ trung tâm lắng nghe khách hàng của nhà thuốc long cho xin phép được trao đổi với mình khoảng 1 phút bất tiện không cô ạ có gì không cô",
+                    "intents": [],
+                    "entities": {
+                        "customer_name": [
+                            {
+                                "start": 19,
+                                "end": 22,
+                                "value": "yến",
+                                "real_value": "yến",
+                                "entity": "customer_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
+                    "index": 43,
+                    "channel": 2,
+                    "text": "chào cô yến cảm phiền đánh giá lại giúp con là trong thang điểm từ 1 đến 5 sau với 5 sau ngày rất hài lòng đánh giá trải nghiệm mua sắm bên con được mấy sao vậy cô ạ cô muốn cũng 3 sao 4 sao gì à dạ",
+                    "intents": [],
+                    "entities": {
+                        "customer_name": [
+                            {
+                                "start": 8,
+                                "end": 11,
+                                "value": "yến",
+                                "real_value": "yến",
+                                "entity": "customer_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "decision": "yes",
+            "confidence": 1.0,
+            "confidence_channel": {
+                "2": 1.0,
+                "1": 0.0
+            },
+            "position": [
+                {
+                    "index": 1,
+                    "channel": 2,
+                    "text": "alo dạ con chào cô yến coi là mỹ gọi đến từ trung tâm lắng nghe khách hàng của nhà thuốc long cho xin phép được trao đổi với mình khoảng 1 phút bất tiện không cô ạ có gì không cô",
+                    "intents": [],
+                    "entities": {
+                        "customer_name": [
+                            {
+                                "start": 19,
+                                "end": 22,
+                                "value": "yến",
+                                "real_value": "yến",
+                                "entity": "customer_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
+                    "index": 43,
+                    "channel": 2,
+                    "text": "chào cô yến cảm phiền đánh giá lại giúp con là trong thang điểm từ 1 đến 5 sau với 5 sau ngày rất hài lòng đánh giá trải nghiệm mua sắm bên con được mấy sao vậy cô ạ cô muốn cũng 3 sao 4 sao gì à dạ",
+                    "intents": [],
+                    "entities": {
+                        "customer_name": [
+                            {
+                                "start": 8,
+                                "end": 11,
+                                "value": "yến",
+                                "real_value": "yến",
+                                "entity": "customer_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "slots": {
+                "customer_name": [
+                    {
+                        "index": 1,
+                        "value": "yến"
+                    },
+                    {
+                        "index": 43,
+                        "value": "yến"
+                    }
+                ]
+            },
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "contactHotline": {
+            "evaluate": "no",
+            "evaluate_channel": {
+                "2": "no",
+                "1": "no"
+            },
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
+            "confidence_channel": {
+                "2": 0.0,
+                "1": 0.0
+            },
+            "position": [],
+            "slots": {},
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "goodbye": {
+            "evaluate": "no",
+            "evaluate_channel": {
+                "2": "no",
+                "1": "no"
+            },
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
+            "confidence_channel": {
+                "2": 0.0,
+                "1": 0.0
+            },
+            "position": [],
+            "slots": {},
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "greet": {
+            "evaluate": "yes",
+            "evaluate_channel": {
+                "2": "yes",
+                "1": "no"
+            },
+            "decision_position": [
+                {
+                    "index": 1,
+                    "channel": 2,
+                    "text": "alo dạ con chào cô yến coi là mỹ gọi đến từ trung tâm lắng nghe khách hàng của nhà thuốc long cho xin phép được trao đổi với mình khoảng 1 phút bất tiện không cô ạ có gì không cô",
+                    "intents": [],
+                    "entities": {
+                        "ciao": [
+                            {
+                                "start": 11,
+                                "end": 15,
+                                "value": "chào",
+                                "real_value": "chào",
+                                "entity": "ciao",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 0.5,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 0.5
+                }
+            ],
+            "decision": "yes",
+            "confidence": 0.5,
+            "confidence_channel": {
+                "2": 0.5,
+                "1": 0.0
+            },
+            "position": [
+                {
+                    "index": 1,
+                    "channel": 2,
+                    "text": "alo dạ con chào cô yến coi là mỹ gọi đến từ trung tâm lắng nghe khách hàng của nhà thuốc long cho xin phép được trao đổi với mình khoảng 1 phút bất tiện không cô ạ có gì không cô",
+                    "intents": [],
+                    "entities": {
+                        "ciao": [
+                            {
+                                "start": 11,
+                                "end": 15,
+                                "value": "chào",
+                                "real_value": "chào",
+                                "entity": "ciao",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 0.5,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 0.5
+                }
+            ],
+            "slots": {
+                "ciao": [
+                    {
+                        "index": 1,
+                        "value": "chào"
+                    }
+                ]
+            },
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "thank": {
+            "evaluate": "yes",
+            "evaluate_channel": {
+                "2": "yes",
+                "1": "no"
+            },
+            "decision_position": [
+                {
+                    "index": 45,
+                    "channel": 2,
+                    "text": "cám ơn cô đã dành thời gian chia sẻ",
+                    "intents": [],
+                    "entities": {
+                        "thank": [
+                            {
+                                "start": 0,
+                                "end": 6,
+                                "value": "cám ơn",
+                                "real_value": "cám ơn",
+                                "entity": "thank",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "decision": "yes",
+            "confidence": 1.0,
+            "confidence_channel": {
+                "2": 1.0,
+                "1": 0.0
+            },
+            "position": [
+                {
+                    "index": 45,
+                    "channel": 2,
+                    "text": "cám ơn cô đã dành thời gian chia sẻ",
+                    "intents": [],
+                    "entities": {
+                        "thank": [
+                            {
+                                "start": 0,
+                                "end": 6,
+                                "value": "cám ơn",
+                                "real_value": "cám ơn",
+                                "entity": "thank",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "slots": {
+                "thank": [
+                    {
+                        "index": 45,
+                        "value": "cám ơn"
+                    }
+                ]
+            },
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "criterias_order": null
+    },
+    {
+        "fileName": "CS-1aa626db-e085-44f2-8789-c31acbc5f8b6.wav",
+        "agentChannel": 2,
+        "time_load_info": 0.0030677318572998047,
+        "agentIntroduce": {
+            "evaluate": "no",
+            "evaluate_channel": {
+                "2": "no",
+                "1": "no"
+            },
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
+            "confidence_channel": {
+                "2": 0.0,
+                "1": 0.0
+            },
+            "position": [],
+            "slots": {},
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "askSupport": {
+            "evaluate": "no",
+            "evaluate_channel": {
+                "2": "no",
+                "1": "no"
+            },
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
+            "confidence_channel": {
+                "2": 0.0,
+                "1": 0.0
+            },
+            "position": [],
+            "slots": {},
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "companyName": {
+            "evaluate": "yes",
+            "evaluate_channel": {
+                "2": "yes",
+                "1": "no"
+            },
+            "decision_position": [
+                {
+                    "index": 1,
+                    "channel": 2,
+                    "text": "alo dạ em chào chị tuyền em là vĩ gọi đến từ trung tâm lắng nghe khách hàng của nhà thuốc long cho xin phép trao đổi với mình khoảng 1 phút cải thiện phải không ạ ờ có gì không chị nói đi chị",
+                    "intents": [],
+                    "entities": {
+                        "company_name": [
+                            {
+                                "start": 90,
+                                "end": 94,
+                                "value": "long",
+                                "real_value": "long",
+                                "entity": "company_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
+                    "index": 3,
+                    "channel": 2,
+                    "text": "dạ dạ bên em nhận được đánh giá 3 sau khi mình mua hàng ở nhà thuốc long cho khả năng cao hơn nữa về chất lượng dịch vụ chị chia sẻ cảm nhận của mình đang quá trình mua hàng tại thêm được không ạ à chưa chị tại vì em chưa có",
+                    "intents": [],
+                    "entities": {
+                        "company_name": [
+                            {
+                                "start": 68,
+                                "end": 72,
+                                "value": "long",
+                                "real_value": "long",
+                                "entity": "company_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "decision": "yes",
+            "confidence": 1.0,
+            "confidence_channel": {
+                "2": 1.0,
+                "1": 0.0
+            },
+            "position": [
+                {
+                    "index": 1,
+                    "channel": 2,
+                    "text": "alo dạ em chào chị tuyền em là vĩ gọi đến từ trung tâm lắng nghe khách hàng của nhà thuốc long cho xin phép trao đổi với mình khoảng 1 phút cải thiện phải không ạ ờ có gì không chị nói đi chị",
+                    "intents": [],
+                    "entities": {
+                        "company_name": [
+                            {
+                                "start": 90,
+                                "end": 94,
+                                "value": "long",
+                                "real_value": "long",
+                                "entity": "company_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
+                    "index": 3,
+                    "channel": 2,
+                    "text": "dạ dạ bên em nhận được đánh giá 3 sau khi mình mua hàng ở nhà thuốc long cho khả năng cao hơn nữa về chất lượng dịch vụ chị chia sẻ cảm nhận của mình đang quá trình mua hàng tại thêm được không ạ à chưa chị tại vì em chưa có",
+                    "intents": [],
+                    "entities": {
+                        "company_name": [
+                            {
+                                "start": 68,
+                                "end": 72,
+                                "value": "long",
+                                "real_value": "long",
+                                "entity": "company_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "slots": {
+                "company_name": [
+                    {
+                        "index": 1,
+                        "value": "long"
+                    },
+                    {
+                        "index": 3,
+                        "value": "long"
+                    }
+                ]
+            },
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "confirmCustomer": {
+            "evaluate": "yes",
+            "evaluate_channel": {
+                "2": "yes",
+                "1": "no"
+            },
+            "decision_position": [
+                {
+                    "index": 1,
+                    "channel": 2,
+                    "text": "alo dạ em chào chị tuyền em là vĩ gọi đến từ trung tâm lắng nghe khách hàng của nhà thuốc long cho xin phép trao đổi với mình khoảng 1 phút cải thiện phải không ạ ờ có gì không chị nói đi chị",
+                    "intents": [],
+                    "entities": {
+                        "customer_name": [
+                            {
+                                "start": 19,
+                                "end": 24,
+                                "value": "tuyền",
+                                "real_value": "tuyền",
+                                "entity": "customer_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            },
+                            {
+                                "start": 31,
+                                "end": 33,
+                                "value": "vĩ",
+                                "real_value": "vĩ",
+                                "entity": "customer_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 2.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 2.0
+                }
+            ],
+            "decision": "yes",
+            "confidence": 2.0,
+            "confidence_channel": {
+                "2": 2.0,
+                "1": 0.0
+            },
+            "position": [
+                {
+                    "index": 1,
+                    "channel": 2,
+                    "text": "alo dạ em chào chị tuyền em là vĩ gọi đến từ trung tâm lắng nghe khách hàng của nhà thuốc long cho xin phép trao đổi với mình khoảng 1 phút cải thiện phải không ạ ờ có gì không chị nói đi chị",
+                    "intents": [],
+                    "entities": {
+                        "customer_name": [
+                            {
+                                "start": 19,
+                                "end": 24,
+                                "value": "tuyền",
+                                "real_value": "tuyền",
+                                "entity": "customer_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            },
+                            {
+                                "start": 31,
+                                "end": 33,
+                                "value": "vĩ",
+                                "real_value": "vĩ",
+                                "entity": "customer_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 2.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 2.0
+                }
+            ],
+            "slots": {
+                "customer_name": [
+                    {
+                        "index": 1,
+                        "value": "tuyền"
+                    },
+                    {
+                        "index": 1,
+                        "value": "vĩ"
+                    }
+                ]
+            },
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "contactHotline": {
+            "evaluate": "no",
+            "evaluate_channel": {
+                "2": "no",
+                "1": "no"
+            },
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
+            "confidence_channel": {
+                "2": 0.0,
+                "1": 0.0
+            },
+            "position": [],
+            "slots": {},
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "goodbye": {
+            "evaluate": "yes",
+            "evaluate_channel": {
+                "2": "yes",
+                "1": "no"
+            },
+            "decision_position": [
+                {
+                    "index": 18,
+                    "channel": 2,
+                    "text": "dạ cám ơn chị đã dành thời gian chia sẻ khi cần hỗ trợ chị tuyền liên hệ tổng đài 18006928 trước chị nhiều sức khỏe em chào chị ạ",
+                    "intents": [],
+                    "entities": {
+                        "ciao": [
+                            {
+                                "start": 119,
+                                "end": 123,
+                                "value": "chào",
+                                "real_value": "chào",
+                                "entity": "ciao",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 0.5,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 0.5
+                }
+            ],
+            "decision": "yes",
+            "confidence": 0.5,
+            "confidence_channel": {
+                "2": 0.5,
+                "1": 0.0
+            },
+            "position": [
+                {
+                    "index": 18,
+                    "channel": 2,
+                    "text": "dạ cám ơn chị đã dành thời gian chia sẻ khi cần hỗ trợ chị tuyền liên hệ tổng đài 18006928 trước chị nhiều sức khỏe em chào chị ạ",
+                    "intents": [],
+                    "entities": {
+                        "ciao": [
+                            {
+                                "start": 119,
+                                "end": 123,
+                                "value": "chào",
+                                "real_value": "chào",
+                                "entity": "ciao",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 0.5,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 0.5
+                }
+            ],
+            "slots": {
+                "ciao": [
+                    {
+                        "index": 18,
+                        "value": "chào"
+                    }
+                ]
+            },
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "greet": {
+            "evaluate": "yes",
+            "evaluate_channel": {
+                "2": "yes",
+                "1": "no"
+            },
+            "decision_position": [
+                {
+                    "index": 1,
+                    "channel": 2,
+                    "text": "alo dạ em chào chị tuyền em là vĩ gọi đến từ trung tâm lắng nghe khách hàng của nhà thuốc long cho xin phép trao đổi với mình khoảng 1 phút cải thiện phải không ạ ờ có gì không chị nói đi chị",
+                    "intents": [],
+                    "entities": {
+                        "ciao": [
+                            {
+                                "start": 10,
+                                "end": 14,
+                                "value": "chào",
+                                "real_value": "chào",
+                                "entity": "ciao",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 0.5,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 0.5
+                }
+            ],
+            "decision": "yes",
+            "confidence": 0.5,
+            "confidence_channel": {
+                "2": 0.5,
+                "1": 0.0
+            },
+            "position": [
+                {
+                    "index": 1,
+                    "channel": 2,
+                    "text": "alo dạ em chào chị tuyền em là vĩ gọi đến từ trung tâm lắng nghe khách hàng của nhà thuốc long cho xin phép trao đổi với mình khoảng 1 phút cải thiện phải không ạ ờ có gì không chị nói đi chị",
+                    "intents": [],
+                    "entities": {
+                        "ciao": [
+                            {
+                                "start": 10,
+                                "end": 14,
+                                "value": "chào",
+                                "real_value": "chào",
+                                "entity": "ciao",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 0.5,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 0.5
+                }
+            ],
+            "slots": {
+                "ciao": [
+                    {
+                        "index": 1,
+                        "value": "chào"
+                    }
+                ]
+            },
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "thank": {
+            "evaluate": "yes",
+            "evaluate_channel": {
+                "2": "yes",
+                "1": "no"
+            },
+            "decision_position": [
+                {
+                    "index": 18,
+                    "channel": 2,
+                    "text": "dạ cám ơn chị đã dành thời gian chia sẻ khi cần hỗ trợ chị tuyền liên hệ tổng đài 18006928 trước chị nhiều sức khỏe em chào chị ạ",
+                    "intents": [],
+                    "entities": {
+                        "thank": [
+                            {
+                                "start": 3,
+                                "end": 9,
+                                "value": "cám ơn",
+                                "real_value": "cám ơn",
+                                "entity": "thank",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
+                    "index": 20,
+                    "channel": 2,
+                    "text": "rồi cám ơn em dạ",
+                    "intents": [],
+                    "entities": {
+                        "thank": [
+                            {
+                                "start": 4,
+                                "end": 10,
+                                "value": "cám ơn",
+                                "real_value": "cám ơn",
+                                "entity": "thank",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "decision": "yes",
+            "confidence": 1.0,
+            "confidence_channel": {
+                "2": 1.0,
+                "1": 0.0
+            },
+            "position": [
+                {
+                    "index": 18,
+                    "channel": 2,
+                    "text": "dạ cám ơn chị đã dành thời gian chia sẻ khi cần hỗ trợ chị tuyền liên hệ tổng đài 18006928 trước chị nhiều sức khỏe em chào chị ạ",
+                    "intents": [],
+                    "entities": {
+                        "thank": [
+                            {
+                                "start": 3,
+                                "end": 9,
+                                "value": "cám ơn",
+                                "real_value": "cám ơn",
+                                "entity": "thank",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
+                    "index": 20,
+                    "channel": 2,
+                    "text": "rồi cám ơn em dạ",
+                    "intents": [],
+                    "entities": {
+                        "thank": [
+                            {
+                                "start": 4,
+                                "end": 10,
+                                "value": "cám ơn",
+                                "real_value": "cám ơn",
+                                "entity": "thank",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "slots": {
+                "thank": [
+                    {
+                        "index": 18,
+                        "value": "cám ơn"
+                    },
+                    {
+                        "index": 20,
+                        "value": "cám ơn"
+                    }
+                ]
+            },
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "criterias_order": null
+    },
+    {
+        "fileName": "CS-cd21c905-47f6-4809-b47d-a3b662deaec4.wav",
+        "agentChannel": 2,
+        "time_load_info": 0.0030853748321533203,
+        "agentIntroduce": {
+            "evaluate": "no",
+            "evaluate_channel": {
+                "2": "no",
+                "1": "no"
+            },
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
+            "confidence_channel": {
+                "2": 0.0,
+                "1": 0.0
+            },
+            "position": [],
+            "slots": {},
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "askSupport": {
+            "evaluate": "no",
+            "evaluate_channel": {
+                "2": "no",
+                "1": "no"
+            },
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
+            "confidence_channel": {
+                "2": 0.0,
+                "1": 0.0
+            },
+            "position": [],
+            "slots": {},
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "companyName": {
+            "evaluate": "yes",
+            "evaluate_channel": {
+                "2": "yes",
+                "1": "no"
+            },
+            "decision_position": [
+                {
+                    "index": 1,
+                    "channel": 2,
+                    "text": "dạ có chào chú chiến công ty liên hệ lại từ trung tâm lắng nghe khách hàng của nhà thuốc long cho dạ credit vừa trao đổi với chú chuyên ít phúc cải thiện cho chú không ạ",
+                    "intents": [],
+                    "entities": {
+                        "company_name": [
+                            {
+                                "start": 89,
+                                "end": 97,
+                                "value": "long cho",
+                                "real_value": "long cho",
+                                "entity": "company_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "decision": "yes",
+            "confidence": 1.0,
+            "confidence_channel": {
+                "2": 1.0,
+                "1": 0.0
+            },
+            "position": [
+                {
+                    "index": 1,
+                    "channel": 2,
+                    "text": "dạ có chào chú chiến công ty liên hệ lại từ trung tâm lắng nghe khách hàng của nhà thuốc long cho dạ credit vừa trao đổi với chú chuyên ít phúc cải thiện cho chú không ạ",
+                    "intents": [],
+                    "entities": {
+                        "company_name": [
+                            {
+                                "start": 89,
+                                "end": 97,
+                                "value": "long cho",
+                                "real_value": "long cho",
+                                "entity": "company_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "slots": {
+                "company_name": [
+                    {
+                        "index": 1,
+                        "value": "long cho"
+                    }
+                ]
+            },
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "confirmCustomer": {
+            "evaluate": "yes",
+            "evaluate_channel": {
+                "2": "yes",
+                "1": "no"
+            },
+            "decision_position": [
+                {
+                    "index": 3,
+                    "channel": 2,
+                    "text": "dạ cô có nhận được đánh giá là 2 sau của chú chiến khi mua hàng tại long cho để bên con có thể cải thiện hơn nửa và chất lượng phục vụ trước cho tôi hỏi sim này mình có khả nhận thế nào vậy trải nghiệm khi mua hàng tại long cho vậy ạ",
+                    "intents": [],
+                    "entities": {
+                        "customer_name": [
+                            {
+                                "start": 45,
+                                "end": 50,
+                                "value": "chiến",
+                                "real_value": "chiến",
+                                "entity": "customer_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
+                    "index": 10,
+                    "channel": 2,
+                    "text": "dạ vâng vậy chị có thể vui lòng cho con hỏi thêm là mình mua sản phẩm này nhưng long cho không có hàng vậy ạ con xin phép sinh lãi tên sản phẩm để ghi nhận và cố gắng bổ sung thêm ạ",
+                    "intents": [],
+                    "entities": {
+                        "customer_name": [
+                            {
+                                "start": 80,
+                                "end": 84,
+                                "value": "long",
+                                "real_value": "long",
+                                "entity": "customer_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
+                    "index": 32,
+                    "channel": 2,
+                    "text": "dạ con cám ơn chú đã chia sẻ và góp ý khi cần hỗ trợ thêm trước 9 liên hệ tổng đài là 18006928 chứ chú nhiều sức khỏe con xin phép chào chú chiến ạ",
+                    "intents": [],
+                    "entities": {
+                        "customer_name": [
+                            {
+                                "start": 140,
+                                "end": 145,
+                                "value": "chiến",
+                                "real_value": "chiến",
+                                "entity": "customer_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "decision": "yes",
+            "confidence": 1.0,
+            "confidence_channel": {
+                "2": 1.0,
+                "1": 0.0
+            },
+            "position": [
+                {
+                    "index": 3,
+                    "channel": 2,
+                    "text": "dạ cô có nhận được đánh giá là 2 sau của chú chiến khi mua hàng tại long cho để bên con có thể cải thiện hơn nửa và chất lượng phục vụ trước cho tôi hỏi sim này mình có khả nhận thế nào vậy trải nghiệm khi mua hàng tại long cho vậy ạ",
+                    "intents": [],
+                    "entities": {
+                        "customer_name": [
+                            {
+                                "start": 45,
+                                "end": 50,
+                                "value": "chiến",
+                                "real_value": "chiến",
+                                "entity": "customer_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
+                    "index": 10,
+                    "channel": 2,
+                    "text": "dạ vâng vậy chị có thể vui lòng cho con hỏi thêm là mình mua sản phẩm này nhưng long cho không có hàng vậy ạ con xin phép sinh lãi tên sản phẩm để ghi nhận và cố gắng bổ sung thêm ạ",
+                    "intents": [],
+                    "entities": {
+                        "customer_name": [
+                            {
+                                "start": 80,
+                                "end": 84,
+                                "value": "long",
+                                "real_value": "long",
+                                "entity": "customer_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
+                    "index": 32,
+                    "channel": 2,
+                    "text": "dạ con cám ơn chú đã chia sẻ và góp ý khi cần hỗ trợ thêm trước 9 liên hệ tổng đài là 18006928 chứ chú nhiều sức khỏe con xin phép chào chú chiến ạ",
+                    "intents": [],
+                    "entities": {
+                        "customer_name": [
+                            {
+                                "start": 140,
+                                "end": 145,
+                                "value": "chiến",
+                                "real_value": "chiến",
+                                "entity": "customer_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "slots": {
+                "customer_name": [
+                    {
+                        "index": 3,
+                        "value": "chiến"
+                    },
+                    {
+                        "index": 10,
+                        "value": "long"
+                    },
+                    {
+                        "index": 32,
+                        "value": "chiến"
+                    }
+                ]
+            },
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "contactHotline": {
+            "evaluate": "no",
+            "evaluate_channel": {
+                "2": "no",
+                "1": "no"
+            },
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
+            "confidence_channel": {
+                "2": 0.0,
+                "1": 0.0
+            },
+            "position": [],
+            "slots": {},
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "goodbye": {
+            "evaluate": "no",
+            "evaluate_channel": {
+                "2": "no",
+                "1": "no"
+            },
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
+            "confidence_channel": {
+                "2": 0.0,
+                "1": 0.0
+            },
+            "position": [],
+            "slots": {},
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "greet": {
+            "evaluate": "no",
+            "evaluate_channel": {
+                "2": "no",
+                "1": "no"
+            },
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
+            "confidence_channel": {
+                "2": 0.0,
+                "1": 0.0
+            },
+            "position": [],
+            "slots": {},
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "thank": {
+            "evaluate": "yes",
+            "evaluate_channel": {
+                "2": "yes",
+                "1": "no"
+            },
+            "decision_position": [
+                {
+                    "index": 32,
+                    "channel": 2,
+                    "text": "dạ con cám ơn chú đã chia sẻ và góp ý khi cần hỗ trợ thêm trước 9 liên hệ tổng đài là 18006928 chứ chú nhiều sức khỏe con xin phép chào chú chiến ạ",
+                    "intents": [],
+                    "entities": {
+                        "thank": [
+                            {
+                                "start": 7,
+                                "end": 10,
+                                "value": "cám",
+                                "real_value": "cám",
+                                "entity": "thank",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "decision": "yes",
+            "confidence": 1.0,
+            "confidence_channel": {
+                "2": 1.0,
+                "1": 0.0
+            },
+            "position": [
+                {
+                    "index": 32,
+                    "channel": 2,
+                    "text": "dạ con cám ơn chú đã chia sẻ và góp ý khi cần hỗ trợ thêm trước 9 liên hệ tổng đài là 18006928 chứ chú nhiều sức khỏe con xin phép chào chú chiến ạ",
+                    "intents": [],
+                    "entities": {
+                        "thank": [
+                            {
+                                "start": 7,
+                                "end": 10,
+                                "value": "cám",
+                                "real_value": "cám",
+                                "entity": "thank",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "slots": {
+                "thank": [
+                    {
+                        "index": 32,
+                        "value": "cám"
+                    }
+                ]
+            },
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "criterias_order": null
+    },
+    {
+        "fileName": "CS-b557cf87-ba5f-48a7-a8f1-4435f512dcfd.wav",
+        "agentChannel": 2,
+        "time_load_info": 0.0035622119903564453,
+        "agentIntroduce": {
+            "evaluate": "no",
+            "evaluate_channel": {
+                "2": "no",
+                "1": "no"
+            },
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
+            "confidence_channel": {
+                "2": 0.0,
+                "1": 0.0
+            },
+            "position": [],
+            "slots": {},
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "askSupport": {
+            "evaluate": "no",
+            "evaluate_channel": {
+                "2": "no",
+                "1": "no"
+            },
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
+            "confidence_channel": {
+                "2": 0.0,
+                "1": 0.0
+            },
+            "position": [],
+            "slots": {},
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "companyName": {
+            "evaluate": "yes",
+            "evaluate_channel": {
+                "2": "yes",
+                "1": "no"
+            },
+            "decision_position": [
+                {
+                    "index": 0,
+                    "channel": 2,
+                    "text": "chào em chào chị em là tiên liên hệ lại trung tâm lắng nghe khách hàng của nhà thuốc long cho xin phép được trao đổi với mình ít phúc số tiền cho chị xuân không ạ",
+                    "intents": [],
+                    "entities": {
+                        "company_name": [
+                            {
+                                "start": 85,
+                                "end": 93,
+                                "value": "long cho",
+                                "real_value": "long cho",
+                                "entity": "company_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
+                    "index": 2,
+                    "channel": 2,
+                    "text": "dạ em có nhận được đánh giá là 3 xa của chị khi mua hàng tại làm sao để bên em có thể cải thiện hơn nửa vậy chất lượng phục vụ chị cho em hỏi khi nào mình có cam nhận thế nào vậy trải nghiệm mua hàng tại long cho đi ạ",
+                    "intents": [],
+                    "entities": {
+                        "company_name": [
+                            {
+                                "start": 204,
+                                "end": 208,
+                                "value": "long",
+                                "real_value": "long",
+                                "entity": "company_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "decision": "yes",
+            "confidence": 1.0,
+            "confidence_channel": {
+                "2": 1.0,
+                "1": 0.0
+            },
+            "position": [
+                {
+                    "index": 0,
+                    "channel": 2,
+                    "text": "chào em chào chị em là tiên liên hệ lại trung tâm lắng nghe khách hàng của nhà thuốc long cho xin phép được trao đổi với mình ít phúc số tiền cho chị xuân không ạ",
+                    "intents": [],
+                    "entities": {
+                        "company_name": [
+                            {
+                                "start": 85,
+                                "end": 93,
+                                "value": "long cho",
+                                "real_value": "long cho",
+                                "entity": "company_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
+                    "index": 2,
+                    "channel": 2,
+                    "text": "dạ em có nhận được đánh giá là 3 xa của chị khi mua hàng tại làm sao để bên em có thể cải thiện hơn nửa vậy chất lượng phục vụ chị cho em hỏi khi nào mình có cam nhận thế nào vậy trải nghiệm mua hàng tại long cho đi ạ",
+                    "intents": [],
+                    "entities": {
+                        "company_name": [
+                            {
+                                "start": 204,
+                                "end": 208,
+                                "value": "long",
+                                "real_value": "long",
+                                "entity": "company_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "slots": {
+                "company_name": [
+                    {
+                        "index": 0,
+                        "value": "long cho"
+                    },
+                    {
+                        "index": 2,
+                        "value": "long"
+                    }
+                ]
+            },
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "confirmCustomer": {
+            "evaluate": "yes",
+            "evaluate_channel": {
+                "2": "yes",
+                "1": "no"
+            },
+            "decision_position": [
+                {
+                    "index": 0,
+                    "channel": 2,
+                    "text": "chào em chào chị em là tiên liên hệ lại trung tâm lắng nghe khách hàng của nhà thuốc long cho xin phép được trao đổi với mình ít phúc số tiền cho chị xuân không ạ",
+                    "intents": [],
+                    "entities": {
+                        "customer_name": [
+                            {
+                                "start": 150,
+                                "end": 154,
+                                "value": "xuân",
+                                "real_value": "xuân",
+                                "entity": "customer_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
+                    "index": 4,
+                    "channel": 2,
+                    "text": "dạ vâng em cám ơn chị à chị sương cho em hỏi thăm thêm với bị đánh giá là từ 1 đến 5 sau tầm 8 năm sau là date 2 đồng chị đánh giá vay trải nghiệm khi mua làm sao được máy sao vậy ạ",
+                    "intents": [],
+                    "entities": {
+                        "customer_name": [
+                            {
+                                "start": 28,
+                                "end": 33,
+                                "value": "sương",
+                                "real_value": "sương",
+                                "entity": "customer_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
+                    "index": 6,
+                    "channel": 2,
+                    "text": "dạ vâng cám ơn chị đã chia sẻ và đánh giá cho long cho vậy khi cần hỗ trợ thêm chị liên hệ tổng đài là 18006928 em chúc chị nhiều sức khỏe em xin phép chào chị xuân ạ",
+                    "intents": [],
+                    "entities": {
+                        "customer_name": [
+                            {
+                                "start": 46,
+                                "end": 50,
+                                "value": "long",
+                                "real_value": "long",
+                                "entity": "customer_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            },
+                            {
+                                "start": 160,
+                                "end": 164,
+                                "value": "xuân",
+                                "real_value": "xuân",
+                                "entity": "customer_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 2.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 2.0
+                }
+            ],
+            "decision": "yes",
+            "confidence": 2.0,
+            "confidence_channel": {
+                "2": 2.0,
+                "1": 0.0
+            },
+            "position": [
+                {
+                    "index": 0,
+                    "channel": 2,
+                    "text": "chào em chào chị em là tiên liên hệ lại trung tâm lắng nghe khách hàng của nhà thuốc long cho xin phép được trao đổi với mình ít phúc số tiền cho chị xuân không ạ",
+                    "intents": [],
+                    "entities": {
+                        "customer_name": [
+                            {
+                                "start": 150,
+                                "end": 154,
+                                "value": "xuân",
+                                "real_value": "xuân",
+                                "entity": "customer_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
+                    "index": 4,
+                    "channel": 2,
+                    "text": "dạ vâng em cám ơn chị à chị sương cho em hỏi thăm thêm với bị đánh giá là từ 1 đến 5 sau tầm 8 năm sau là date 2 đồng chị đánh giá vay trải nghiệm khi mua làm sao được máy sao vậy ạ",
+                    "intents": [],
+                    "entities": {
+                        "customer_name": [
+                            {
+                                "start": 28,
+                                "end": 33,
+                                "value": "sương",
+                                "real_value": "sương",
+                                "entity": "customer_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
+                    "index": 6,
+                    "channel": 2,
+                    "text": "dạ vâng cám ơn chị đã chia sẻ và đánh giá cho long cho vậy khi cần hỗ trợ thêm chị liên hệ tổng đài là 18006928 em chúc chị nhiều sức khỏe em xin phép chào chị xuân ạ",
+                    "intents": [],
+                    "entities": {
+                        "customer_name": [
+                            {
+                                "start": 46,
+                                "end": 50,
+                                "value": "long",
+                                "real_value": "long",
+                                "entity": "customer_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            },
+                            {
+                                "start": 160,
+                                "end": 164,
+                                "value": "xuân",
+                                "real_value": "xuân",
+                                "entity": "customer_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 2.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 2.0
+                }
+            ],
+            "slots": {
+                "customer_name": [
+                    {
+                        "index": 0,
+                        "value": "xuân"
+                    },
+                    {
+                        "index": 4,
+                        "value": "sương"
+                    },
+                    {
+                        "index": 6,
+                        "value": "long"
+                    },
+                    {
+                        "index": 6,
+                        "value": "xuân"
+                    }
+                ]
+            },
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "contactHotline": {
+            "evaluate": "no",
+            "evaluate_channel": {
+                "2": "no",
+                "1": "no"
+            },
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
+            "confidence_channel": {
+                "2": 0.0,
+                "1": 0.0
+            },
+            "position": [],
+            "slots": {},
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "goodbye": {
+            "evaluate": "yes",
+            "evaluate_channel": {
+                "2": "yes",
+                "1": "no"
+            },
+            "decision_position": [
+                {
+                    "index": 6,
+                    "channel": 2,
+                    "text": "dạ vâng cám ơn chị đã chia sẻ và đánh giá cho long cho vậy khi cần hỗ trợ thêm chị liên hệ tổng đài là 18006928 em chúc chị nhiều sức khỏe em xin phép chào chị xuân ạ",
+                    "intents": [],
+                    "entities": {
+                        "ciao": [
+                            {
+                                "start": 151,
+                                "end": 155,
+                                "value": "chào",
+                                "real_value": "chào",
+                                "entity": "ciao",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 0.5,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 0.5
+                }
+            ],
+            "decision": "yes",
+            "confidence": 0.5,
+            "confidence_channel": {
+                "2": 0.5,
+                "1": 0.0
+            },
+            "position": [
+                {
+                    "index": 6,
+                    "channel": 2,
+                    "text": "dạ vâng cám ơn chị đã chia sẻ và đánh giá cho long cho vậy khi cần hỗ trợ thêm chị liên hệ tổng đài là 18006928 em chúc chị nhiều sức khỏe em xin phép chào chị xuân ạ",
+                    "intents": [],
+                    "entities": {
+                        "ciao": [
+                            {
+                                "start": 151,
+                                "end": 155,
+                                "value": "chào",
+                                "real_value": "chào",
+                                "entity": "ciao",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 0.5,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 0.5
+                }
+            ],
+            "slots": {
+                "ciao": [
+                    {
+                        "index": 6,
+                        "value": "chào"
+                    }
+                ]
+            },
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "greet": {
+            "evaluate": "yes",
+            "evaluate_channel": {
+                "2": "yes",
+                "1": "no"
+            },
+            "decision_position": [
+                {
+                    "index": 6,
+                    "channel": 2,
+                    "text": "dạ vâng cám ơn chị đã chia sẻ và đánh giá cho long cho vậy khi cần hỗ trợ thêm chị liên hệ tổng đài là 18006928 em chúc chị nhiều sức khỏe em xin phép chào chị xuân ạ",
+                    "intents": [],
+                    "entities": {
+                        "ciao": [
+                            {
+                                "start": 151,
+                                "end": 155,
+                                "value": "chào",
+                                "real_value": "chào",
+                                "entity": "ciao",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 0.5,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 0.5
+                }
+            ],
+            "decision": "yes",
+            "confidence": 0.5,
+            "confidence_channel": {
+                "2": 0.5,
+                "1": 0.0
+            },
+            "position": [
+                {
+                    "index": 6,
+                    "channel": 2,
+                    "text": "dạ vâng cám ơn chị đã chia sẻ và đánh giá cho long cho vậy khi cần hỗ trợ thêm chị liên hệ tổng đài là 18006928 em chúc chị nhiều sức khỏe em xin phép chào chị xuân ạ",
+                    "intents": [],
+                    "entities": {
+                        "ciao": [
+                            {
+                                "start": 151,
+                                "end": 155,
+                                "value": "chào",
+                                "real_value": "chào",
+                                "entity": "ciao",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 0.5,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 0.5
+                }
+            ],
+            "slots": {
+                "ciao": [
+                    {
+                        "index": 6,
+                        "value": "chào"
+                    }
+                ]
+            },
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "thank": {
+            "evaluate": "yes",
+            "evaluate_channel": {
+                "2": "yes",
+                "1": "no"
+            },
+            "decision_position": [
+                {
+                    "index": 6,
+                    "channel": 2,
+                    "text": "dạ vâng cám ơn chị đã chia sẻ và đánh giá cho long cho vậy khi cần hỗ trợ thêm chị liên hệ tổng đài là 18006928 em chúc chị nhiều sức khỏe em xin phép chào chị xuân ạ",
+                    "intents": [],
+                    "entities": {
+                        "thank": [
+                            {
+                                "start": 8,
+                                "end": 11,
+                                "value": "cám",
+                                "real_value": "cám",
+                                "entity": "thank",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "decision": "yes",
+            "confidence": 1.0,
+            "confidence_channel": {
+                "2": 1.0,
+                "1": 0.0
+            },
+            "position": [
+                {
+                    "index": 6,
+                    "channel": 2,
+                    "text": "dạ vâng cám ơn chị đã chia sẻ và đánh giá cho long cho vậy khi cần hỗ trợ thêm chị liên hệ tổng đài là 18006928 em chúc chị nhiều sức khỏe em xin phép chào chị xuân ạ",
+                    "intents": [],
+                    "entities": {
+                        "thank": [
+                            {
+                                "start": 8,
+                                "end": 11,
+                                "value": "cám",
+                                "real_value": "cám",
+                                "entity": "thank",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "slots": {
+                "thank": [
+                    {
+                        "index": 6,
+                        "value": "cám"
+                    }
+                ]
+            },
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "criterias_order": null
+    },
+    {
+        "fileName": "CS-a6b12afb-6ed1-455b-b08d-db00eed4418b.wav",
+        "agentChannel": 2,
+        "time_load_info": 0.0024886131286621094,
+        "agentIntroduce": {
+            "evaluate": "no",
+            "evaluate_channel": {
+                "2": "no",
+                "1": "no"
+            },
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
+            "confidence_channel": {
+                "2": 0.0,
+                "1": 0.0
+            },
+            "position": [],
+            "slots": {},
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "askSupport": {
+            "evaluate": "no",
+            "evaluate_channel": {
+                "2": "no",
+                "1": "no"
+            },
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
+            "confidence_channel": {
+                "2": 0.0,
+                "1": 0.0
+            },
+            "position": [],
+            "slots": {},
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "companyName": {
+            "evaluate": "yes",
+            "evaluate_channel": {
+                "2": "yes",
+                "1": "no"
+            },
+            "decision_position": [
+                {
+                    "index": 1,
+                    "channel": 2,
+                    "text": "dạ em chào chị uyên em là thi liên hệ từ trung tâm lắng nghe khách hàng của nhà thuốc long cho em xin phép được trao đổi với mình ít phúc có tiền chứ chị uyên không ạ",
+                    "intents": [],
+                    "entities": {
+                        "company_name": [
+                            {
+                                "start": 86,
+                                "end": 90,
+                                "value": "long",
+                                "real_value": "long",
+                                "entity": "company_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
+                    "index": 8,
+                    "channel": 2,
+                    "text": "dạ em có nhận đánh giá là bà xã của chị uyên kim mua hàng tại nhà thuốc long cho",
+                    "intents": [],
+                    "entities": {
+                        "company_name": [
+                            {
+                                "start": 40,
+                                "end": 48,
+                                "value": "uyên kim",
+                                "real_value": "uyên kim",
+                                "entity": "company_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            },
+                            {
+                                "start": 72,
+                                "end": 80,
+                                "value": "long cho",
+                                "real_value": "long cho",
+                                "entity": "company_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 2.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 2.0
+                }
+            ],
+            "decision": "yes",
+            "confidence": 2.0,
+            "confidence_channel": {
+                "2": 2.0,
+                "1": 0.0
+            },
+            "position": [
+                {
+                    "index": 1,
+                    "channel": 2,
+                    "text": "dạ em chào chị uyên em là thi liên hệ từ trung tâm lắng nghe khách hàng của nhà thuốc long cho em xin phép được trao đổi với mình ít phúc có tiền chứ chị uyên không ạ",
+                    "intents": [],
+                    "entities": {
+                        "company_name": [
+                            {
+                                "start": 86,
+                                "end": 90,
+                                "value": "long",
+                                "real_value": "long",
+                                "entity": "company_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
+                    "index": 8,
+                    "channel": 2,
+                    "text": "dạ em có nhận đánh giá là bà xã của chị uyên kim mua hàng tại nhà thuốc long cho",
+                    "intents": [],
+                    "entities": {
+                        "company_name": [
+                            {
+                                "start": 40,
+                                "end": 48,
+                                "value": "uyên kim",
+                                "real_value": "uyên kim",
+                                "entity": "company_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            },
+                            {
+                                "start": 72,
+                                "end": 80,
+                                "value": "long cho",
+                                "real_value": "long cho",
+                                "entity": "company_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 2.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 2.0
+                }
+            ],
+            "slots": {
+                "company_name": [
+                    {
+                        "index": 1,
+                        "value": "long"
+                    },
+                    {
+                        "index": 8,
+                        "value": "uyên kim"
+                    },
+                    {
+                        "index": 8,
+                        "value": "long cho"
+                    }
+                ]
+            },
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "confirmCustomer": {
+            "evaluate": "yes",
+            "evaluate_channel": {
+                "2": "yes",
+                "1": "no"
+            },
+            "decision_position": [
+                {
+                    "index": 1,
+                    "channel": 2,
+                    "text": "dạ em chào chị uyên em là thi liên hệ từ trung tâm lắng nghe khách hàng của nhà thuốc long cho em xin phép được trao đổi với mình ít phúc có tiền chứ chị uyên không ạ",
+                    "intents": [],
+                    "entities": {
+                        "customer_name": [
+                            {
+                                "start": 15,
+                                "end": 19,
+                                "value": "uyên",
+                                "real_value": "uyên",
+                                "entity": "customer_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            },
+                            {
+                                "start": 154,
+                                "end": 158,
+                                "value": "uyên",
+                                "real_value": "uyên",
+                                "entity": "customer_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 2.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 2.0
+                },
+                {
+                    "index": 4,
+                    "channel": 2,
+                    "text": "à dạ chị uyên có đang tiện trao đổi không ạ",
+                    "intents": [],
+                    "entities": {
+                        "customer_name": [
+                            {
+                                "start": 9,
+                                "end": 13,
+                                "value": "uyên",
+                                "real_value": "uyên",
+                                "entity": "customer_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
+                    "index": 33,
+                    "channel": 2,
+                    "text": "dạ cám ơn chị đã chia sẻ và khi cần hỗ trợ thêm chị liên hệ tổng đài là 18006928 chứ chị nhiều sức khỏe em xin phép em chào chị uyên ạ",
+                    "intents": [],
+                    "entities": {
+                        "customer_name": [
+                            {
+                                "start": 128,
+                                "end": 132,
+                                "value": "uyên",
+                                "real_value": "uyên",
+                                "entity": "customer_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "decision": "yes",
+            "confidence": 2.0,
+            "confidence_channel": {
+                "2": 2.0,
+                "1": 0.0
+            },
+            "position": [
+                {
+                    "index": 1,
+                    "channel": 2,
+                    "text": "dạ em chào chị uyên em là thi liên hệ từ trung tâm lắng nghe khách hàng của nhà thuốc long cho em xin phép được trao đổi với mình ít phúc có tiền chứ chị uyên không ạ",
+                    "intents": [],
+                    "entities": {
+                        "customer_name": [
+                            {
+                                "start": 15,
+                                "end": 19,
+                                "value": "uyên",
+                                "real_value": "uyên",
+                                "entity": "customer_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            },
+                            {
+                                "start": 154,
+                                "end": 158,
+                                "value": "uyên",
+                                "real_value": "uyên",
+                                "entity": "customer_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 2.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 2.0
+                },
+                {
+                    "index": 4,
+                    "channel": 2,
+                    "text": "à dạ chị uyên có đang tiện trao đổi không ạ",
+                    "intents": [],
+                    "entities": {
+                        "customer_name": [
+                            {
+                                "start": 9,
+                                "end": 13,
+                                "value": "uyên",
+                                "real_value": "uyên",
+                                "entity": "customer_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                },
+                {
+                    "index": 33,
+                    "channel": 2,
+                    "text": "dạ cám ơn chị đã chia sẻ và khi cần hỗ trợ thêm chị liên hệ tổng đài là 18006928 chứ chị nhiều sức khỏe em xin phép em chào chị uyên ạ",
+                    "intents": [],
+                    "entities": {
+                        "customer_name": [
+                            {
+                                "start": 128,
+                                "end": 132,
+                                "value": "uyên",
+                                "real_value": "uyên",
+                                "entity": "customer_name",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "slots": {
+                "customer_name": [
+                    {
+                        "index": 1,
+                        "value": "uyên"
+                    },
+                    {
+                        "index": 1,
+                        "value": "uyên"
+                    },
+                    {
+                        "index": 4,
+                        "value": "uyên"
+                    },
+                    {
+                        "index": 33,
+                        "value": "uyên"
+                    }
+                ]
+            },
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "contactHotline": {
+            "evaluate": "no",
+            "evaluate_channel": {
+                "2": "no",
+                "1": "no"
+            },
+            "decision_position": [],
+            "decision": "no",
+            "confidence": 0.0,
+            "confidence_channel": {
+                "2": 0.0,
+                "1": 0.0
+            },
+            "position": [],
+            "slots": {},
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "goodbye": {
+            "evaluate": "yes",
+            "evaluate_channel": {
+                "2": "yes",
+                "1": "no"
+            },
+            "decision_position": [
+                {
+                    "index": 33,
+                    "channel": 2,
+                    "text": "dạ cám ơn chị đã chia sẻ và khi cần hỗ trợ thêm chị liên hệ tổng đài là 18006928 chứ chị nhiều sức khỏe em xin phép em chào chị uyên ạ",
+                    "intents": [],
+                    "entities": {
+                        "ciao": [
+                            {
+                                "start": 119,
+                                "end": 123,
+                                "value": "chào",
+                                "real_value": "chào",
+                                "entity": "ciao",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 0.5,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 0.5
+                }
+            ],
+            "decision": "yes",
+            "confidence": 0.5,
+            "confidence_channel": {
+                "2": 0.5,
+                "1": 0.0
+            },
+            "position": [
+                {
+                    "index": 33,
+                    "channel": 2,
+                    "text": "dạ cám ơn chị đã chia sẻ và khi cần hỗ trợ thêm chị liên hệ tổng đài là 18006928 chứ chị nhiều sức khỏe em xin phép em chào chị uyên ạ",
+                    "intents": [],
+                    "entities": {
+                        "ciao": [
+                            {
+                                "start": 119,
+                                "end": 123,
+                                "value": "chào",
+                                "real_value": "chào",
+                                "entity": "ciao",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 0.5,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 0.5
+                }
+            ],
+            "slots": {
+                "ciao": [
+                    {
+                        "index": 33,
+                        "value": "chào"
+                    }
+                ]
+            },
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "greet": {
+            "evaluate": "yes",
+            "evaluate_channel": {
+                "2": "yes",
+                "1": "no"
+            },
+            "decision_position": [
+                {
+                    "index": 1,
+                    "channel": 2,
+                    "text": "dạ em chào chị uyên em là thi liên hệ từ trung tâm lắng nghe khách hàng của nhà thuốc long cho em xin phép được trao đổi với mình ít phúc có tiền chứ chị uyên không ạ",
+                    "intents": [],
+                    "entities": {
+                        "ciao": [
+                            {
+                                "start": 6,
+                                "end": 10,
+                                "value": "chào",
+                                "real_value": "chào",
+                                "entity": "ciao",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 0.5,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 0.5
+                }
+            ],
+            "decision": "yes",
+            "confidence": 0.5,
+            "confidence_channel": {
+                "2": 0.5,
+                "1": 0.0
+            },
+            "position": [
+                {
+                    "index": 1,
+                    "channel": 2,
+                    "text": "dạ em chào chị uyên em là thi liên hệ từ trung tâm lắng nghe khách hàng của nhà thuốc long cho em xin phép được trao đổi với mình ít phúc có tiền chứ chị uyên không ạ",
+                    "intents": [],
+                    "entities": {
+                        "ciao": [
+                            {
+                                "start": 6,
+                                "end": 10,
+                                "value": "chào",
+                                "real_value": "chào",
+                                "entity": "ciao",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 0.5,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 0.5
+                }
+            ],
+            "slots": {
+                "ciao": [
+                    {
+                        "index": 1,
+                        "value": "chào"
+                    }
+                ]
+            },
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "thank": {
+            "evaluate": "yes",
+            "evaluate_channel": {
+                "2": "yes",
+                "1": "no"
+            },
+            "decision_position": [
+                {
+                    "index": 33,
+                    "channel": 2,
+                    "text": "dạ cám ơn chị đã chia sẻ và khi cần hỗ trợ thêm chị liên hệ tổng đài là 18006928 chứ chị nhiều sức khỏe em xin phép em chào chị uyên ạ",
+                    "intents": [],
+                    "entities": {
+                        "thank": [
+                            {
+                                "start": 3,
+                                "end": 9,
+                                "value": "cám ơn",
+                                "real_value": "cám ơn",
+                                "entity": "thank",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "decision": "yes",
+            "confidence": 1.0,
+            "confidence_channel": {
+                "2": 1.0,
+                "1": 0.0
+            },
+            "position": [
+                {
+                    "index": 33,
+                    "channel": 2,
+                    "text": "dạ cám ơn chị đã chia sẻ và khi cần hỗ trợ thêm chị liên hệ tổng đài là 18006928 chứ chị nhiều sức khỏe em xin phép em chào chị uyên ạ",
+                    "intents": [],
+                    "entities": {
+                        "thank": [
+                            {
+                                "start": 3,
+                                "end": 9,
+                                "value": "cám ơn",
+                                "real_value": "cám ơn",
+                                "entity": "thank",
+                                "subentities": [],
+                                "is_required": "required"
+                            }
+                        ]
+                    },
+                    "evaluate": "yes",
+                    "entities_score": 1.0,
+                    "intent_score": 0.0,
+                    "confidence_criteria": 1.0
+                }
+            ],
+            "slots": {
+                "thank": [
+                    {
+                        "index": 33,
+                        "value": "cám ơn"
+                    }
+                ]
+            },
+            "position_range_index": [],
+            "position_condition": [],
+            "task": "query"
+        },
+        "criterias_order": null
+    }
+]

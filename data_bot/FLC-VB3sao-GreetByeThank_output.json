@@ -1,0 +1,569 @@
+{
+    "api_key": "",
+    "app_code": "FLC-VB3sao-GreetByeThank",
+    "callback": {
+        "error": "",
+        "success": ""
+    },
+    "dictionary": [
+        {
+            "alternatives": [],
+            "phrase": ""
+        }
+    ],
+    "domain": "",
+    "engine": "nlu",
+    "language": "vi",
+    "no_accent": false,
+    "sub_language": "",
+    "entities": [
+        {
+            "entity": "greet",
+            "type": "freetext",
+            "values": []
+        },
+        {
+            "entity": "agent_name",
+            "type": "freetext",
+            "values": []
+        },
+        {
+            "entity": "customer_name",
+            "type": "freetext",
+            "values": []
+        },
+        {
+            "entity": "$datetime",
+            "type": "builtin",
+            "values": []
+        },
+        {
+            "entity": "$email",
+            "type": "builtin",
+            "values": []
+        },
+        {
+            "entity": "$quantifier",
+            "type": "builtin",
+            "values": []
+        },
+        {
+            "entity": "feedback",
+            "type": "freetext",
+            "values": []
+        },
+        {
+            "entity": "$address",
+            "type": "builtin",
+            "values": []
+        },
+        {
+            "entity": "$number",
+            "type": "builtin",
+            "values": []
+        },
+        {
+            "entity": "health",
+            "type": "freetext",
+            "values": []
+        },
+        {
+            "entity": "bye",
+            "type": "freetext",
+            "values": []
+        },
+        {
+            "entity": "exchange",
+            "type": "freetext",
+            "values": []
+        },
+        {
+            "entity": "thank",
+            "type": "freetext",
+            "values": []
+        },
+        {
+            "entity": "company_name",
+            "type": "freetext",
+            "values": []
+        },
+        {
+            "entity": "hotline",
+            "type": "freetext",
+            "values": []
+        }
+    ],
+    "samples": [
+        {
+            "text": "dạ có chào chú chiến công ty liên hệ lại từ trung tâm lắng nghe khách hàng của nhà thuốc long cho dạ credit vừa trao đổi với chú chuyên ít phúc cải thiện cho chú không ạ",
+            "intent": "greet",
+            "entities": [
+                {
+                    "end": 97,
+                    "entity": "company_name",
+                    "start": 89,
+                    "subentities": [],
+                    "value": "long cho"
+                },
+                {
+                    "end": 74,
+                    "entity": "company_name",
+                    "start": 44,
+                    "subentities": [],
+                    "value": "trung tâm lắng nghe khách hàng"
+                },
+                {
+                    "end": 120,
+                    "entity": "exchange",
+                    "start": 112,
+                    "subentities": [],
+                    "value": "trao đổi"
+                },
+                {
+                    "end": 10,
+                    "entity": "greet",
+                    "start": 6,
+                    "subentities": [],
+                    "value": "chào"
+                },
+                {
+                    "end": 20,
+                    "entity": "customer_name",
+                    "start": 15,
+                    "subentities": [],
+                    "value": "chiến"
+                }
+            ]
+        },
+        {
+            "text": "chào em chào chị em là tiên liên hệ lại trung tâm lắng nghe khách hàng của nhà thuốc long cho xin phép được trao đổi với mình ít phúc số tiền cho chị xuân không ạ",
+            "intent": "greet",
+            "entities": [
+                {
+                    "end": 12,
+                    "entity": "greet",
+                    "start": 8,
+                    "subentities": [],
+                    "value": "chào"
+                },
+                {
+                    "end": 70,
+                    "entity": "company_name",
+                    "start": 40,
+                    "subentities": [],
+                    "value": "trung tâm lắng nghe khách hàng"
+                },
+                {
+                    "end": 116,
+                    "entity": "exchange",
+                    "start": 108,
+                    "subentities": [],
+                    "value": "trao đổi"
+                },
+                {
+                    "end": 154,
+                    "entity": "customer_name",
+                    "start": 150,
+                    "subentities": [],
+                    "value": "xuân"
+                },
+                {
+                    "end": 93,
+                    "entity": "company_name",
+                    "start": 85,
+                    "subentities": [],
+                    "value": "long cho"
+                },
+                {
+                    "end": 27,
+                    "entity": "agent_name",
+                    "start": 23,
+                    "subentities": [],
+                    "value": "tiên"
+                },
+                {
+                    "end": 4,
+                    "entity": "greet",
+                    "start": 0,
+                    "subentities": [],
+                    "value": "chào"
+                }
+            ]
+        },
+        {
+            "text": "dạ em chào chị uyên em là thi liên hệ từ trung tâm lắng nghe khách hàng của nhà thuốc long cho em xin phép được trao đổi với mình ít phúc có tiền chứ chị uyên không ạ",
+            "intent": "greet",
+            "entities": [
+                {
+                    "end": 71,
+                    "entity": "company_name",
+                    "start": 41,
+                    "subentities": [],
+                    "value": "trung tâm lắng nghe khách hàng"
+                },
+                {
+                    "end": 29,
+                    "entity": "agent_name",
+                    "start": 26,
+                    "subentities": [],
+                    "value": "thi"
+                },
+                {
+                    "end": 94,
+                    "entity": "company_name",
+                    "start": 86,
+                    "subentities": [],
+                    "value": "long cho"
+                },
+                {
+                    "end": 19,
+                    "entity": "customer_name",
+                    "start": 15,
+                    "subentities": [],
+                    "value": "uyên"
+                },
+                {
+                    "end": 120,
+                    "entity": "exchange",
+                    "start": 112,
+                    "subentities": [],
+                    "value": "trao đổi"
+                },
+                {
+                    "end": 10,
+                    "entity": "greet",
+                    "start": 6,
+                    "subentities": [],
+                    "value": "chào"
+                }
+            ]
+        },
+        {
+            "text": "em là thúy liên hệ lại từ trung tâm lắng nghe khách hàng của nhà thuốc long cho xin phép được trao đổi với mình ít phúc có tiền cho anh hùng không ạ",
+            "intent": "greet",
+            "entities": [
+                {
+                    "end": 79,
+                    "entity": "company_name",
+                    "start": 71,
+                    "subentities": [],
+                    "value": "long cho"
+                },
+                {
+                    "end": 140,
+                    "entity": "customer_name",
+                    "start": 136,
+                    "subentities": [],
+                    "value": "hùng"
+                },
+                {
+                    "end": 10,
+                    "entity": "agent_name",
+                    "start": 6,
+                    "subentities": [],
+                    "value": "thúy"
+                },
+                {
+                    "end": 56,
+                    "entity": "company_name",
+                    "start": 26,
+                    "subentities": [],
+                    "value": "trung tâm lắng nghe khách hàng"
+                },
+                {
+                    "end": 102,
+                    "entity": "exchange",
+                    "start": 94,
+                    "subentities": [],
+                    "value": "trao đổi"
+                }
+            ]
+        },
+        {
+            "text": "alo dạ con chào cô yến coi là mỹ gọi đến từ trung tâm lắng nghe khách hàng của nhà thuốc long cho xin phép được trao đổi với mình khoảng 1 phút bất tiện không cô ạ có gì không cô",
+            "intent": "greet",
+            "entities": [
+                {
+                    "end": 120,
+                    "entity": "exchange",
+                    "start": 112,
+                    "subentities": [],
+                    "value": "trao đổi"
+                },
+                {
+                    "end": 32,
+                    "entity": "agent_name",
+                    "start": 30,
+                    "subentities": [],
+                    "value": "mỹ"
+                },
+                {
+                    "end": 74,
+                    "entity": "company_name",
+                    "start": 44,
+                    "subentities": [],
+                    "value": "trung tâm lắng nghe khách hàng"
+                },
+                {
+                    "end": 97,
+                    "entity": "company_name",
+                    "start": 89,
+                    "subentities": [],
+                    "value": "long cho"
+                },
+                {
+                    "end": 22,
+                    "entity": "customer_name",
+                    "start": 19,
+                    "subentities": [],
+                    "value": "yến"
+                },
+                {
+                    "end": 15,
+                    "entity": "greet",
+                    "start": 11,
+                    "subentities": [],
+                    "value": "chào"
+                }
+            ]
+        },
+        {
+            "text": "alo dạ em chào chị hồng em là thảo em gọi đến từ trung tâm lắng nghe khách hàng của nhà thuốc fpt lâm cho ạ em có thể trao đổi nhanh với chuyển khoản có thiện không chị ạ",
+            "intent": "greet",
+            "entities": [
+                {
+                    "end": 126,
+                    "entity": "exchange",
+                    "start": 118,
+                    "subentities": [],
+                    "value": "trao đổi"
+                },
+                {
+                    "end": 14,
+                    "entity": "greet",
+                    "start": 10,
+                    "subentities": [],
+                    "value": "chào"
+                },
+                {
+                    "end": 23,
+                    "entity": "customer_name",
+                    "start": 19,
+                    "subentities": [],
+                    "value": "hồng"
+                },
+                {
+                    "end": 105,
+                    "entity": "company_name",
+                    "start": 94,
+                    "subentities": [],
+                    "value": "fpt lâm cho"
+                },
+                {
+                    "end": 79,
+                    "entity": "company_name",
+                    "start": 49,
+                    "subentities": [],
+                    "value": "trung tâm lắng nghe khách hàng"
+                },
+                {
+                    "end": 34,
+                    "entity": "agent_name",
+                    "start": 30,
+                    "subentities": [],
+                    "value": "thảo"
+                }
+            ]
+        },
+        {
+            "text": "con là chi liên hệ lại từ trung tâm lắng nghe khách hàng của nhà thuốc long cho",
+            "intent": "greet",
+            "entities": [
+                {
+                    "end": 10,
+                    "entity": "agent_name",
+                    "start": 7,
+                    "subentities": [],
+                    "value": "chi"
+                },
+                {
+                    "end": 56,
+                    "entity": "company_name",
+                    "start": 26,
+                    "subentities": [],
+                    "value": "trung tâm lắng nghe khách hàng"
+                },
+                {
+                    "end": 79,
+                    "entity": "company_name",
+                    "start": 71,
+                    "subentities": [],
+                    "value": "long cho"
+                }
+            ]
+        },
+        {
+            "text": "dạ có chào chưa hiển thị liên hệ từ trung tâm lắng nghe khách hàng của nhà thuốc long cho xin phép trao đổi mình ít phúc cái tiền cho chú không ạ",
+            "intent": "greet",
+            "entities": [
+                {
+                    "end": 89,
+                    "entity": "company_name",
+                    "start": 81,
+                    "subentities": [],
+                    "value": "long cho"
+                },
+                {
+                    "end": 107,
+                    "entity": "exchange",
+                    "start": 99,
+                    "subentities": [],
+                    "value": "trao đổi"
+                },
+                {
+                    "end": 10,
+                    "entity": "greet",
+                    "start": 6,
+                    "subentities": [],
+                    "value": "chào"
+                },
+                {
+                    "end": 66,
+                    "entity": "company_name",
+                    "start": 36,
+                    "subentities": [],
+                    "value": "trung tâm lắng nghe khách hàng"
+                }
+            ]
+        },
+        {
+            "text": "dạ xin lỗi là con trao đổi với chú ngọc ít phúc có tiền cho chú không ạ",
+            "intent": "greet",
+            "entities": [
+                {
+                    "end": 39,
+                    "entity": "customer_name",
+                    "start": 35,
+                    "subentities": [],
+                    "value": "ngọc"
+                },
+                {
+                    "end": 26,
+                    "entity": "exchange",
+                    "start": 18,
+                    "subentities": [],
+                    "value": "trao đổi"
+                }
+            ]
+        },
+        {
+            "text": "alo dạ em chào chị tuyền em là vĩ gọi đến từ trung tâm lắng nghe khách hàng của nhà thuốc long cho xin phép trao đổi với mình khoảng 1 phút cải thiện phải không ạ ờ có gì không chị nói đi chị",
+            "intent": "greet",
+            "entities": [
+                {
+                    "end": 75,
+                    "entity": "company_name",
+                    "start": 45,
+                    "subentities": [],
+                    "value": "trung tâm lắng nghe khách hàng"
+                },
+                {
+                    "end": 33,
+                    "entity": "agent_name",
+                    "start": 31,
+                    "subentities": [],
+                    "value": "vĩ"
+                },
+                {
+                    "end": 24,
+                    "entity": "customer_name",
+                    "start": 19,
+                    "subentities": [],
+                    "value": "tuyền"
+                },
+                {
+                    "end": 116,
+                    "entity": "exchange",
+                    "start": 108,
+                    "subentities": [],
+                    "value": "trao đổi"
+                },
+                {
+                    "end": 14,
+                    "entity": "greet",
+                    "start": 10,
+                    "subentities": [],
+                    "value": "chào"
+                },
+                {
+                    "end": 98,
+                    "entity": "company_name",
+                    "start": 90,
+                    "subentities": [],
+                    "value": "long cho"
+                }
+            ]
+        },
+        {
+            "text": "dạ con chào cô lý do là mỹ gọi đến từ trung tâm lắng nghe khách hàng của nhà thuốc long cho xin phép trao đổi với mình khoảng 1 phút trách nhiệm không cô ạ",
+            "intent": "greet",
+            "entities": [
+                {
+                    "end": 26,
+                    "entity": "agent_name",
+                    "start": 24,
+                    "subentities": [],
+                    "value": "mỹ"
+                },
+                {
+                    "end": 91,
+                    "entity": "company_name",
+                    "start": 83,
+                    "subentities": [],
+                    "value": "long cho"
+                },
+                {
+                    "end": 11,
+                    "entity": "greet",
+                    "start": 7,
+                    "subentities": [],
+                    "value": "chào"
+                },
+                {
+                    "end": 68,
+                    "entity": "company_name",
+                    "start": 38,
+                    "subentities": [],
+                    "value": "trung tâm lắng nghe khách hàng"
+                },
+                {
+                    "end": 109,
+                    "entity": "exchange",
+                    "start": 101,
+                    "subentities": [],
+                    "value": "trao đổi"
+                }
+            ]
+        },
+        {
+            "text": "dạ em chào anh hùng",
+            "intent": "greet",
+            "entities": [
+                {
+                    "end": 19,
+                    "entity": "customer_name",
+                    "start": 15,
+                    "subentities": [],
+                    "value": "hùng"
+                },
+                {
+                    "end": 10,
+                    "entity": "greet",
+                    "start": 6,
+                    "subentities": [],
+                    "value": "chào"
+                }
+            ]
+        }
+    ]
+}
